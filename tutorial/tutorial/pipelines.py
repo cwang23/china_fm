@@ -29,7 +29,7 @@ class CsvPipeline(object):
 
 class JsonPipeline(object):
     def __init__(self):
-        self.file = open("mf_press.json", 'wb', encoding='utf-8')
+        self.file = open("mf_press.json", 'wb')
         self.exporter = JsonItemExporter(self.file, encoding='utf-8', ensure_ascii=False)
         self.exporter.start_exporting()
 

@@ -40,5 +40,6 @@ class QuotesSpider(scrapy.Spider):
     def parse_mf_press(self, response):
         yield {
             'title': response.xpath('//title/text()').getall(),
-            'text': response.xpath('//p').getall()
+            'text': response.xpath('//p').getall(),
+            'url': response.url
         }
