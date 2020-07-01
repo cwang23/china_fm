@@ -50,20 +50,23 @@ for i in range(0, len(data)):
         clean = clean_html_tags(x)
 
         # check if there's a Q: or CNN: at the beginning of line
-        q_or_a = bool(re.match("^.*:", clean))
+        q_or_a = bool(re.match("^[A-Za-z ]{1,50}:", clean))
 
+        # if just beginning, set cleaned string as start
+        if cleanstring == '':
+            cleanstring = clean
         # if it's a question or answer, set the start of new clean string
         # to this beginning question or answer
-        if q_or_a:
-            if cleanstring != '':
-                clean_remarks.append(cleanstring)
-                clean_order.append(order_start)
-                order_start += 1
-
+        elif q_or_a:
+            # add the cleaned info to list
+            clean_remarks.append(cleanstring)
+            clean_order.append(order_start)
+            # reset values
+            order_start += 1
             cleanstring = clean
         # if it's not the beginning of a section, add it to the string
         else:
-            cleanstring = cleanstring + clean
+            cleanstring = cleanstring + ' ' + clean
 
     # make dictionary to store cleaned info
     out = {
@@ -77,4 +80,8 @@ for i in range(0, len(data)):
     }
     clean_output.append(out)
 
-clean_output[0]
+
+full_clean = pd.DataFrame(clean_output)
+
+expanded_full_clean = full_clean.set_index(['date', 'spox', 'topic', 'type', 'url']).apply(pd.Series.explode).reset_index()
+expanded_full_clean.to_csv("C:/Users/clara/Documents/china_fm/clean_mf.csv")
