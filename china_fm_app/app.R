@@ -74,6 +74,8 @@ text_df <- clean_mf %>%
 
 
 allwords <- sort(unique(text_df$word))
+mindate <- format(min(display_df$Date, na.rm = TRUE), "%B %d, %Y")
+maxdate <- format(max(display_df$Date, na.rm = TRUE), "%B %d, %Y")
 
 
 ## UI --------------------------------------------------------------------------
@@ -85,11 +87,12 @@ ui <- fluidPage(
   p("The source of these remarks can be found ",
     tags$a(href = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/",
            "here"), "!"),
-  p("Made by Clara Wang"),
+  p("Made by Clara Wang in July 2020."),
+  p(str_glue("Includes statements from {mindate} to {maxdate}.")),
 
   wellPanel(
     h3("Filter Remarks"),
-    p("Use the filters below to filter the remarks to specific spokespeople or dates."),
+    p("Use the filters below to filter the remarks show in the table and wordcloud."),
     dateRangeInput("i_daterange",
                    label = "Filter Dates (yyyy-mm-dd)",
                    start = min(display_df$Date, na.rm = TRUE),
@@ -133,7 +136,7 @@ ui <- fluidPage(
 
         ),
         mainPanel(
-          plotOutput("wordcloud", width = "100%", height = "750px")
+          plotOutput("wordcloud", width = "100%", height = "700px")
         )
       )
     )

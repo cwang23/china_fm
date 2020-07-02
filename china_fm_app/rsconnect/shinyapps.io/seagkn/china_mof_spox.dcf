@@ -5,9 +5,9 @@ account: seagkn
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2527418
-bundleId: 3341414
+bundleId: 3341518
 url: https://seagkn.shinyapps.io/china_mof_spox/
-when: 1593647622.4901
+when: 1593650033.67337
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: wordcloud.png
+ignoredFiles: README.md|wordcloud.png

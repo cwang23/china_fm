@@ -9,6 +9,7 @@ def clean_html_tags(remarks):
     clean = re.sub('(?<=<).*?(?=>)', '', remarks)
     clean = re.sub('<', '', clean)
     clean = re.sub('>', '', clean)
+    clean = re.sub('&nbsp;', ' ', clean)
     return(clean)
 
 # initialize empty list to store clean output
@@ -89,7 +90,7 @@ for i in range(0, len(data)):
             cleantype = blocktype
         # if it's not the beginning of a section, add it to the string
         else:
-            cleanstring = cleanstring + ' ' + clean
+            cleanstring = cleanstring + '<br><br>' + clean
 
     # add the last paragraph to the string
     clean_remarks.append(cleanstring)
