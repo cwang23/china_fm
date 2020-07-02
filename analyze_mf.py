@@ -115,4 +115,4 @@ for i in range(0, len(data)):
 full_clean = pd.DataFrame(clean_output)
 
 expanded_full_clean = full_clean.set_index(['title', 'date', 'spox', 'topic', 'type', 'url']).apply(pd.Series.explode).reset_index()
-expanded_full_clean.to_csv("C:/Users/clara/Documents/china_fm/clean_mf.csv")
+expanded_full_clean.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf.csv")
