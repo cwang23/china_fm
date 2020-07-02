@@ -52,7 +52,7 @@ for i in range(0, len(data)):
         # print(clean)
 
         # check if there's a Q: or CNN: at the beginning of line
-        q_or_a = bool(re.match("^[A-Za-z ]{1,50}:", clean))
+        q_or_a = bool(re.match("^[A-Za-z ]{1,30}:", clean))
         # print(f'q_or_a: {q_or_a}')
         answer_a = bool(re.match("^A:", clean))
         # print(f'answer_a: {answer_a}')

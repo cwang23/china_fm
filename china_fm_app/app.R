@@ -7,7 +7,7 @@
 
 ## SET UP ----------------------------------------------------------------------
 
-setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
+# setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
 
 library(readr)
 library(tidyverse)
@@ -20,7 +20,7 @@ library(shinythemes)
 library(shinyWidgets)
 
 # load scraped data
-clean_mf <- read_csv("../clean_mf.csv")
+clean_mf <- read_csv("clean_mf.csv")
 
 # load stop words
 data(stop_words)
