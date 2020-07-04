@@ -60,13 +60,13 @@ class ChinaFmSpider(scrapy.Spider):
 
         # if it's a Chinese URL, need to use different XPath selectors
         if is_ch_url:
-            title = response.xpath('//*[(@id = "News_Body_Title")]').getall()
-            date = response.xpath('//*[(@id = "News_Body_Time")]').getall()
+            title = response.xpath('//*[(@id = "News_Body_Title")]/text()').getall()
+            date = response.xpath('//*[(@id = "News_Body_Time")]/text()').getall()
             text = response.xpath('//p').getall()
         # XPath selectors for English statements
         else:
             title = response.xpath('//title/text()').getall()
-            date = "None"  # English pages don't have date
+            date = [None]  # English pages don't have date
             text = response.xpath('//p').getall()
 
         # initialize items to store info
