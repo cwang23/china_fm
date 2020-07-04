@@ -38,9 +38,10 @@ display_df <- clean_mf %>%
                            content_type == "A" ~ content_order - 1,
                            TRUE ~ content_order)
   ) %>%
+  arrange(Date, grouping) %>%
   group_by(Date, Spokesperson, `Type of Remarks`, Source, grouping) %>%
   summarise(Content = paste0(Content, collapse = "<br>"), .groups = "drop") %>%
-  arrange(Date, grouping) %>%
+#  arrange(Date, grouping) %>%
   mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
   select(-grouping)
 
