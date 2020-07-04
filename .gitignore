@@ -1,3 +1,10 @@
+# file endings to ignore
 *.json
 *.csv
 *.png
+*.log
+*.cfg
+*.scrapy
+
+# subdirectories to ignore
+**/httpcache

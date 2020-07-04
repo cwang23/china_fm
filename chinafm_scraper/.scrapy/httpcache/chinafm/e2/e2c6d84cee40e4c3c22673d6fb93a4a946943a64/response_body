@@ -1,0 +1,520 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="keywords" content="中华人民共和国外交部,外交部,中国外交部">
+<meta http-equiv="description" content="中华人民共和国外交部">
+<title>2020年2月10日外交部发言人耿爽主持网上例行记者会 — 中华人民共和国外交部</title>
+<link href="../../images/base.css" rel="stylesheet" type="text/css"/>
+<link href="../../images/view.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../images/main2015.js"></script>
+<style>
+.content{text-align:justify;text-justify:inter-ideograph;font-size:16px;color:#000;}
+.content p{padding-top:20px;}
+.content a{color:#000099;}
+.news ul li{color:#343434;}
+#News_Body_Title{width:872px;margin:32px auto 0;}
+</style>
+<script>
+//推荐给朋友的新函数
+function validate_form_new() {
+
+	var str0,str1,str2,str3,str4,str;
+
+	validity = true; // assume valid
+
+	if (!check_email(document.Form2000.FriendEmail.value)) {
+		validity = false;
+		alert('您输入的Email无效或者为空！');
+	}
+
+	if( validity ) {
+		str0="外交部网站推荐新闻";
+		str1="您好!";
+		str2="您的朋友向您推荐外交部网站新闻:";
+		str3="“"+document.title+"”"+"%0D%0A%0D%0A链接网址：";
+		str4=this.location;
+		str=str0+"%0D%0A"+str1+"%0D%0A"+str2+"%0D%0A"+str3+"%0D%0A"+str4+"%0D%0A";
+		document.charset='gb2312';
+		var url = "mailto:"+document.Form2000.FriendEmail.value+"?subject="+document.Form2000.xxx1ss.value+"&Body="+str;
+		document.getElementById("SendEmai").setAttribute("href", url);
+	}
+}
+</script>
+<style>
+.search_left span,.search_left input,.search_left a{ float:left; margin-left:5px;font-family:'微软雅黑';}
+#SendEmai{ width:50px; height:26px; background:#D8D8D8; line-height:26px; text-align:center; font-size:12px; text-decoration:none; display:block; color:#000;}
+</style>
+</head>
+<body>
+<div class="cbody">
+	<script type="text/javascript">
+function displaySubMenu(li) {
+   var subMenu = li.getElementsByTagName("ul")[0];
+   li.className="cur";
+   subMenu.style.display = "block";
+}
+function hideSubMenu(li) {
+   var subMenu = li.getElementsByTagName("ul")[0];
+   li.className="";
+   subMenu.style.display = "none";
+}
+</script>
+<style>
+/**横向导航栏样式**/
+.menu{height:36px;line-height:36px;border-top:2px solid #999999;padding-left:6px;}
+.menu li ul {
+list-style-type:none;
+margin:0 auto;
+margin-left:0px;
+padding:0;
+}
+.menu ul li{padding:0px;}
+.menu li {
+float:left;
+text-align:center;
+position:relative;
+padding:0;
+z-index:1000;
+}
+.menu li a.twoW{ width:70px;}
+.menu li a.threeW{ width:90px;}
+.menu li a.fourW{ width:100px;}
+.menu li a.fiveW{ width:110px;}
+.menu li a.sixW{ width:130px;}
+.menu li a{
+display:block; text-decoration:none; padding:0;font-size:16px;color:#000000;font-family:'微软雅黑';font-weight:bold; line-height:36px;
+}
+.menu li a:hover {
+font-size:16px;color:#fff;font-family:'微软雅黑';padding:0;font-weight:bold; line-height:36px; text-decoration:none;background:#999; 
+}
+.menu li.cur{background:#999;}
+.menu li.cur a{ color:#fff;}
+.menu li ul li a{font-size:14px; color:#333; text-decoration:none; display:block; width:100px; text-align:left; font-weight:normal;  padding:8px 5px 8px 25px;  line-height:16px; white-space:normal; border-bottom:#999 1px solid;}
+.menu li ul li a:hover {
+font-size:14px; color:#333; padding:8px 5px 8px 25px;font-weight:normal; background-color:#fff; line-height:16px;
+}
+.menu li.cur li a{ color:#333;}
+.menu li ul li{margin:0 auto; padding:0;}
+.menu li ul {
+margin:0 auto;
+padding:0;
+display:none;
+position:absolute; 
+top:36px;
+left:0px;
+width:130px;
+background-color:#e6e6e6;
+border:#999 1px solid;
+border-bottom:none;
+}
+a:hover{ text-decoration:none; color:#004181;}
+.wbox_ul ul li a:hover{color:#004181;}
+.imbox_ul ul li a:hover{color:#004181;}
+.rebox_news ul li a:hover{color:#004181;}
+.jgbox_news tr a:hover,.fubot ul li a:hover,.fubos ul li a:hover{color:#004181;}
+.searchx .txt{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/txt2015.gif) no-repeat;}
+.searchx .sub{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/sub2015.gif) no-repeat;}
+.zhbox_search .txt{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/txt2015.gif) no-repeat;}
+.zhbox_search .sub{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/sub2015.gif) no-repeat;}
+.search_left .txt{height:19px;line-height:19px;}
+#News_Body_Title{margin:32px auto 0;width:872px;}
+input{outline:none;}
+</style>
+<div class="header">
+		<div class="logo fl"><a href="https://www.fmprc.gov.cn" target="_blank"><img src="https://www.fmprc.gov.cn/web/images/logo.png"/></a></div>
+		<div class="lan fr">
+						<a href="https://www.fmprc.gov.cn/mfa_eng/" target="_blank">English</a>
+			<a href="https://www.fmprc.gov.cn/fra/" target="_blank">Français</a>
+<a href="https://www.fmprc.gov.cn/esp/" target="_blank">Español</a>
+
+			<a href="https://www.fmprc.gov.cn/rus/" target="_blank">Русский</a>
+			
+<a href="https://www.fmprc.gov.cn/ara" target="_blank" style="font-size:16px;font-weight:bold;margin-top:13px;">&#1593;&#1585;&#1576;&#1610;</a>
+		</div>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li><a href="https://www.fmprc.gov.cn/web" class="twoW">首页</a></li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjbz_673089/" target="_blank" class="fourW">外交部长</a>
+				<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/zyhd_673091/">相关新闻</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/bzzc_673093/">部长致辞</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/grjl_673095/">部长简历</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/xghd_673097/">活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/zyjh_673099/">重要讲话</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/tp/">图片</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/sp/">视频</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjb_673085/" target="_blank" class="threeW">外交部</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zyzz_673087/">主要职责</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zygy_673101/">主要官员</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zzjg_673183/">组织机构</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zgags_674773/">驻港、澳公署</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/mfa_chn/wjb_602314/gbclc_603848/">干部考录</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjdt_674879/" target="_blank" class="fourW">外交动态</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/">领导人活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/wsrc_674883/">外事日程</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/">部领导活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/sjxw_674887/">司局新闻</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889/">发言人表态</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/cfhsl_674891/">吹风会</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/dsrm_674893/">大使任免</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/zwbd_674895/">驻外报道</a></li>
+					
+				</ul>
+			</li>
+<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zfxxgk_674865/" target="_blank" class="sixW">政府信息公开</a></li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/zwjg_674741/" target="_blank" class="fourW">驻外机构</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwsg_674743/">驻外使馆</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwzlg_674757/">驻外总领馆</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwtc_674771/">驻外团、处</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/" target="_blank" class="fiveW">国家和组织</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/gj_676203/">国家（地区）</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/gjhdqzz_681964/">国际和地区组织</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/ziliao_674904/" target="_blank" class="twoW">资料</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/zyjh_674906/">重要讲话</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/1179_674909/">声明公报</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/tytj_674911/">条约文件</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/wjs_674919/">中国外交历程</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/wjrw_674925/">中国外交人物</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/historytoday_674971/">外交史上的今天</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/lszs_674973/">领事常识</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/lbzs_674975/">礼宾知识</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/2193_674977/">建交国家一览表</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/zt_674979/">专题</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/fw_673051/" target="_blank" class="twoW">服务</a>
+			<ul>
+					
+					<li><a href="http://ipc.fmprc.gov.cn/chn/">新闻服务</a></li>
+					
+					<li><a href="http://cs.mfa.gov.cn/">领事服务</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/fw_673051/lbfw_673061/">礼宾服务</a></li>
+					
+					<li><a href="http://dag.fmprc.gov.cn/chn/">档案服务</a></li>
+					
+					<li><a href="http://www.bds-cn.com/html/home/">使团服务</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="https://www.fmprc.gov.cn/web/ydkhd/" target="_blank" class="fiveW">移动客户端</a></li>
+		</ul>
+	</div>
+<style type="text/css">
+.page a,.page span{padding:0px 6px;}
+.rebox_news ul li{color:#333;}
+.cl{height:auto;}
+.nav{line-height:20px;background:url(https://www.fmprc.gov.cn/web/images/nav.gif) no-repeat 0px 5px;height:auto;margin-bottom:20px;}
+.content{font-size:16px;color:#000;}
+
+</style>
+	<div class="cl"></div>
+	<div class="nav">
+		<a href="./../../">首页</a>&nbsp;>&nbsp;<a href="./../">外交动态</a>&nbsp;>&nbsp;<a href="./">发言人表态</a>
+	</div>
+	<div class="vibox" style="min-height:700px;">
+		<div class="title" id="News_Body_Title">2020年2月10日外交部发言人耿爽主持网上例行记者会</div>
+		<div class="futitle" id="News_Body_subitle"></div>
+		<div class="time"><span id="News_Body_source">来源：<span id="myDocsource1" style="display:none"></span>
+				<span id="myDocsource2" style="display:none">（供稿）</span>
+				<span id="myDocsourcewg" style="display:none">（供稿）</span>
+				<script>
+					if(document.getElementById("myDocsource1").innerText.indexOf(" ")>-1||document.getElementById("myDocsource1").innerText.indexOf("　")>-1 || (document.getElementById("myDocsource1").innerText.indexOf("驻")<0 && document.getElementById("myDocsource1").innerText.indexOf("外国记者新闻中心"))<0){
+						document.getElementById("myDocsource1").style.display = "";
+						document.getElementById("myDocsourcewg").style.display = "none";
+						document.getElementById("myDocsource2").style.display = "none";
+					}
+					
+					else if(!(document.getElementById("myDocsource2").innerText=="（供稿）"))
+					{
+							document.getElementById("myDocsource2").style.display = "";
+							document.getElementById("myDocsourcewg").style.display = "none";
+							document.getElementById("myDocsource1").style.display = "none";
+					}
+					else if((document.getElementById("myDocsourcewg").innerText).indexOf("外国记者新闻中心")!=-1)
+					{
+								document.getElementById("myDocsourcewg").style.display = "";
+								document.getElementById("myDocsource1").style.display = "none";
+								document.getElementById("myDocsource2").style.display = "none";
+					}
+				</script> &nbsp;&nbsp; </span><span id="News_Body_Time">2020-02-10</span></div>
+		<script type="text/javascript">
+			var source = '';
+			if(source.length==0)
+				document.getElementById("News_Body_source").style.display="none";
+		</script>
+		<div class="info">
+			[字体：<a href="javascript:edit(20);">大</a> <a href="javascript:edit(16);">中</a> <a href="javascript:edit(14);">小</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a onclick="doPrint()" href="javascript:void(0);" target="_self">打印本页</a>
+		</div>
+		<div id="News_Body_Txt_A" class="content">
+		<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　首先向大家通报一组数字：根据中国国家卫生健康委今天上午发布的统计数字，2月9日0-24时，中国境内新增治愈出院病例632例。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　截至2月9日24时，中国境内累计治愈出院病例超过3000例，达3281例。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　此外，全国除湖北外其他省份每日报告的确诊病例数从2月3日890例下降到2月8日509例，降幅达42.8%。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：最近一段时间，多国高官同王毅国务委员通话，对中方抗击新冠肺炎疫情采取的举措给予支持。一些国家并表示如果疫情发生在中国以外的其他地方，肯定难以得到如此有效的防控。但我们注意到，也有一些声音怀疑中方能否控制疫情并防止向其他国家蔓延。中方对此有何评论？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：新冠肺炎疫情是人类面临的共同挑战，需要国际社会携手应对。中方为应对疫情采取的有力举措不仅在对本国人民负责，也在对全世界负责。在这场没有硝烟的战“疫”中，我们用中国速度为世界防疫争取宝贵时间，用中国力量筑牢控制疫情蔓延的防线，用中国实践为世界防疫树立新的标杆。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　世卫组织总干事谭德塞说，正是由于中方采取强有力防控措施以及中国人民作出的巨大牺牲，才有效阻遏了疫情向世界上其他国家的蔓延。联合国秘书长古特雷斯也表示，中国为控制新冠病毒并避免其蔓延已做出巨大和非凡的努力。国际社会需保持强有力的合作与团结，避免在应对疫情时出现污名化的情况。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　目前中方各项工作正有序推进，逐步取得积极成效，治愈人数已明显超过病亡人数，疑似病例增速趋缓。有着举国体制的制度优势，有着全国人民的坚定决心，有着应对“非典”的实践经验，有着国际社会的理解支持，中方完全有信心、有能力、有把握打赢这场疫情防控阻击战，同国际社会一道维护地区和全球公共卫生安全。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>在华外国人感染新冠肺炎的最新数字是多少？你能否提供</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>患</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>新冠肺炎死亡的美国公民的更多细节？有多少</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>希望</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>回国的外国人仍滞留在武汉？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：据向有关部门了解，截至2月10日8时，共有27名在华外国人确诊患新型冠状病毒肺炎，其中3人已治愈出院，2人死亡，22人正接受隔离治疗。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　关于第二个问题，据了解，2月6日19时，一名美籍华人在中国湖北省武汉市病逝。该美籍华人在华治疗期间，中方一直同其在华亲属保持联系，并予以积极救治。我们谨对逝者表示哀悼。中方已通过外交渠道将有关情况通报美方，愿继续协助美方及家属处理好后续事宜。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　关于第三个问题，中方高度重视保护在湖北武汉的各国公民的生命安全和身体健康，积极采取有效措施，及时解决他们的合理关切和要求。世界卫生组织谭德塞总干事也多次强调，不建议仓促撤侨，最好的办法是留在原地并做好自我防护。我们希望WHO的专业意见能够得到尊重。当然，对于希接回本国在武汉公民的国家，中方会根据国际惯例，依照中方有关防疫规定，做出相应安排并为此提供必要协助和便利。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>世界卫生组织国际专家团队正赶来北京，帮助</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>应对</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>新冠病毒肺炎</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>。</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>专家组有没有美国专家？</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>中方</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>是否掌握相关信息？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：中方始终本着公开、透明、负责任态度，同世卫组织和国际社会保持沟通、加强合作，共同维护全球和地区公共卫生安全。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　至于联合专家考察组的情况，据我了解，世卫组织先遣组今天将抵京，与中方就考察组的具体安排进行讨论。我愿重申，我们欢迎包括美方在内的外国专家参加联合专家考察组。具体情况你可以向国家卫健委询问。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：据报道</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>，以色列总理内塔尼亚胡</B>2<B>月</B><B>8</B><B>日表示，以色列正在绘制包括犹太人定居点和约旦河谷在内的区域地图，因为根据美方新中东和平计划，这些地区都将属于以色列。同日，巴勒斯坦总统发言人表示，巴勒斯坦唯一能够接受的地图是以</B><B>1967</B><B>年边界为基础，以耶路撒冷为首都的巴勒斯坦国地图。中方有何评论？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：中方反对任何可能导致巴以矛盾激化的单边行动，呼吁以方谨慎行事，避免加剧地区局势紧张动荡。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　中方一贯认为，联合国有关决议和“两国方案”、“土地换和平”原则等国际共识构成了解决巴勒斯坦问题的基础，应当得到遵守。任何有关巴勒斯坦问题的解决方案，应该倾听主要当事方特别是巴勒斯坦方面的看法和主张，应该通过平等对话和谈判达成协议，应该有利于推动巴勒斯坦问题早日实现全面、公正、持久解决。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>中方日前称，意大利驻华大使表示，意将尽快恢复部分民航。但意大利政府表示</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>没有改变</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>现状</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>的计划</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>。能否介绍最新情况？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：新冠肺炎疫情发生以来，中方采取了最彻底、最严格的防控措施，其中很多都超出了世界卫生组织的建议和《国际卫生条例》的要求。世界卫生组织多次强调不建议对中国实施旅行和贸易等限制。希望意方科学评估、理性对待，尊重世界卫生组织权威专业建议，不要作出过度反应。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　我们也看到，近日意大利政要和各界友人以多种方式表达对中方抗击疫情的支持。中方航班已获得意方许可飞意，接回了滞留在意的中国公民。中方将继续以公开、透明的方式同世界卫生组织和包括意大利在内的各国加强合作，共同有效应对疫情，维护全球公共卫生安全。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>据报道，美财政部</B>7<B>日宣布对委内瑞拉联合航空公司实施制裁。美方称，美政府不会允许马杜罗及其代理继续窃取委人民财富，滥用国有资产继续推进腐败和破坏稳定的活动。中方对此有何评论？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：中方在委内瑞拉问题上的立场是一贯的、明确的，始终坚持《联合国宪章》和国际关系基本准则，反对外部干涉委内瑞拉内政，反对单边制裁。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　去年以来，有关国家不断升级对委内瑞拉制裁，严重影响委内瑞拉经济民生和对外交往，不断增加委内瑞拉局势失控风险。中方敦促有关国家正视委内瑞拉人道现实，停止对委内瑞拉单边制裁和“长臂管辖”，为委内瑞拉正常国际交往和稳定发展创造必要条件。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>能否介绍</B>WH</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">O<B>联合</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>专家组有关情况？他们将访问中国哪些地方？停留多长时间？</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>能否介绍</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>专家组</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>具体人员构成</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：中方始终本着公开、透明、负责任态度，同世卫组织和国际社会保持沟通、加强合作，共同维护全球和地区公共卫生安全。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　至于联合专家考察组的情况，据我了解，世卫组织先遣组今天将抵京，与中方就考察组的具体安排进行讨论。我们欢迎外国专家参加联合专家考察组。具体情况你可以向国家卫健委询问。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>据报道，俄罗斯政府向中方提供了</B>23<B>吨医疗救援物资，运送物资的飞机</B><B>9</B><B>日抵达武汉。《俄罗斯报》</B><B>10</B><B>日发表社论《中俄患难与共》，积极评价中方抗疫举措，并推出</B><B>“</B><B>中国加油！我们在一起！</B><B>”</B><B>的整版海报。中方对此有何评论</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：9日，俄罗斯政府向中方提供的医疗援助物资运抵武汉市，其中包括超过200万只口罩在内的大量医疗防护用品，双方已顺利完成交接。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　中方也注意到《俄罗斯报》发表《中俄患难与共》的社论。正如社论中所说，新冠肺炎疫情发生后，俄方多次给予中方坚定支持。普京总统致信习近平主席表示慰问，高度评价和赞赏中方采取的疫情防控举措和取得的效果。除提供医疗救援物资援助外，俄政府还派遣防疫专家代表团来华，与中方专家共同探讨合作应对疫情。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　“中国加油！我们在一起”充分反映了俄罗斯政府和人民支援中国抗疫的心声，展现了中俄新时代全面战略协作伙伴关系的高水平和两国患难与共、守望相助的深厚情谊。中方对此表示衷心感谢，并愿继续与俄方就防控疫情加强协调与合作，共同为维护地区和国际公共卫生安全作出贡献。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>截至目前，中方确诊病例中有几名外国人？能否介绍具体情况？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：据向有关部门了解，截至2月10日8时，共有27名在华外国人确诊患新型冠状病毒肺炎，其中3人已治愈出院，2人死亡，22人正接受隔离治疗。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>中国的</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>中小学及高校</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>最晚何时复课？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：请向有关部门询问。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">2<B>月</B><B>7</B><B>日，第</B><B>36</B><B>届非盟部长级会议专门发布公报，一致支持中国政府和人民抗击新冠肺炎疫情的努力，相信中国政府应对疫情挑战的能力。中方对此有何评论？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：如你所说，日前召开的非盟第36届部长级会议发表特别公报，表示本着非盟成员国与中国间强有力的战略伙伴关系，并鉴于双方兄弟般的历史纽带与合作，非盟成员国外长集体宣布，同中国政府和人民站在一起，支持中方抗击新型冠状病毒肺炎疫情的努力，对中方应对疫情的能力充满信心，呼吁世界各国同中方同舟共济，加强合作，共同应对疫情带来的影响。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　这是在抗击疫情的关键时刻，非洲朋友给予中方的有力支持，展现了中非患难与共的兄弟情谊。在武汉的埃塞俄比亚学生联合会发表支持中国、支持武汉的公开倡议书，一些在华非洲留学生主动“请战”前往救治一线或赴火车站等地担任志愿者。我们相信经过这次疫情的洗礼，中非人民的友好情谊将更加深厚，中非命运共同体将更加牢固。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>本月</B>14<B>－</B><B>16</B><B>日将举行慕尼黑安全会议</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>。</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>去年</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>王毅</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>国务委员</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>代表中方参会，今年谁将代表中方参会？今年会议的焦点是美国退出《中导条约》之后的全球军控方向，中方将提出</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>怎样</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>的建议或主张？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：如有相关消息，我们会及时发布。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　至于你关心的军控问题，我可以向你介绍中方原则立场。中方一贯致力于维护全球和平、安全与稳定，致力于维护国际军控与防扩散体系，这一点国际社会有目共睹。中方愿与各方一道，继续在裁军谈判会议、五核国机制等框架内加强沟通与协作，就事关全球战略稳定的广泛议题进行讨论，切实维护多边主义和多边裁军机制，维护基于国际法的国际秩序，维护现有军控与防扩散法律体系的权威性和有效性，为国际和平安全作出积极贡献。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：你</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>刚才</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>表示</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>共有</B>27<B>名在华外国人确诊患新型冠状病毒肺炎，其中</B><B>2</B><B>人死亡。一</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>名</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>应该</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>是</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>你</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>刚才介绍的美国人</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>另一</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>名</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>是哪国人？</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>据了解，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">8<B>日，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>一名日本男性</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>在武汉去世，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>你能否介绍情况？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：死亡的2人，一名为美国公民，另一名为日本公民。美国公民的情况我刚才已经做了回应。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　至于日本公民的情况，据了解，2月8日凌晨，一名日本公民在中国湖北省武汉市病逝。该日本公民在华治疗期间，中方一直同其家属保持联系，并予以积极救治。我们谨对逝者表示哀悼。中方已通过外交渠道将有关情况通报日方，愿继续协助日方及家属处理好后续事宜。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>肺炎疫情爆发后，中韩</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>双方</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>是否就调整习近平主席访韩</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>事宜</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>进行过</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>沟通</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>？年初，韩国政府宣布习主席将于今年上半年访韩，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>双方</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>是否就访问具体日期达成一致？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：中国政府正在全力抗击新冠肺炎疫情，并以公开透明、负责任的态度及时向国际社会发布信息、共享数据，采取了最全面、最严格的防控举措，国际社会对此予以充分肯定和高度评价。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　日前，韩国总统文在寅积极评价中国政府为应对疫情所作努力，表示相信疫情将早日得到控制，韩方愿尽力向中方提供支援和合作。中方对韩国政府和民间提供的援助表示感谢。我们愿同包括韩方在内的国际社会加强合作，共同应对疫情，维护全球公共卫生安全。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　中韩作为近邻，一直保持密切高层互访和政治外交沟通。双方将继续为下步重要外交议程作认真准备。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>据了解，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>去世的日本公民</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>一直是疑似病例。该日本公民已经被确诊了吗？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：我没有进一步的消息可以提供。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：还有多少外国公民滞留武汉？如无法撤离，情况会怎样？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：中方高度重视保护在湖北武汉的各国公民的生命安全和身体健康，积极采取有效措施，及时解决他们的合理关切和要求。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：目前，有多少企业已经复产复工？企业的复工率是多少？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：建议你向有关部门询问。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：你能否提供</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">27<B>名确诊患</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>新型冠状病毒</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>肺炎</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>在华外国人的</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>国籍</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：据向有关部门了解，截至2月10日8时，共有27名在华外国人确诊患新型冠状病毒肺炎，其中3人已治愈出院，2人死亡（一名美国公民、一名日本公民），22人正接受隔离治疗。这是目前我能够提供的信息。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：越南</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>昨天</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>向中方捐赠了</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>医疗物资，</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>请问</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>中方是否已经收到？将如何使用？据我所知，在华确诊病例中有一名越南人</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>，她的</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>情况如何？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：据了解，越南政府向中方捐助的医用手套、医用口罩、防护服等医疗物资已于2月10日运抵武汉。我们对所有给予中方的真诚支持与帮助都表示衷心感谢。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　据了解，外国官方和国际组织对中方的物资捐赠由商务部负责接收。建议你向他们去询问。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　至于你关心的最后一个问题，我们将帮你了解有关情况。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：印度总理莫迪表示，印方为中方抗击疫情提供帮助，愿合作应对疫情，并向被疫情夺去生命的逝者表示哀悼。中方对此有何评论？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：我们对印方支持中国抗击疫情表示感谢和赞赏。印方的友好姿态充分体现了印度人民对中国人民的友好感情。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　我们愿同包括印方在内的国际社会加强合作，共同应对疫情，维护地区和全球公共卫生安全。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>问：</B></SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px"><B>上周，发言人就《华尔街日报》发表的题为《中国是真正的亚洲病夫》的文章做出回应。请问中方是否就此与《华尔街日报》进行沟通？</B></SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　答：上周我的同事已就此阐明了中方的严正立场。我们已向《华尔街日报》社提出严正交涉。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　《华尔街日报》刊登的这篇文章诋毁中国政府和中国人民抗击疫情的努力，报社编辑还为该文章加上带有种族歧视色彩的耸人听闻的标题，既违背客观事实又违反职业道德，伤害了中国人民的感情，引起广大中国民众的愤慨和谴责。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　中方要求《华尔街日报》认识到错误的严重性，公开正式道歉，并查处相关责任人。但迄今《华尔街日报》仍在敷衍、搪塞。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=justify>　　中方敦促《华尔街日报》正视中方关切，严肃回应中方的要求。中方保留对该报进一步采取措施的权利。 </P>
+		</div>
+		<div class="news" id="appendix_list" style="display:none;">
+			<div class="news_top">附件</div>
+			<ul>
+				
+			</ul>
+		</div>
+		<div class="news" id="relnews_list" style="display:none;">
+			<div class="news_top">相关新闻</div>
+			<ul>
+				
+				<li><a href="./t1741922.shtml" target="_blank">2020年2月7日外交部发言人华春莹主持网上例行记者会</a>(2020-02-07)</li>
+				
+				<li><a href="./t1741469.shtml" target="_blank">2020年2月6日外交部发言人华春莹主持网上例行记者会</a>(2020-02-06)</li>
+				
+				<li><a href="./t1740789.shtml" target="_blank">2020年2月5日外交部发言人华春莹主持网上例行记者会</a>(2020-02-05)</li>
+				
+				<li><a href="./t1740183.shtml" target="_blank">2020年2月4日外交部发言人华春莹主持网上例行记者会</a>(2020-02-04)</li>
+				
+				<li><a href="./t1739874.shtml" target="_blank">外交部发言人华春莹就美方涉疫情言论答记者问</a>(2020-02-04)</li>
+				
+				<li><a href="./t1739521.shtml" target="_blank">2020年2月3日外交部发言人华春莹主持网上例行记者会</a>(2020-02-03)</li>
+				
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			var content = document.getElementById("News_Body_Txt_A");
+			var eleP = content.getElementsByTagName("p");
+			if(eleP.length>0)
+				for(var i=0;i<eleP.length;i++)
+					eleP[i].removeAttribute("style");
+			var eleSpan = content.getElementsByTagName("span");
+			if(eleSpan.length>0)
+				for(var i=0;i<eleSpan.length;i++)
+					eleSpan[i].removeAttribute("style");
+			var eleFont = content.getElementsByTagName("font");
+			if(eleFont.length>0)
+				for(var i=0;i<eleFont.length;i++)
+					eleFont[i].removeAttribute("style");
+			/*var eleDiv = content.getElementsByTagName("div");
+			if(eleDiv.length>0)
+				for(var i=0;i<eleDiv.length;i++)
+					eleDiv[i].removeAttribute("style");*/
+			var eleA = content.getElementsByTagName("a");
+			if(eleA.length>0)
+				for(var i=0;i<eleA.length;i++)
+					eleA[i].removeAttribute("style");
+					
+			var eleTd = content.getElementsByTagName("td");
+			if(eleTd.length>0)
+				for(var i=0;i<eleTd.length;i++)
+				{
+					eleTd[i].style.fontFamily="微软雅黑";
+                                        eleTd[i].style.fontSize="inherit";
+				}
+			
+			var eleLi = content.getElementsByTagName("li");
+			if(eleLi.length>0)
+				for(var i=0;i<eleLi.length;i++)
+					elePeleLi[i].removeAttribute("style");
+			
+			var appendix_list = document.getElementById("appendix_list");
+			var relnews_list = document.getElementById("relnews_list");
+			if(appendix_list.getElementsByTagName("li").length>0)
+				appendix_list.style.display="block";
+			if(relnews_list.getElementsByTagName("li").length>0)
+				relnews_list.style.display="block";
+		</script>
+		
+		
+		<div class="searchview">
+			<div class="search_left fl">
+				<form name="Form2000" action="" encType="text/plain" method="post">
+<input type="hidden" value="外交部网站推荐新闻" name="xxx1ss"/>
+<span>推荐给朋友</span>
+<input type="text" name="FriendEmail" class="txt" value="请输入电子邮件地址" onclick="javascript:if(this.value=='请输入电子邮件地址')this.value='';"/>
+<a href="javascript:void(0);" onclick="validate_form_new();" id="SendEmai">确定</a>
+</form>			</div>
+			<div class="search_right fl" style="margin-left:50px;padding-top:10px;">
+			<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_tpeople"></a>
+	<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_txinhua"></a>
+	
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->		
+
+		</div>
+		<div class="cl"></div>
+	</div>
+</div>
+<script>
+	function edit(size){
+		document.getElementById('News_Body_Txt_A').style.fontSize=size+'px';
+	}
+	function printme(){
+	document.body.innerHTML=document.getElementById('News_Body_Txt_A').innerHTML;
+	window.print();
+	}
+</script>
+<style>
+.copyright a{font-size:14px;color:#333;}
+</style>
+<div class="copyright">
+	<div class="max_cbody" style="font-size:14px;font-family:'微软雅黑'">
+	中华人民共和国外交部&#12288;版权所有<br>
+	<a href="mailto:webmaster@mfa.gov.cn">联系我们</a>&#12288;地址：北京市朝阳区朝阳门南大街2号&#12288;邮编：100701&#12288;电话：+86-10-65961114&#12288;京ICP备06038296号&#12288;京公网安备110105002097
+	</div>
+<div class="cl"></div>
+<div style="text-align:center; padding:5px 0 0; width:960px;margin:0 auto;">
+<div style="width:90px; text-align:center; float:left; margin-left:370px;">
+<a href="http://bszs.conac.cn/sitename?method=show&id=07287F0D6EDF0310E053022819AC647D" target="_blank"><img src="https://www.fmprc.gov.cn/web/images/P020181019712135445855.jpg"/></a>
+</div>
+<div style="width:120px; text-align:center; float:left; margin-left:30px; margin-top:0px;">
+<a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm02000004&url=https://www.fmprc.gov.cn/web/" target="_blank" id="jiucuo_url"><img src="https://www.fmprc.gov.cn/web/images/P020181019712277102313.jpg" ignorepad="1"/></a>
+
+</div>
+		</div>
+
+</div>
+<div style="display:none;">
+<noscript><img src="//ta.trs.cn/c/1.gif?mpId=469&jsoff=1" style="border:0" alt=""/></noscript>
+<script>
+var _taq = _taq || [];
+_taq.home = '//ta.trs.cn/c';
+_taq.push(['_mpId', '469']);
+_taq.push(['_cli', '1']);
+(function(d, o, t) {
+	if (window.inTRSDesignMode) return;
+	var ma = d.createElement(o); ma.async = true; ma.commonresource="1"; ma.src = t;
+	var s = d.getElementsByTagName(o)[0]; s.parentNode.insertBefore(ma, s);
+})(document, 'script', '//ta.trs.cn/c/js/ta.js');
+
+document.getElementById("jiucuo_url").href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm02000004&url="+window.location.href;
+</script>
+
+</div>
+
+
+</body>
+</html>

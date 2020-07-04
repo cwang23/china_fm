@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="keywords" content="中华人民共和国外交部,外交部,中国外交部">
+<meta http-equiv="description" content="中华人民共和国外交部">
+<title>2017年6月20日外交部发言人耿爽主持例行记者会 — 中华人民共和国外交部</title>
+<link href="../../images/base.css" rel="stylesheet" type="text/css"/>
+<link href="../../images/view.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../images/main2015.js"></script>
+<style>
+.content{text-align:justify;text-justify:inter-ideograph;font-size:16px;color:#000;}
+.content p{padding-top:20px;}
+.content a{color:#000099;}
+.news ul li{color:#343434;}
+#News_Body_Title{width:872px;margin:32px auto 0;}
+</style>
+<script>
+//推荐给朋友的新函数
+function validate_form_new() {
+
+	var str0,str1,str2,str3,str4,str;
+
+	validity = true; // assume valid
+
+	if (!check_email(document.Form2000.FriendEmail.value)) {
+		validity = false;
+		alert('您输入的Email无效或者为空！');
+	}
+
+	if( validity ) {
+		str0="外交部网站推荐新闻";
+		str1="您好!";
+		str2="您的朋友向您推荐外交部网站新闻:";
+		str3="“"+document.title+"”"+"%0D%0A%0D%0A链接网址：";
+		str4=this.location;
+		str=str0+"%0D%0A"+str1+"%0D%0A"+str2+"%0D%0A"+str3+"%0D%0A"+str4+"%0D%0A";
+		document.charset='gb2312';
+		var url = "mailto:"+document.Form2000.FriendEmail.value+"?subject="+document.Form2000.xxx1ss.value+"&Body="+str;
+		document.getElementById("SendEmai").setAttribute("href", url);
+	}
+}
+</script>
+<style>
+.search_left span,.search_left input,.search_left a{ float:left; margin-left:5px;font-family:'微软雅黑';}
+#SendEmai{ width:50px; height:26px; background:#D8D8D8; line-height:26px; text-align:center; font-size:12px; text-decoration:none; display:block; color:#000;}
+</style>
+</head>
+<body>
+<div class="cbody">
+	<script type="text/javascript">
+function displaySubMenu(li) {
+   var subMenu = li.getElementsByTagName("ul")[0];
+   li.className="cur";
+   subMenu.style.display = "block";
+}
+function hideSubMenu(li) {
+   var subMenu = li.getElementsByTagName("ul")[0];
+   li.className="";
+   subMenu.style.display = "none";
+}
+</script>
+<style>
+/**横向导航栏样式**/
+.menu{height:36px;line-height:36px;border-top:2px solid #999999;padding-left:6px;}
+.menu li ul {
+list-style-type:none;
+margin:0 auto;
+margin-left:0px;
+padding:0;
+}
+.menu ul li{padding:0px;}
+.menu li {
+float:left;
+text-align:center;
+position:relative;
+padding:0;
+z-index:1000;
+}
+.menu li a.twoW{ width:70px;}
+.menu li a.threeW{ width:90px;}
+.menu li a.fourW{ width:100px;}
+.menu li a.fiveW{ width:110px;}
+.menu li a.sixW{ width:130px;}
+.menu li a{
+display:block; text-decoration:none; padding:0;font-size:16px;color:#000000;font-family:'微软雅黑';font-weight:bold; line-height:36px;
+}
+.menu li a:hover {
+font-size:16px;color:#fff;font-family:'微软雅黑';padding:0;font-weight:bold; line-height:36px; text-decoration:none;background:#999; 
+}
+.menu li.cur{background:#999;}
+.menu li.cur a{ color:#fff;}
+.menu li ul li a{font-size:14px; color:#333; text-decoration:none; display:block; width:100px; text-align:left; font-weight:normal;  padding:8px 5px 8px 25px;  line-height:16px; white-space:normal; border-bottom:#999 1px solid;}
+.menu li ul li a:hover {
+font-size:14px; color:#333; padding:8px 5px 8px 25px;font-weight:normal; background-color:#fff; line-height:16px;
+}
+.menu li.cur li a{ color:#333;}
+.menu li ul li{margin:0 auto; padding:0;}
+.menu li ul {
+margin:0 auto;
+padding:0;
+display:none;
+position:absolute; 
+top:36px;
+left:0px;
+width:130px;
+background-color:#e6e6e6;
+border:#999 1px solid;
+border-bottom:none;
+}
+a:hover{ text-decoration:none; color:#004181;}
+.wbox_ul ul li a:hover{color:#004181;}
+.imbox_ul ul li a:hover{color:#004181;}
+.rebox_news ul li a:hover{color:#004181;}
+.jgbox_news tr a:hover,.fubot ul li a:hover,.fubos ul li a:hover{color:#004181;}
+.searchx .txt{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/txt2015.gif) no-repeat;}
+.searchx .sub{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/sub2015.gif) no-repeat;}
+.zhbox_search .txt{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/txt2015.gif) no-repeat;}
+.zhbox_search .sub{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/sub2015.gif) no-repeat;}
+.search_left .txt{height:19px;line-height:19px;}
+#News_Body_Title{margin:32px auto 0;width:872px;}
+input{outline:none;}
+</style>
+<div class="header">
+		<div class="logo fl"><a href="https://www.fmprc.gov.cn" target="_blank"><img src="https://www.fmprc.gov.cn/web/images/logo.png"/></a></div>
+		<div class="lan fr">
+						<a href="https://www.fmprc.gov.cn/mfa_eng/" target="_blank">English</a>
+			<a href="https://www.fmprc.gov.cn/fra/" target="_blank">Français</a>
+<a href="https://www.fmprc.gov.cn/esp/" target="_blank">Español</a>
+
+			<a href="https://www.fmprc.gov.cn/rus/" target="_blank">Русский</a>
+			
+<a href="https://www.fmprc.gov.cn/ara" target="_blank" style="font-size:16px;font-weight:bold;margin-top:13px;">&#1593;&#1585;&#1576;&#1610;</a>
+		</div>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li><a href="https://www.fmprc.gov.cn/web" class="twoW">首页</a></li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjbz_673089/" target="_blank" class="fourW">外交部长</a>
+				<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/zyhd_673091/">相关新闻</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/bzzc_673093/">部长致辞</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/grjl_673095/">部长简历</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/xghd_673097/">活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/zyjh_673099/">重要讲话</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/tp/">图片</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/sp/">视频</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjb_673085/" target="_blank" class="threeW">外交部</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zyzz_673087/">主要职责</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zygy_673101/">主要官员</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zzjg_673183/">组织机构</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zgags_674773/">驻港、澳公署</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/mfa_chn/wjb_602314/gbclc_603848/">干部考录</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjdt_674879/" target="_blank" class="fourW">外交动态</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/">领导人活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/wsrc_674883/">外事日程</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/">部领导活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/sjxw_674887/">司局新闻</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889/">发言人表态</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/cfhsl_674891/">吹风会</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/dsrm_674893/">大使任免</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/zwbd_674895/">驻外报道</a></li>
+					
+				</ul>
+			</li>
+<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zfxxgk_674865/" target="_blank" class="sixW">政府信息公开</a></li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/zwjg_674741/" target="_blank" class="fourW">驻外机构</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwsg_674743/">驻外使馆</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwzlg_674757/">驻外总领馆</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwtc_674771/">驻外团、处</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/" target="_blank" class="fiveW">国家和组织</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/gj_676203/">国家（地区）</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/gjhdqzz_681964/">国际和地区组织</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/ziliao_674904/" target="_blank" class="twoW">资料</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/zyjh_674906/">重要讲话</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/1179_674909/">声明公报</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/tytj_674911/">条约文件</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/wjs_674919/">中国外交历程</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/wjrw_674925/">中国外交人物</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/historytoday_674971/">外交史上的今天</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/lszs_674973/">领事常识</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/lbzs_674975/">礼宾知识</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/2193_674977/">建交国家一览表</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/zt_674979/">专题</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/fw_673051/" target="_blank" class="twoW">服务</a>
+			<ul>
+					
+					<li><a href="http://ipc.fmprc.gov.cn/chn/">新闻服务</a></li>
+					
+					<li><a href="http://cs.mfa.gov.cn/">领事服务</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/fw_673051/lbfw_673061/">礼宾服务</a></li>
+					
+					<li><a href="http://dag.fmprc.gov.cn/chn/">档案服务</a></li>
+					
+					<li><a href="http://www.bds-cn.com/html/home/">使团服务</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="https://www.fmprc.gov.cn/web/ydkhd/" target="_blank" class="fiveW">移动客户端</a></li>
+		</ul>
+	</div>
+<style type="text/css">
+.page a,.page span{padding:0px 6px;}
+.rebox_news ul li{color:#333;}
+.cl{height:auto;}
+.nav{line-height:20px;background:url(https://www.fmprc.gov.cn/web/images/nav.gif) no-repeat 0px 5px;height:auto;margin-bottom:20px;}
+.content{font-size:16px;color:#000;}
+
+</style>
+	<div class="cl"></div>
+	<div class="nav">
+		<a href="./../../">首页</a>&nbsp;>&nbsp;<a href="./../">外交动态</a>&nbsp;>&nbsp;<a href="./">发言人表态</a>
+	</div>
+	<div class="vibox" style="min-height:700px;">
+		<div class="title" id="News_Body_Title">2017年6月20日外交部发言人耿爽主持例行记者会</div>
+		<div class="futitle" id="News_Body_subitle"></div>
+		<div class="time"><span id="News_Body_source">来源：<span id="myDocsource1" style="display:none"></span>
+				<span id="myDocsource2" style="display:none">（供稿）</span>
+				<span id="myDocsourcewg" style="display:none">（供稿）</span>
+				<script>
+					if(document.getElementById("myDocsource1").innerText.indexOf(" ")>-1||document.getElementById("myDocsource1").innerText.indexOf("　")>-1 || (document.getElementById("myDocsource1").innerText.indexOf("驻")<0 && document.getElementById("myDocsource1").innerText.indexOf("外国记者新闻中心"))<0){
+						document.getElementById("myDocsource1").style.display = "";
+						document.getElementById("myDocsourcewg").style.display = "none";
+						document.getElementById("myDocsource2").style.display = "none";
+					}
+					
+					else if(!(document.getElementById("myDocsource2").innerText=="（供稿）"))
+					{
+							document.getElementById("myDocsource2").style.display = "";
+							document.getElementById("myDocsourcewg").style.display = "none";
+							document.getElementById("myDocsource1").style.display = "none";
+					}
+					else if((document.getElementById("myDocsourcewg").innerText).indexOf("外国记者新闻中心")!=-1)
+					{
+								document.getElementById("myDocsourcewg").style.display = "";
+								document.getElementById("myDocsource1").style.display = "none";
+								document.getElementById("myDocsource2").style.display = "none";
+					}
+				</script> &nbsp;&nbsp; </span><span id="News_Body_Time">2017-06-20</span></div>
+		<script type="text/javascript">
+			var source = '';
+			if(source.length==0)
+				document.getElementById("News_Body_source").style.display="none";
+		</script>
+		<div class="info">
+			[字体：<a href="javascript:edit(20);">大</a> <a href="javascript:edit(16);">中</a> <a href="javascript:edit(14);">小</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a onclick="doPrint()" href="javascript:void(0);" target="_self">打印本页</a>
+		</div>
+		<div id="News_Body_Txt_A" class="content">
+		<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=center><IMG style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" src="./W020170620652968713794.jpg" OLDSRC="W020170620652968713794.jpg" _fcksavedurl="/webpic/W0201706/W020170620/W020170620652968713794.jpg"/></P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　应塞尔维亚共和国方面邀请，全国人大常委会副委员长吉炳轩将作为国家主席习近平特使，赴贝尔格莱德出席于6月23日举行的塞尔维亚总统武契奇就职典礼。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　中塞传统友谊深厚，两国人民相互怀有特殊友好感情，是患难与共、彼此信赖的好朋友、好伙伴。双方始终坚定支持彼此核心利益和重大关切。近年来，两国高层交往频繁，政治互信牢固，交通基础设施建设、能源等领域合作成果丰硕，在国际和地区事务中保持良好沟通协调。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　中方始终坚持从战略高度和长远角度看待中塞关系，愿同塞方一道，巩固两国政治互信和人民友谊，深化各领域务实合作，推动中塞全面战略伙伴关系不断向前发展，更好造福两国人民。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：6月19日，美国国务院就即将举行的首轮中美外交安全对话进行吹风，表示将与中方重点讨论朝核、海上、反恐等问题。中方对此有何评论？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：正如此前中方发布消息时指出的，根据习近平主席和特朗普总统在海湖庄园会晤时达成的共识，经双方商定，首轮中美外交安全对话将于6月21日在华盛顿举行。中国国务委员杨洁篪将同美国国务卿蒂勒森、国防部长马蒂斯共同主持对话。中央军委委员、中央军委联合参谋部参谋长房峰辉等将参加对话。届时，中美双方将就中美关系以及共同关心的重要国际和地区问题深入交换意见。中方愿与美方共同努力，推动对话取得积极成果。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　关于朝核问题，中方的立场是一贯和明确的。我们坚持半岛无核化，坚持通过对话协商和平解决有关问题，坚持维护半岛和平稳定。希望有关各方都负起应负的责任，相向而行，共同推动半岛核问题的妥善处理和解决。中方愿与美方及有关各方就此保持沟通与合作。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　关于南海问题，中方已经多次阐明了我们的原则立场。当前，在中国和东盟国家的共同努力下，南海形势趋稳向好，南海问题重回谈判磋商和平解决的正确轨道。希望有关各方尊重地区国家通过谈判磋商和平解决争议的努力，多做有利于地区和平稳定的事。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　在反恐方面，中美同为恐怖主义受害者，加强合作符合双方利益。希望双方本着相互尊重、平等互利的原则,就共同关心的反恐问题交换意见、拓展合作。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：今天中韩外交部门高级别战略对话举行，你能否介绍双方会谈成果？会谈中是否谈及了中韩首脑会晤事项？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：韩国外交部第一次官林圣男今天在北京同外交部副部长张业遂举行了中韩外交部门高级别战略对话。在对话中，双方就各自国家内政外交政策、中韩双边关系、萨德问题以及朝鲜半岛形势深入坦诚地交换了意见。双方同意进一步加强沟通，妥善处理分歧，推动中韩关系尽快重回平稳健康发展的轨道。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　在举行战略对话之前，中国国务委员杨洁篪会见了韩国外交部第一次官林圣男。在会见中，杨洁篪表示，中韩两国互为重要近邻，中方一贯重视发展中韩关系。双方应落实好两国元首共识，牢记中韩建交的初心，坚持友好合作的大方向，尊重彼此核心利益和重大关切。希望韩方展现政治意愿和决断，信守承诺，同中方一道，妥善解决有关问题，推动两国关系尽快实现改善发展。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　林圣男表示，文在寅总统希望改善和发展韩中关系。今年正值韩中建交25周年，韩方希望以此为契机同中方加强沟通与协调，推动两国关系取得重要进展。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　至于你问在会见和对话中是否谈到了两国元首会晤，我目前没有这方面要发布的消息。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：昨天，金砖国家外长会晤在北京举行，五国就当前国际形势和国际地区热点问题进行了讨论。有评论认为，金砖合作原本是个经济合作机制，但中方却推动五国加强在政治安全领域的合作，以抵消美国和西方的影响？中方对此作何回应？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：昨天，金砖国家外长会晤在北京成功举行，五国就当前全球政治、经济、金融领域重大和共同关心的问题、金砖国家务实合作及领导人厦门会晤筹备工作进展等交换了意见。会晤发表了新闻公报。有关消息我们已经及时发布，大家可以在外交部网站上查阅。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　金砖国家最早是作为经济概念提出的，其合作最初也是以经济领域为主。金砖国家都是有着重要影响力的发展中国家和新兴市场国家，在一系列重大国际问题上有着相同或相近的看法和主张，五国坐在一起就国际形势，包括政治形势以及国际地区热点问题交换意见、协调立场是很自然的。这不仅有助于维护国际和平与安全，推动有关热点问题的妥善解决，也有助于维护广大发展中国家的共同利益，推动国际关系民主化进程。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　事实上，早在2006年9月金砖国家外长会晤就在纽约联大期间举行过，此后也一直延续。近年来金砖国家领导人会晤也多次就政治安全议题进行讨论。政治安全已经同经济金融、人文交流共同构成金砖合作的三大支柱。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　我想强调的是，金砖国家合作一直秉持开放、包容、合作、共赢的金砖精神。金砖国家不搞小圈子，不搞政治军事同盟，不针对谁，不挑战谁、不抵消谁、也不去取代谁。金砖国家愿同其他国家一道共同构建人类命运共同体。中方也愿同其他金砖国家一道，推动金砖合作继续向纵深发展，为促进各国和世界的和平稳定、发展繁荣，共同应对全球性挑战作出新的积极贡献。</P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=center><IMG style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" src="./W020170620652968735680.jpg" OLDSRC="W020170620652968735680.jpg" _fcksavedurl="/webpic/W0201706/W020170620/W020170620652968735680.jpg"/></P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px"><SPAN>　　<STRONG>问：你回答了很多有关金砖国家外长会的问题，在外长会期间也举行了双边会见。印度外交国务部长辛格和王毅外长举行了双边会见。如何评价此次会见？双方是否讨论了导致中印分歧的争议问题？</STRONG></SPAN> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">另外，反恐问题在金砖外长会后的联合声明中占据重要位置。王毅外长也讲到了反恐问题，俄罗斯外长建议</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">将</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">纽约</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">作为国际社会</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">解决反恐问题的总部，支持联合国秘书长有关建立联合国框架下的反恐机制的倡议。印度方面则提议通过</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">《</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">全面反恐</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">公约》</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">。中方如何评论上述建议？中方在1267委员会列名问题上的立场是否会发生变化？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：我先回答你的第一个问题。6月19日，王毅外长会见了来华出席金砖国家外长会晤的印度外交国务部长辛格。在会见中，王毅外长指出，当前中印关系总体平稳发展。习近平主席同莫迪总理在阿斯塔纳成功举行了会晤，增进了双方的政治互信，为进一步发展中印关系也指明了方向。中方愿同印方一道，落实好两国领导人的重要共识，加强政治、经贸、人文、防务等领域的互利合作。同时，妥善管控和处理好双边关系中存在的敏感问题和分歧。王毅外长还特别对最近印度和巴基斯坦一起加入上合组织表示欢迎。王外长指出，作为两个有重要影响力的大国，中方愿意同印度在金砖、上合组织等多边框架下加强协调合作，共同为维护地区乃至世界的和平与稳定发挥建设性作用。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　辛格部长在会见中表示，印、中同为文明古国，均属发展中国家。印度高度重视发展对华关系，愿同中方一道以两国领导人共识为指引，保持高层交往，加强各领域务实合作，妥善处理分歧。印方愿同中方加强在多边领域的协调，为维护发展中国家共同利益做出应有的贡献。印方也愿与中方协调配合，共同开好在北京举行的金砖国家外长会晤，并为将于下半年举行的金砖领导人厦门会晤做好准备。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　关于你的第二个问题，在反恐问题上，金砖国家有着相同或相近的立场。事实上，多年以来金砖国家围绕反恐问题开展了卓有成效的合作。据我所知，在金砖合作的框架下，金砖国家还专门设有反恐工作组。在工作组的框架下，五国的主管部门围绕有关反恐问题开展了很好的交流与合作。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　至于你刚才提到的《全面反恐公约》问题，无论是中方还是其他金砖国家，大家在这个问题上有着一致的立场，那就是我们都希望联大能够尽快通过这一公约，从而为全球的反恐合作提供进一步的指引。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　关于你提到的在联合国协调下开展全球反恐努力的倡议，中方对此持赞同和积极态度。据我了解，最近联合国对秘书处内部涉及反恐的一些机构进行了调整，目的就是为了进一步整合力量，加强联合国在反恐问题上的投入，更好协调联合国会员国在反恐问题上的合作。我们始终支持联合国在国际反恐合作上发挥中枢和协调作用。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　关于你提到的1267委员会列名问题，我们已经多次介绍过中方立场。我们始终主张本着客观、公正和专业的原则，妥善处理有关列名问题。据我所知，目前安理会成员在某些具体列名申请上还有一些不同看法，中方也愿意就此同有关各方继续保持沟通与协商。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">王毅</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">外</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">长在记者会上提到“金砖</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">+</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">”的概念。</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">你</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">能解释</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">一</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">下这是什么意思吗？外长会上是否讨论相关内容</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">？各方会采取哪些行动</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">落实上述概念？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：我刚才已经说了，金砖国家都是具有重要影响力的，同时也是具有代表性的发展中国家和新兴市场国家。为了更好地维护发展中国家的整体利益，反映发展中国家的集体呼声，金砖国家合作自开展以来，就从来没有停止过同其他发展中国家和新兴市场国家的沟通与协调。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　大家应该不难发现，金砖国家在前几次领导人会晤期间都举行了同其他发展中国家和新兴市场国家的对话会。这种安排进一步加强了金砖国家同其他新兴市场国家、发展中国家的联系与合作。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　王毅外长阐述的“金砖+”概念，就是指金砖国家在今后的合作中要进一步加强与其他发展中国家和新兴市场国家的联系互动、对话合作，更好地使金砖合作体现和反映广大发展中国家的共同立场和集体意愿。</P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=center><IMG style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" src="./W020170620652968744600.jpg" OLDSRC="W020170620652968744600.jpg" _fcksavedurl="/webpic/W0201706/W020170620/W020170620652968744600.jpg"/>&nbsp;</P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">在朝鲜被扣押17个月的美国学生昨日死亡。他在</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">朝</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">最后</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">1</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">6个月一直处于昏迷状态</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">。最近，由于</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">美方通过外交渠道对朝鲜施压</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">，他</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">才得以被释放。中方</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">对此</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">有何评论？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：我们注意到有关报道。这是一起不幸的事件，我们希望朝美双方能够妥善地加以处理。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">追问：</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">中方一直大力倡导有关方</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">面</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">恢复对话，这个美国学生的死是否会影响恢复对话的努力？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：中方始终主张通过对话协商以和平方式解决半岛核问题，我们的主张是一贯的、明确的。我们一直与有关各方保持着沟通，推动有关方面尽早恢复对话，进行协商，为解决半岛核问题作出努力。&nbsp;</P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">帮助这名</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">美国</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">学生赴朝旅游</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">的</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">公司</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">—“</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">青年先锋</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">旅游团”（</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">Y</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">oung&nbsp;</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">P</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">ioneer</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">&nbsp;Tours</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">）</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">设在中国。中国有很多这样的公司</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">，</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">这件事情发生后，中方是否会对此类公司加强监管？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：中方一贯全面、准确、认真、严格地执行安理会的涉朝决议。同时，我们也反对有关国家依据其国内法对其他国家实施所谓“长臂管辖”。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">据报道，</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">近期，有部分缅甸边民、商人在云南省瑞丽市的账户被冻结，可能涉及赌博等案件。一些缅甸舆论认为这影响了中缅正常边贸。请问中方对此有何评论？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：据了解，中国警方正在云南省侦办涉赌案件，依法冻结了一批涉案账户。这种正常执法行动不会影响中缅边境地区合法贸易往来。中缅两国执法部门在打击跨境犯罪问题上合作紧密，中方愿在案件侦办过程中继续同缅方保持密切沟通配合，共同维护中缅边境地区良好秩序和两国边民福祉。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">问：</SPAN></B><B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">台湾和巴拿马之间仍然保有自由贸易协定。中方对此有何看法？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：上周，中国同巴拿马建立了外交关系，在建交公报中，巴方承认一个中国原则，承诺不与台湾方面发生任何形式的官方关系，进行任何形式的官方往来，巴方这个态度非常明确。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　<B><SPAN style="FONT-FAMILY: arial; FONT-SIZE: 14px">追问：你是说双方保留自由贸易协定相当于仍有外交关系？</SPAN></B> </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px">　　答：我说的是，巴拿马方面承诺不与台湾方面发生任何形式的官方关系，进行任何形式的官方往来。什么是官方往来，什么是官方关系，这应该很明确。 </P>
+<P style="FONT-FAMILY: arial; FONT-SIZE: 14px" align=center><IMG style="BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" src="./W020170620652968754328.jpg" OLDSRC="W020170620652968754328.jpg" _fcksavedurl="/webpic/W0201706/W020170620/W020170620652968754328.jpg"/></P>
+		</div>
+		<div class="news" id="appendix_list" style="display:none;">
+			<div class="news_top">附件</div>
+			<ul>
+				
+			</ul>
+		</div>
+		<div class="news" id="relnews_list" style="display:none;">
+			<div class="news_top">相关新闻</div>
+			<ul>
+				
+				<li><a href="./t1564367.shtml" target="_blank">2018年5月31日外交部发言人华春莹主持例行记者会</a>(2018-05-31)</li>
+				
+				<li><a href="./t1563851.shtml" target="_blank">2018年5月30日外交部发言人华春莹主持例行记者会</a>(2018-05-30)</li>
+				
+				<li><a href="./t1563482.shtml" target="_blank">2018年5月29日外交部发言人华春莹主持例行记者会</a>(2018-05-29)</li>
+				
+				<li><a href="./t1562830.shtml" target="_blank">外交部发言人陆慷就美国军舰擅自进入中国西沙群岛领海答记者问</a>(2018-05-27)</li>
+				
+				<li><a href="./t1562568.shtml" target="_blank">2018年5月25日外交部发言人陆慷主持例行记者会</a>(2018-05-25)</li>
+				
+				<li><a href="./t1562225.shtml" target="_blank">外交部发言人陆慷就布基纳法索政府发表声明决定同台湾“断交”答记者问</a>(2018-05-24)</li>
+				
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			var content = document.getElementById("News_Body_Txt_A");
+			var eleP = content.getElementsByTagName("p");
+			if(eleP.length>0)
+				for(var i=0;i<eleP.length;i++)
+					eleP[i].removeAttribute("style");
+			var eleSpan = content.getElementsByTagName("span");
+			if(eleSpan.length>0)
+				for(var i=0;i<eleSpan.length;i++)
+					eleSpan[i].removeAttribute("style");
+			var eleFont = content.getElementsByTagName("font");
+			if(eleFont.length>0)
+				for(var i=0;i<eleFont.length;i++)
+					eleFont[i].removeAttribute("style");
+			/*var eleDiv = content.getElementsByTagName("div");
+			if(eleDiv.length>0)
+				for(var i=0;i<eleDiv.length;i++)
+					eleDiv[i].removeAttribute("style");*/
+			var eleA = content.getElementsByTagName("a");
+			if(eleA.length>0)
+				for(var i=0;i<eleA.length;i++)
+					eleA[i].removeAttribute("style");
+					
+			var eleTd = content.getElementsByTagName("td");
+			if(eleTd.length>0)
+				for(var i=0;i<eleTd.length;i++)
+				{
+					eleTd[i].style.fontFamily="微软雅黑";
+                                        eleTd[i].style.fontSize="inherit";
+				}
+			
+			var eleLi = content.getElementsByTagName("li");
+			if(eleLi.length>0)
+				for(var i=0;i<eleLi.length;i++)
+					elePeleLi[i].removeAttribute("style");
+			
+			var appendix_list = document.getElementById("appendix_list");
+			var relnews_list = document.getElementById("relnews_list");
+			if(appendix_list.getElementsByTagName("li").length>0)
+				appendix_list.style.display="block";
+			if(relnews_list.getElementsByTagName("li").length>0)
+				relnews_list.style.display="block";
+		</script>
+		
+		
+		<div class="searchview">
+			<div class="search_left fl">
+				<form name="Form2000" action="" encType="text/plain" method="post">
+<input type="hidden" value="外交部网站推荐新闻" name="xxx1ss"/>
+<span>推荐给朋友</span>
+<input type="text" name="FriendEmail" class="txt" value="请输入电子邮件地址" onclick="javascript:if(this.value=='请输入电子邮件地址')this.value='';"/>
+<a href="javascript:void(0);" onclick="validate_form_new();" id="SendEmai">确定</a>
+</form>			</div>
+			<div class="search_right fl" style="margin-left:50px;padding-top:10px;">
+			<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_tpeople"></a>
+	<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_txinhua"></a>
+	
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->		
+
+		</div>
+		<div class="cl"></div>
+	</div>
+</div>
+<script>
+	function edit(size){
+		document.getElementById('News_Body_Txt_A').style.fontSize=size+'px';
+	}
+	function printme(){
+	document.body.innerHTML=document.getElementById('News_Body_Txt_A').innerHTML;
+	window.print();
+	}
+</script>
+<style>
+.copyright a{font-size:14px;color:#333;}
+</style>
+<div class="copyright">
+	<div class="max_cbody" style="font-size:14px;font-family:'微软雅黑'">
+	中华人民共和国外交部&#12288;版权所有<br>
+	<a href="mailto:webmaster@mfa.gov.cn">联系我们</a>&#12288;地址：北京市朝阳区朝阳门南大街2号&#12288;邮编：100701&#12288;电话：+86-10-65961114&#12288;京ICP备06038296号&#12288;京公网安备110105002097
+	</div>
+<div class="cl"></div>
+<div style="text-align:center; padding:5px 0 0; width:960px;margin:0 auto;">
+<div style="width:90px; text-align:center; float:left; margin-left:370px;">
+<a href="http://bszs.conac.cn/sitename?method=show&id=07287F0D6EDF0310E053022819AC647D" target="_blank"><img src="https://www.fmprc.gov.cn/web/images/P020181019712135445855.jpg"/></a>
+</div>
+<div style="width:120px; text-align:center; float:left; margin-left:30px; margin-top:0px;">
+<a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm02000004&url=https://www.fmprc.gov.cn/web/" target="_blank" id="jiucuo_url"><img src="https://www.fmprc.gov.cn/web/images/P020181019712277102313.jpg" ignorepad="1"/></a>
+
+</div>
+		</div>
+
+</div>
+<div style="display:none;">
+<noscript><img src="//ta.trs.cn/c/1.gif?mpId=469&jsoff=1" style="border:0" alt=""/></noscript>
+<script>
+var _taq = _taq || [];
+_taq.home = '//ta.trs.cn/c';
+_taq.push(['_mpId', '469']);
+_taq.push(['_cli', '1']);
+(function(d, o, t) {
+	if (window.inTRSDesignMode) return;
+	var ma = d.createElement(o); ma.async = true; ma.commonresource="1"; ma.src = t;
+	var s = d.getElementsByTagName(o)[0]; s.parentNode.insertBefore(ma, s);
+})(document, 'script', '//ta.trs.cn/c/js/ta.js');
+
+document.getElementById("jiucuo_url").href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm02000004&url="+window.location.href;
+</script>
+
+</div>
+
+
+</body>
+</html>

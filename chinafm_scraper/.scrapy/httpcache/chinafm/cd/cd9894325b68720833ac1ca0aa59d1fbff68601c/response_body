@@ -1,0 +1,525 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="keywords" content="中华人民共和国外交部,外交部,中国外交部">
+<meta http-equiv="description" content="中华人民共和国外交部">
+<title>2017年7月3日外交部发言人耿爽主持例行记者会 — 中华人民共和国外交部</title>
+<link href="../../images/base.css" rel="stylesheet" type="text/css"/>
+<link href="../../images/view.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../images/main2015.js"></script>
+<style>
+.content{text-align:justify;text-justify:inter-ideograph;font-size:16px;color:#000;}
+.content p{padding-top:20px;}
+.content a{color:#000099;}
+.news ul li{color:#343434;}
+#News_Body_Title{width:872px;margin:32px auto 0;}
+</style>
+<script>
+//推荐给朋友的新函数
+function validate_form_new() {
+
+	var str0,str1,str2,str3,str4,str;
+
+	validity = true; // assume valid
+
+	if (!check_email(document.Form2000.FriendEmail.value)) {
+		validity = false;
+		alert('您输入的Email无效或者为空！');
+	}
+
+	if( validity ) {
+		str0="外交部网站推荐新闻";
+		str1="您好!";
+		str2="您的朋友向您推荐外交部网站新闻:";
+		str3="“"+document.title+"”"+"%0D%0A%0D%0A链接网址：";
+		str4=this.location;
+		str=str0+"%0D%0A"+str1+"%0D%0A"+str2+"%0D%0A"+str3+"%0D%0A"+str4+"%0D%0A";
+		document.charset='gb2312';
+		var url = "mailto:"+document.Form2000.FriendEmail.value+"?subject="+document.Form2000.xxx1ss.value+"&Body="+str;
+		document.getElementById("SendEmai").setAttribute("href", url);
+	}
+}
+</script>
+<style>
+.search_left span,.search_left input,.search_left a{ float:left; margin-left:5px;font-family:'微软雅黑';}
+#SendEmai{ width:50px; height:26px; background:#D8D8D8; line-height:26px; text-align:center; font-size:12px; text-decoration:none; display:block; color:#000;}
+</style>
+</head>
+<body>
+<div class="cbody">
+	<script type="text/javascript">
+function displaySubMenu(li) {
+   var subMenu = li.getElementsByTagName("ul")[0];
+   li.className="cur";
+   subMenu.style.display = "block";
+}
+function hideSubMenu(li) {
+   var subMenu = li.getElementsByTagName("ul")[0];
+   li.className="";
+   subMenu.style.display = "none";
+}
+</script>
+<style>
+/**横向导航栏样式**/
+.menu{height:36px;line-height:36px;border-top:2px solid #999999;padding-left:6px;}
+.menu li ul {
+list-style-type:none;
+margin:0 auto;
+margin-left:0px;
+padding:0;
+}
+.menu ul li{padding:0px;}
+.menu li {
+float:left;
+text-align:center;
+position:relative;
+padding:0;
+z-index:1000;
+}
+.menu li a.twoW{ width:70px;}
+.menu li a.threeW{ width:90px;}
+.menu li a.fourW{ width:100px;}
+.menu li a.fiveW{ width:110px;}
+.menu li a.sixW{ width:130px;}
+.menu li a{
+display:block; text-decoration:none; padding:0;font-size:16px;color:#000000;font-family:'微软雅黑';font-weight:bold; line-height:36px;
+}
+.menu li a:hover {
+font-size:16px;color:#fff;font-family:'微软雅黑';padding:0;font-weight:bold; line-height:36px; text-decoration:none;background:#999; 
+}
+.menu li.cur{background:#999;}
+.menu li.cur a{ color:#fff;}
+.menu li ul li a{font-size:14px; color:#333; text-decoration:none; display:block; width:100px; text-align:left; font-weight:normal;  padding:8px 5px 8px 25px;  line-height:16px; white-space:normal; border-bottom:#999 1px solid;}
+.menu li ul li a:hover {
+font-size:14px; color:#333; padding:8px 5px 8px 25px;font-weight:normal; background-color:#fff; line-height:16px;
+}
+.menu li.cur li a{ color:#333;}
+.menu li ul li{margin:0 auto; padding:0;}
+.menu li ul {
+margin:0 auto;
+padding:0;
+display:none;
+position:absolute; 
+top:36px;
+left:0px;
+width:130px;
+background-color:#e6e6e6;
+border:#999 1px solid;
+border-bottom:none;
+}
+a:hover{ text-decoration:none; color:#004181;}
+.wbox_ul ul li a:hover{color:#004181;}
+.imbox_ul ul li a:hover{color:#004181;}
+.rebox_news ul li a:hover{color:#004181;}
+.jgbox_news tr a:hover,.fubot ul li a:hover,.fubos ul li a:hover{color:#004181;}
+.searchx .txt{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/txt2015.gif) no-repeat;}
+.searchx .sub{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/sub2015.gif) no-repeat;}
+.zhbox_search .txt{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/txt2015.gif) no-repeat;}
+.zhbox_search .sub{BACKGROUND: url(https://www.fmprc.gov.cn/web/images/sub2015.gif) no-repeat;}
+.search_left .txt{height:19px;line-height:19px;}
+#News_Body_Title{margin:32px auto 0;width:872px;}
+input{outline:none;}
+</style>
+<div class="header">
+		<div class="logo fl"><a href="https://www.fmprc.gov.cn" target="_blank"><img src="https://www.fmprc.gov.cn/web/images/logo.png"/></a></div>
+		<div class="lan fr">
+						<a href="https://www.fmprc.gov.cn/mfa_eng/" target="_blank">English</a>
+			<a href="https://www.fmprc.gov.cn/fra/" target="_blank">Français</a>
+<a href="https://www.fmprc.gov.cn/esp/" target="_blank">Español</a>
+
+			<a href="https://www.fmprc.gov.cn/rus/" target="_blank">Русский</a>
+			
+<a href="https://www.fmprc.gov.cn/ara" target="_blank" style="font-size:16px;font-weight:bold;margin-top:13px;">&#1593;&#1585;&#1576;&#1610;</a>
+		</div>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li><a href="https://www.fmprc.gov.cn/web" class="twoW">首页</a></li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjbz_673089/" target="_blank" class="fourW">外交部长</a>
+				<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/zyhd_673091/">相关新闻</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/bzzc_673093/">部长致辞</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/grjl_673095/">部长简历</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/xghd_673097/">活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/zyjh_673099/">重要讲话</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/tp/">图片</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjbz_673089/sp/">视频</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjb_673085/" target="_blank" class="threeW">外交部</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zyzz_673087/">主要职责</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zygy_673101/">主要官员</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zzjg_673183/">组织机构</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zgags_674773/">驻港、澳公署</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/mfa_chn/wjb_602314/gbclc_603848/">干部考录</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/wjdt_674879/" target="_blank" class="fourW">外交动态</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/gjldrhd_674881/">领导人活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/wsrc_674883/">外事日程</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/">部领导活动</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/sjxw_674887/">司局新闻</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889/">发言人表态</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/cfhsl_674891/">吹风会</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/dsrm_674893/">大使任免</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/wjdt_674879/zwbd_674895/">驻外报道</a></li>
+					
+				</ul>
+			</li>
+<li><a href="https://www.fmprc.gov.cn/web/wjb_673085/zfxxgk_674865/" target="_blank" class="sixW">政府信息公开</a></li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/zwjg_674741/" target="_blank" class="fourW">驻外机构</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwsg_674743/">驻外使馆</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwzlg_674757/">驻外总领馆</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/zwjg_674741/zwtc_674771/">驻外团、处</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/" target="_blank" class="fiveW">国家和组织</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/gj_676203/">国家（地区）</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/gjhdq_676201/gjhdqzz_681964/">国际和地区组织</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/ziliao_674904/" target="_blank" class="twoW">资料</a>
+			<ul>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/zyjh_674906/">重要讲话</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/1179_674909/">声明公报</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/tytj_674911/">条约文件</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/wjs_674919/">中国外交历程</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/wjrw_674925/">中国外交人物</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/historytoday_674971/">外交史上的今天</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/lszs_674973/">领事常识</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/lbzs_674975/">礼宾知识</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/2193_674977/">建交国家一览表</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/ziliao_674904/zt_674979/">专题</a></li>
+					
+				</ul>
+			</li>
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.fmprc.gov.cn/web/fw_673051/" target="_blank" class="twoW">服务</a>
+			<ul>
+					
+					<li><a href="http://ipc.fmprc.gov.cn/chn/">新闻服务</a></li>
+					
+					<li><a href="http://cs.mfa.gov.cn/">领事服务</a></li>
+					
+					<li><a href="https://www.fmprc.gov.cn/web/fw_673051/lbfw_673061/">礼宾服务</a></li>
+					
+					<li><a href="http://dag.fmprc.gov.cn/chn/">档案服务</a></li>
+					
+					<li><a href="http://www.bds-cn.com/html/home/">使团服务</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="https://www.fmprc.gov.cn/web/ydkhd/" target="_blank" class="fiveW">移动客户端</a></li>
+		</ul>
+	</div>
+<style type="text/css">
+.page a,.page span{padding:0px 6px;}
+.rebox_news ul li{color:#333;}
+.cl{height:auto;}
+.nav{line-height:20px;background:url(https://www.fmprc.gov.cn/web/images/nav.gif) no-repeat 0px 5px;height:auto;margin-bottom:20px;}
+.content{font-size:16px;color:#000;}
+
+</style>
+	<div class="cl"></div>
+	<div class="nav">
+		<a href="./../../">首页</a>&nbsp;>&nbsp;<a href="./../">外交动态</a>&nbsp;>&nbsp;<a href="./">发言人表态</a>
+	</div>
+	<div class="vibox" style="min-height:700px;">
+		<div class="title" id="News_Body_Title">2017年7月3日外交部发言人耿爽主持例行记者会</div>
+		<div class="futitle" id="News_Body_subitle"></div>
+		<div class="time"><span id="News_Body_source">来源：<span id="myDocsource1" style="display:none"></span>
+				<span id="myDocsource2" style="display:none">（供稿）</span>
+				<span id="myDocsourcewg" style="display:none">（供稿）</span>
+				<script>
+					if(document.getElementById("myDocsource1").innerText.indexOf(" ")>-1||document.getElementById("myDocsource1").innerText.indexOf("　")>-1 || (document.getElementById("myDocsource1").innerText.indexOf("驻")<0 && document.getElementById("myDocsource1").innerText.indexOf("外国记者新闻中心"))<0){
+						document.getElementById("myDocsource1").style.display = "";
+						document.getElementById("myDocsourcewg").style.display = "none";
+						document.getElementById("myDocsource2").style.display = "none";
+					}
+					
+					else if(!(document.getElementById("myDocsource2").innerText=="（供稿）"))
+					{
+							document.getElementById("myDocsource2").style.display = "";
+							document.getElementById("myDocsourcewg").style.display = "none";
+							document.getElementById("myDocsource1").style.display = "none";
+					}
+					else if((document.getElementById("myDocsourcewg").innerText).indexOf("外国记者新闻中心")!=-1)
+					{
+								document.getElementById("myDocsourcewg").style.display = "";
+								document.getElementById("myDocsource1").style.display = "none";
+								document.getElementById("myDocsource2").style.display = "none";
+					}
+				</script> &nbsp;&nbsp; </span><span id="News_Body_Time">2017-07-03</span></div>
+		<script type="text/javascript">
+			var source = '';
+			if(source.length==0)
+				document.getElementById("News_Body_source").style.display="none";
+		</script>
+		<div class="info">
+			[字体：<a href="javascript:edit(20);">大</a> <a href="javascript:edit(16);">中</a> <a href="javascript:edit(14);">小</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a onclick="doPrint()" href="javascript:void(0);" target="_self">打印本页</a>
+		</div>
+		<div id="News_Body_Txt_A" class="content">
+		<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=center><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020170703709831888966.jpg" OLDSRC="W020170703709831888966.jpg" _fcksavedurl="/webpic/W0201707/W020170703/W020170703709831888966.jpg"/></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：关于印军</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">越界事件</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">，请问中方为什么认为这次印度边防部队在中印边界锡金段越界行为的性质比以往更严重？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：此次印军越界事件发生在中印边界锡金段已定边界，与以往双方边防部队在未定界地区的边境摩擦对峙有本质不同。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　中印边界锡金段已由1890年《中英会议藏印条约》划定，印度历届政府多次以书面形式对此予以确认，承认双方对锡金段边界走向没有异议。条约必须遵守，这是国际法的基本原则。印度派遣武装力量越过已定边界，违背了历史界约，违背了《联合国宪章》和国际法的基本原则，性质非常严重。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　中方已多次向印方提出严正交涉，要求印方遵守边界条约规定，尊重中方的领土主权，立即将越界的边防部队撤回边界线印方一侧。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：你刚才说中印边界锡金段已由1890年《中英会议藏印条约》划定，能否进一步解释一下该条约是如何划定中印边界锡金段的？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：1890年《中英会议藏印条约》由中国清朝政府和英国双方正式签订，规定了中国西藏和英属锡金之间的边界。新中国成立之后和印度独立以来，双方历届政府均承认该条约的有效性，并在一系列官方文件和会谈中反复确认。该条约无论对中国还是印度都是有效的，具有法律约束力。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　该条约规定锡金段边界线沿分水岭而行，明确说明该段边界线东起“支莫挚山”，西至与尼泊尔交界处，沿分水岭而行，非常清楚明确。而且在实地分水岭具体位置是清楚的，双方长期以来按照这一已定界进行管辖。遵守该条约及其划定的边界线是印度政府必须履行的国际义务。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">上周末</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">，</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">韩美首脑在华盛顿举行了会谈</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">。</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">双方就朝核和“萨德”等重要问题进行</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">了</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">探讨</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">。</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">中方</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">对此次</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">会谈成果</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">有何评论</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：我们也在密切关注文在寅总统访问美国的有关情况。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于你提到的韩美双方就朝鲜半岛核问题交换意见，我们一直主张，半岛核问题只有通过对话协商以和平方式才能加以解决。中方乐见韩美作为半岛核问题的主要当事方，就此问题进行沟通。我们一直强调，在当前形势下，各方都应该发挥应有的作用，承担起应有的责任，共同为推动半岛核问题早日回到通过对话协商解决的正确轨道作出努力。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于“萨德”问题，中方的立场非常明确。我们坚决反对美韩在韩国部署“萨德”反导系统，这一立场没有改变。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：昨天，长征五号遥二火箭发射失利。中方对此有何回应？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于长征五号遥二火箭的发射情况，媒体已经做了报道。据我了解，中方有关部门将组织专家对故障原因进行调查分析。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：印方称中印边界锡金段还有待划定，你对此作何回应？中方是否有具体证据证明印方曾承认《中英会议藏印条约》确定了中国西藏同锡金的边界？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：我们多次介绍过，中印边界锡金段已由1890年《中英会议藏印条约》划定。中印两国政府间的往来文件显示，印度独立后，印度总理尼赫鲁代表印度政府多次明确承认1890年《中英会议藏印条约》确定了中国西藏同锡金之间的边界。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　1959年3月22日，印度总理尼赫鲁在给周恩来总理的信中表示，“印度的保护国锡金同中国西藏地方的边界，是由1890年的英中条约所确定，1895年共同在地面上标定。” </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　同年9月26日，尼赫鲁总理复信周总理时明确表示，“1890年的条约确定了锡金和西藏之间的边界。这条线在1895年加以标定。关于锡金同西藏地方的边界，不存在任何纠纷。” </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　从上述可以看出，印方现在的做法无疑是对印度政府一贯立场的违背。</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=center><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020170703714501385604.jpg" OLDSRC="W020170703714501385604.jpg" _fcksavedurl="/webpic/W0201707/W020170703/W020170703714501385604.jpg"/>&nbsp;</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：近期，美国采取了向台湾售武、制裁中国实体和个人、派军舰进入中国西沙群岛领海等举动。我知道中方已就此表明了</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">立场。今天上午，</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">习近平主席与特朗普总统通电话，通话氛围如何？习主席是否就相关问题向特朗普总统表明了中方立场？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：今天上午，习近平主席应约同美国总统特朗普通电话。中方已经发了消息，你可以在外交部网站上查阅。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　在通话中，两国元首就中美关系、二十国集团领导人汉堡峰会以及其他一些问题交换了意见。习主席指出，中美关系近来取得重要成果，但同时两国关系也受到一些消极因素的影响，中方已向美方表明立场。中美双方应该牢牢把握中美关系发展大方向，坚持相互尊重，互惠互利的原则，聚焦合作，管控分歧，推动双边关系取得更多实实在在的进展。</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：特朗普总统曾经称中方在朝鲜问题上做得还不够。在今天上午的通话中，习主席是否谈到这一点？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：习近平主席同特朗普总统通话时，双方还谈及朝鲜半岛和平稳定等问题。两国领导人就半岛局势包括半岛核问题交换了意见。中方在半岛问题上的立场，美方非常清楚。我们一直呼吁和敦促美方发挥应有的作用，承担应承担的责任，为推动半岛核问题的早日解决与中方一道作出努力。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：中美元首可能在二十国集团领导人汉堡</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">峰会期间会晤，但好像尚未确定。中方坚持《巴黎协定》、成功举办“一带一路”国际合作高峰论坛，将以领导者的形象参加此次峰会。而特朗普面临国内诸多问题，还退出了《巴黎协定》。中方是否会借</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">二十国集团领导人汉堡</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">峰会向国际社会展示中方正在履行国际义务，而美国的形象在对比之下就会显得比较糟糕？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于中美元首会晤的问题，在今天上午的通话中，两国元首同意在德国汉堡举行会晤，就共同关心的问题继续交换意见。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于二十国集团领导人汉堡峰会，习近平主席将出席此次峰会，阐述中方对当前世界经济形势和国际经济合作的看法和主张，推动各方加强政策协调，共同促进世界经济强劲、可持续、平衡和包容增长。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　此次汉堡峰会是在世界经济增长向好、同时也面临一些不确定因素的背景下举行的，各方都高度关注。中方积极支持德国办好汉堡峰会，将与包括东道主德国以及美国在内的各方一道，加强合作，努力推动汉堡峰会取得积极成果。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　具体而言，我们期待此次峰会取得如下成果：第一，落实杭州峰会成果；第二，推动建设开放型世界经济；第三，推动创新发展；第四，传递二十国集团成员团结合作的积极信号。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：对于中美之间最近出现的一系列摩擦事件，中方判断其中的原因是什么？这是否意味着中美关系所谓的“蜜月期”，也就是自习主席和特朗普总统在海湖庄园会晤后，两国关系相对比较平和的这一段过渡期已经结束了？这些事件接下来会如何影响两国的政治和贸易？特别是习近平主席和特朗普总统同意的中美经济合作“百日计划”。这对于这些会谈会有什么影响？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：你提到的中美“蜜月期”这个概念是媒体的一种解读。中美官方似乎都没有用过这个说法。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　中美双方都高度重视发展与对方的关系，都认为中美关系的意义超越了双边范畴，对亚太地区乃至世界的和平稳定与发展繁荣具有重要意义。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　作为两个大国，中美关系中会发生各种各样的事情，这在所难免。但中美双方都有决心和意愿推动两国关系不断向前发展，这是最重要的。对中方而言，我们愿意在不冲突不对抗、相互尊重、合作共赢的基础上，同美方不断扩大共识，深化合作，同时妥善管控分歧，推动中美关系不断稳定健康向前发展。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：关于美国军舰进入中国西沙群岛领海，中方对此有何评论？有中国媒体评论文章称，中印僵局目前的严重性不排除会导致战争的可能性。你对此有何评论？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于美国驱逐舰进入西沙群岛中国领海，外交部发言人昨天晚上已经作了回应，我可以再重申一下。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　7月2日，美国“斯坦塞姆”号导弹驱逐舰擅自进入中国西沙群岛领海。中国随即派出军舰和战斗机对美舰实施警告驱离。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　西沙群岛是中国固有领土。根据《中华人民共和国领海及毗连区法》，中国政府于1996年公布了西沙群岛的领海基线。中国有关法律对外国军舰进入中国领海有关事宜作出了明确规定。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　美方打着“航行自由”的旗号，再次派遣军舰擅自进入中国西沙群岛领海，违反中国法律及相关国际法，严重侵犯中国主权，破坏有关海域的和平、安全和良好秩序，危及中方岛上设施及人员安全，是严重的政治和军事挑衅行动。中方对美方有关行径表示强烈不满和坚决反对。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　当前，在中国和东盟国家的共同努力下，南海局势趋缓降温，并不断呈现积极发展态势。美方刻意在南海挑起事端，与地区国家求稳定、促合作、谋发展的共同愿望背道而驰。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　中方强烈敦促美方立即停止此类严重侵犯中国主权、威胁中国安全的挑衅行动。中方将继续采取一切必要措施捍卫国家主权和安全。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于印度边防部队非法越界进入中方境内事，作为一条原则，对于媒体发表的一些言论，我们不会事事都作出评论和回应。中国官方已经多次阐明立场。我们要求印方立即将越界印方人员撤回到中印边界印方一侧。中方将采取一切必要措施维护中国的领土主权，这一点是毫无疑问的。</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=center><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020170703714501404144.jpg" OLDSRC="W020170703714501404144.jpg" _fcksavedurl="/webpic/W0201707/W020170703/W020170703714501404144.jpg"/>&nbsp;</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：第一，印度外交部上周五发表的关于洞朗边界事件的声明与中国外交部的表态有所不同。其中提到了2012年中印两国就中印边界锡金段尚未最终划定达成一致。双方只是认同了边界走向，有关锡金段边界的进一步谈判将交由边界谈判特别代表完成。中方对此有何回应？第二，不丹外交部称中国违反了两国1998年签订的《关于在中不边境地区保持和平与安宁的协定》，认为中国军队在有关地区修路是改变现状的行为。中方对此有何回应？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于第一个问题，印军非法越界事件发生以来，中国外交部和国防部已多次对外表明中方严正立场，并向印方提出严正交涉。事实真相非常清楚，中印边界锡金段已由1890年《中英会议藏印条约》划定，洞朗地区在锡金段的东端点以北以东中方一侧，是中国领土。印军越过两国共同承认的边界线进入中方领土，阻挠中国边防部队的正常活动。印方此举违背历史界约，违背国际法和国际关系的基本准则，严重破坏边境地区的和平与安宁。中方要求印方立即将越界的边防部队撤回边界线印方一侧，为恢复有关地区的和平与安宁创造必要条件。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于你提到印方上周五发表的声明，中方注意到，印方声明对1890年《中英会议藏印条约》完全避而不提，然而正是这个条约明确划定了中印两国在事发地点锡金段的边界线走向。1890年《中英会议藏印条约》是中印两国共同继承的边界条约，印度历届政府多次以书面形式予以确认。刚才我已经介绍了有关情况，在尼赫鲁总理给周恩来总理的信中都确认了这一点。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　现在的印度政府竟然都不敢提这个条约。不管印方怎么回避，条约必须遵守是一项国际法基本原则，遵守边界条约是印度政府必须履行的国际义务。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　目前，印军仍非法滞留在中国领土上，持续侵犯中国领土主权。中方再次要求印方立即撤回越界的边防人员并彻底调查此事，尊重历史界约，尊重中国的领土主权，以维护中印边界锡金段的和平与安宁。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于第二个问题，中方多次强调，洞朗地区历来属于中国，一直在中方有效管辖之下，不存在争议。中国和不丹于上个世纪80年代开始边界谈判，迄今已举行24轮。两国虽尚未正式划界，但双方对边境地区的实际情况和边界线走向存在基本共识。对于洞朗属于中国这一点，中不双方不存在分歧。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　中方一直严格遵守中不之间相关协定。洞朗地区边界现状是清晰的，该地一直在中方的有效管辖之下。中方在该地区的有关活动不存在违反协定、破坏现状的情况。不方对此是了解的。印方为了掩盖印军非法越界，不惜歪曲事实，甚至不惜以损害不丹的独立主权为代价，试图混淆是非，这是徒劳的。中方愿同不方共同努力，在不受外来干涉的情况下，通过友好协商解决边界问题，维护边境的和平与安宁。</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：在今天的通话中，习近平主席是否提到美国军舰进入中国西沙群岛领海这一事件？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于两国领导人通话的情况，我们已经发布了消息稿。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">中国</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">军方发言人关于“历史教训”的</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">表态，</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">这</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">很明显是指</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">1962年的中印边境战争</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">。印</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">度国防部长反驳称，</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">2017年的印度和1962年的印度已经完全不同了。他还提到不丹政府已就中方试图改变有关地区现状表明了立场。中方对此有何评论？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：至于你提到不丹方面的态度，刚才我已经介绍了中方立场。我可以再补充一点，中方对印度同不丹之间保持正常的双边关系不持异议。但我们坚决反对印方以“维护不丹利益”为借口，为其越界侵犯中国领土“正名”。据中方了解，对于印边防部队越界进入洞朗地区，不丹方面事先并不知情。这与印方所说的情况并不一致。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　至于你刚才还提到的印度国防部长的话，从某种意义上讲，他说的没错。2017年的印度与1962年的印度确实不同，正如2017年的中国也与1962年的中国不同一样。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　我们再次要求印方遵守边界条约规定，尊重中方领土主权，立即将越界的边防部队撤回到边界线印方一侧。中方将采取一切必要措施维护自己的领土主权。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">此前</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">，</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">中国外交部表示中印</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">之间的</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">外交</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">沟通</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">渠道是畅通的</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">。两国之间是否正在进行对话？</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">习主席</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">是否会同</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">莫迪总理在</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">二十国集团领导人</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">汉堡峰会期间举行会晤讨论相关问题</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：印度边防部队非法越界事件发生以后，中方在北京和新德里已经多次在不同的层级向印方提出严正交涉。目前，双方外交沟通的渠道是畅通的。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　习近平主席出席二十国集团领导人汉堡峰会期间的有关双边会晤仍在安排当中。目前我没有要发布的消息。</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=center><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020170703714501425070.jpg" OLDSRC="W020170703714501425070.jpg" _fcksavedurl="/webpic/W0201707/W020170703/W020170703714501425070.jpg"/>&nbsp;</P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">韩中两国</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">元首是否会在汉堡举行会晤？有</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">报道</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">说双方也可能会</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">在柏林</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">举行会晤</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">。</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：我刚才说过了，关于习主席出席二十国集团领导人汉堡峰会期间的有关双边会晤安排，目前正在协商当中。我目前没有这方面的消息要发布。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：中方取消了印度官方香客入藏朝圣。还有报道称，中方取消了印度记者访问西藏的安排。入藏路线还有一条是通过强拉山口，这条线路目前仍然是开通的。一些印度香客现在已经转而选择这一路径入藏，中方是否会保证此前申请由乃堆拉山口入藏的香客可以通过强拉山口入藏？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于你提到印度记者访问西藏的问题，我不了解情况。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于印度官方香客赴藏朝圣，上周我的同事已经介绍过有关情况。长期以来，中方从中印关系大局出发，做了大量工作，为印度官方香客赴藏朝圣提供了必要便利。中方同意于2015年为印度官方香客开通经中印边界锡金段乃堆拉山口赴藏朝圣路线。这条路线过去两年运行良好，中方有关部门此前也已做好今年接待的准备工作。但是由于印度边防人员越界事件的发生，出于安全考虑，中方不得不暂停今年的有关安排。至于这一路线何时能够重新开放，这完全取决于印方是否以及何时能够纠正错误。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于你提到的另一条朝圣路线，据我了解，印度官方香客经中印边界中段无争议地区的强拉山口赴藏朝圣仍在进行。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：据报道，辽宁舰在周六下午进入台湾的“防空识别区”，台军方称会继续监察应对。另外，据日本媒体报道，中国解放军的一艘军舰昨天上午经过北海道津轻海峡进入日本领海，日方要求有关军舰离开日本领海。中方对此有何评论？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：关于第一个问题，7月2日，海军新闻发言人梁阳已经介绍。经中央军委批准，正在海上开展跨区机动训练的海军辽宁舰航母编队将结合训练任务，于7月上旬赴香港参加解放军进驻香港20周年庆祝活动。至于台湾方面的一些言论，这不是外交问题。如果你感兴趣，可以向有关部门了解。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　关于第二个问题，你提到的情况我不掌握。如果你感兴趣，可以向军方了解。我愿强调，中国海军舰船依据国际法在有关海域进行活动。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　<B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">问：</SPAN></B><B><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial">有关中美经济合作“百日计划”，这是在习近平主席和特朗普总统海湖庄园会晤期间定下来的。近期影响两国关系的一些消极因素是否已经影响到两国在贸易领域的会谈？</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial">　　答：我们多次说过，中美经贸合作的本质是互利共赢的。经过几十年的发展，中美经贸合作给两国和两国人民带来了实实在在的利益和好处。在海湖庄园会晤期间，中美两国元首决定建立四个高级别对话机制，其中就包括全面经济对话。据我了解，双方正就全面经济对话的有关安排保持沟通。中美双方都有意愿推动两国经贸合作不断向前发展，进一步造福两国人民。 </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=center><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020170703709831946415.jpg" OLDSRC="W020170703709831946415.jpg" _fcksavedurl="/webpic/W0201707/W020170703/W020170703709831946415.jpg"/></P>
+		</div>
+		<div class="news" id="appendix_list" style="display:none;">
+			<div class="news_top">附件</div>
+			<ul>
+				
+			</ul>
+		</div>
+		<div class="news" id="relnews_list" style="display:none;">
+			<div class="news_top">相关新闻</div>
+			<ul>
+				
+				<li><a href="./t1564367.shtml" target="_blank">2018年5月31日外交部发言人华春莹主持例行记者会</a>(2018-05-31)</li>
+				
+				<li><a href="./t1563851.shtml" target="_blank">2018年5月30日外交部发言人华春莹主持例行记者会</a>(2018-05-30)</li>
+				
+				<li><a href="./t1563482.shtml" target="_blank">2018年5月29日外交部发言人华春莹主持例行记者会</a>(2018-05-29)</li>
+				
+				<li><a href="./t1562830.shtml" target="_blank">外交部发言人陆慷就美国军舰擅自进入中国西沙群岛领海答记者问</a>(2018-05-27)</li>
+				
+				<li><a href="./t1562568.shtml" target="_blank">2018年5月25日外交部发言人陆慷主持例行记者会</a>(2018-05-25)</li>
+				
+				<li><a href="./t1562225.shtml" target="_blank">外交部发言人陆慷就布基纳法索政府发表声明决定同台湾“断交”答记者问</a>(2018-05-24)</li>
+				
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			var content = document.getElementById("News_Body_Txt_A");
+			var eleP = content.getElementsByTagName("p");
+			if(eleP.length>0)
+				for(var i=0;i<eleP.length;i++)
+					eleP[i].removeAttribute("style");
+			var eleSpan = content.getElementsByTagName("span");
+			if(eleSpan.length>0)
+				for(var i=0;i<eleSpan.length;i++)
+					eleSpan[i].removeAttribute("style");
+			var eleFont = content.getElementsByTagName("font");
+			if(eleFont.length>0)
+				for(var i=0;i<eleFont.length;i++)
+					eleFont[i].removeAttribute("style");
+			/*var eleDiv = content.getElementsByTagName("div");
+			if(eleDiv.length>0)
+				for(var i=0;i<eleDiv.length;i++)
+					eleDiv[i].removeAttribute("style");*/
+			var eleA = content.getElementsByTagName("a");
+			if(eleA.length>0)
+				for(var i=0;i<eleA.length;i++)
+					eleA[i].removeAttribute("style");
+					
+			var eleTd = content.getElementsByTagName("td");
+			if(eleTd.length>0)
+				for(var i=0;i<eleTd.length;i++)
+				{
+					eleTd[i].style.fontFamily="微软雅黑";
+                                        eleTd[i].style.fontSize="inherit";
+				}
+			
+			var eleLi = content.getElementsByTagName("li");
+			if(eleLi.length>0)
+				for(var i=0;i<eleLi.length;i++)
+					elePeleLi[i].removeAttribute("style");
+			
+			var appendix_list = document.getElementById("appendix_list");
+			var relnews_list = document.getElementById("relnews_list");
+			if(appendix_list.getElementsByTagName("li").length>0)
+				appendix_list.style.display="block";
+			if(relnews_list.getElementsByTagName("li").length>0)
+				relnews_list.style.display="block";
+		</script>
+		
+		
+		<div class="searchview">
+			<div class="search_left fl">
+				<form name="Form2000" action="" encType="text/plain" method="post">
+<input type="hidden" value="外交部网站推荐新闻" name="xxx1ss"/>
+<span>推荐给朋友</span>
+<input type="text" name="FriendEmail" class="txt" value="请输入电子邮件地址" onclick="javascript:if(this.value=='请输入电子邮件地址')this.value='';"/>
+<a href="javascript:void(0);" onclick="validate_form_new();" id="SendEmai">确定</a>
+</form>			</div>
+			<div class="search_right fl" style="margin-left:50px;padding-top:10px;">
+			<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_tpeople"></a>
+	<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_txinhua"></a>
+	
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->		
+
+		</div>
+		<div class="cl"></div>
+	</div>
+</div>
+<script>
+	function edit(size){
+		document.getElementById('News_Body_Txt_A').style.fontSize=size+'px';
+	}
+	function printme(){
+	document.body.innerHTML=document.getElementById('News_Body_Txt_A').innerHTML;
+	window.print();
+	}
+</script>
+<style>
+.copyright a{font-size:14px;color:#333;}
+</style>
+<div class="copyright">
+	<div class="max_cbody" style="font-size:14px;font-family:'微软雅黑'">
+	中华人民共和国外交部&#12288;版权所有<br>
+	<a href="mailto:webmaster@mfa.gov.cn">联系我们</a>&#12288;地址：北京市朝阳区朝阳门南大街2号&#12288;邮编：100701&#12288;电话：+86-10-65961114&#12288;京ICP备06038296号&#12288;京公网安备110105002097
+	</div>
+<div class="cl"></div>
+<div style="text-align:center; padding:5px 0 0; width:960px;margin:0 auto;">
+<div style="width:90px; text-align:center; float:left; margin-left:370px;">
+<a href="http://bszs.conac.cn/sitename?method=show&id=07287F0D6EDF0310E053022819AC647D" target="_blank"><img src="https://www.fmprc.gov.cn/web/images/P020181019712135445855.jpg"/></a>
+</div>
+<div style="width:120px; text-align:center; float:left; margin-left:30px; margin-top:0px;">
+<a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm02000004&url=https://www.fmprc.gov.cn/web/" target="_blank" id="jiucuo_url"><img src="https://www.fmprc.gov.cn/web/images/P020181019712277102313.jpg" ignorepad="1"/></a>
+
+</div>
+		</div>
+
+</div>
+<div style="display:none;">
+<noscript><img src="//ta.trs.cn/c/1.gif?mpId=469&jsoff=1" style="border:0" alt=""/></noscript>
+<script>
+var _taq = _taq || [];
+_taq.home = '//ta.trs.cn/c';
+_taq.push(['_mpId', '469']);
+_taq.push(['_cli', '1']);
+(function(d, o, t) {
+	if (window.inTRSDesignMode) return;
+	var ma = d.createElement(o); ma.async = true; ma.commonresource="1"; ma.src = t;
+	var s = d.getElementsByTagName(o)[0]; s.parentNode.insertBefore(ma, s);
+})(document, 'script', '//ta.trs.cn/c/js/ta.js');
+
+document.getElementById("jiucuo_url").href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm02000004&url="+window.location.href;
+</script>
+
+</div>
+
+
+</body>
+</html>

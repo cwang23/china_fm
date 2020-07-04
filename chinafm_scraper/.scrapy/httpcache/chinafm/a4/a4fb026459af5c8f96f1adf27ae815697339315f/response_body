@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regular Press Conference</title>
+<link type="text/css" href="../../../images/style.css" rel="stylesheet"/>
+<style type="text/css">
+#pages{width:100%; text-align:center; line-height:26px; font-size:14px;}
+#pages a{color:#0000FF;}
+#pages a:hover{color:#FF0000;}
+.urhere{line-height:21px; padding-bottom:7px; padding-top:7px; height:auto;}
+</style>
+
+</head>
+
+<body>
+	<style type="text/css">
+.content em{font-style:italic !important;}
+.content{padding-top:20px;}
+.key{ *height:29px; *line-height:29px;} 
+.submit{ *width:75px;}
+.header{ width:1015px; height:159px; background:url(https://www.fmprc.gov.cn/mfa_eng/images/header.jpg) scroll 0 0 no-repeat; margin:0 auto; padding-top:13px; he\ight:146px}
+.header .lang a{ color:#fff; font-size:12px; float:right; margin-left:20px;}
+.lang{ color:#fff; padding-bottom:34px;}
+.nav{width:1015px; margin:0 auto;padding:0 9px; padding-bottom:0;width:997px; line-height:39px; height:39px;border-bottom:2px solid #dee5f8}
+.urhere{line-height:21px; padding-bottom:7px; padding-top:7px; height:auto;}
+.mod_hd2{height:auto;}
+.newsLst_mod li{ background:url(https://www.fmprc.gov.cn/mfa_eng/images/arrow.gif) no-repeat 0px 10px;}
+.nav .subNav{background-color:#fff; border:1px solid #7587b5; padding:0 0 0 9px; position:absolute; top:38px; left:0; z-index:1000; display:none;
+filter:alpha(opacity=95);  /*支持 IE 浏览器*/
+-moz-opacity:0.95; /*支持 FireFox 浏览器*/
+opacity:0.95;  /*支持 Chrome, Opera, Safari 等浏览器*/
+padding-bottom:10px;
+}
+.nav ul{ width:1020px} 
+.nav li{ float:left;line-height:20px; position:relative;margin-right:0;}
+.nav li a{ color:#31457e; font-size:17px; font-weight:bold; padding:0 8px; line-height:38px;display:inline-block}
+.nav li a:hover{background-color:#254286; color:#fff; text-decoration:none}
+.nav li.cur a{ background-color:#254286; color:#fff}
+
+
+.nav a:hover,.nav a.cur{ text-decoration:underline}
+.nav .subNav dt{ width:128px; background-color:#7587b5; height:30px; line-height:30px}
+.nav .subNav dt a,.nav .subNav dt a:hover{color:#fff; font-size:12px;  font-weight:bold; text-align:center;background:none; height:30px; line-height:30px}
+.nav .subNav a:hover{text-decoration:underline;}
+.nav .subNav dl{ width:128px; float:left; margin-right:9px; display:inline;}
+.nav .subNav dd{ border-bottom:1px solid #7587b5;line-height:28px;}
+.nav .subNav dd a,.nav .subNav dd a:hover{ line-height:28px;background:#fff url(https://www.fmprc.gov.cn/mfa_eng/images/arrow2.png) scroll 0 11px no-repeat; color:#555555; font-weight:lighter; font-size:13px;}
+.nav .subNav1{ 
+width:760px;
+}
+.nav .subNav2{ 
+width:250px;
+
+}
+.nav .subNav2 dl{width:232px; padding-right:1px;}
+
+.nav .subNav3{ 
+width:630px;
+}
+.nav .subNav4{ 
+width:280px;
+
+}
+.nav .subNav4 dl{width:262px; padding-right:1px;}
+.nav .subNav5{ 
+width:200px;
+
+}
+.nav .subNav5 dl{width:182px; padding-right:1px;}
+.nav .subNav6{ 
+width:770px;
+left:auto; right:-32px;
+}
+</style>
+<script type="text/javascript" src="https://www.fmprc.gov.cn/mfa_eng/images/jq.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".nav ul li").hover(function(){
+			$(this).find("div").css("display","block");
+			$(this).children("a").css("backgroundColor","#254286");
+			$(this).children("a").css("color","#fff");
+			
+		},function(){
+		$(this).find("div").css("display","none");
+		$(this).children("a").css("backgroundColor","#fff");
+		$(this).children("a").css("color","#31457e");
+		});
+	});
+</script>
+<script type="text/javascript">
+function search_checkeng() {
+var sword =document.getElementById("sw").value.replace(/^\s+|\s+$/g,"");
+	
+if (sword=='Please enter keywords' || sword=="") {
+	alert('Please enter keywords!');
+	return false;
+} else {	
+	return true;
+	}
+}
+</script>
+<div class="header">
+<div class="lang" style="padding-right:35px;">
+
+
+<a href="//www.fmprc.gov.cn/ara/" target="_blank" style="font-size:14px;">&#1593;&#1585;&#1576;&#1610;</a>
+<a href="//www.fmprc.gov.cn/esp/" target="_blank">Español</a>
+<a href="//www.fmprc.gov.cn/rus/" target="_blank">Русский</a>
+<a href="//www.fmprc.gov.cn/fra/" target="_blank">Français</a>
+<a href="//www.fmprc.gov.cn/mfa_chn/" target="_blank">简体中文</a>
+</div>
+    	<div class="search clearfix">
+        	<form action="https://www.fmprc.gov.cn/wjb/eng_search.jsp" method="post" onsubmit="return search_checkeng()" class="searchFrm">
+		<input type="hidden" name="siteid" value="5201"/>
+		<input type="hidden" name="sitename" value="www_eng"/>
+        <input type="text" name="sw" id="sw" class="key fl" value=""/> <select name="select" id="select" style="display:none;">
+                     <option selected="selected" value="1">This site</option>
+					 <option value="0">All sites</option>
+                    </select><input type="submit" value="search" class="submit fr"/>
+        </form>
+        </div>
+    </div>
+
+    <div class="nav" style=" position:relative;z-index:99999;">
+     <ul class="clearfix">
+            <li><a href="http://www.fmprc.gov.cn/mfa_eng">Home</a></li>
+            <li><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/">The Ministry</a>
+            	<div class="subNav subNav1">
+                	<dl>
+                        <dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zyzz_663306/">Main Functions</a></dt>
+						<dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zzjg_663340/">Departments</a></dt>
+						<dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zgags_665381/">Related Agencies</a></dt>
+						<dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/cgwjb_665383/">Tour the Ministry</a></dt>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/wjbz_663308/">The Minister</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/wjbz_663308/2461_663310/">Speeches</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/wjbz_663308/activities_663312/">Activities</a></dd>
+                        
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zygy_663314/">Principal Officials</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zygy_663314/gyjl_663316/">Biographies</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zygy_663314/gyhd_663338/">Activities</a></dd>
+                        
+                    </dl>
+                    <dl style="width:335px">
+                        <dt style="width:335px"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/">Missions Overseas</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/2490_665344/">Chinese Embassies</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/2498_665360/">Chinese Consulates General</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/2506_665376/">Chinese Missions to International Organizations and Representative Offices Abroad</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/zwbd_665378/">News From Mission Overseas</a></dd>
+                        
+                    </dl>
+                    
+                </div>
+          </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/">Policies and Activities</a>
+		  <div class="subNav subNav2">
+                    <dl>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/wshd_665389/">Activities</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/wsrc_665395/">Diplomatic Agenda</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/dsrm_665397/">New Ambassadors</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/zyjh_665391/">Speeches</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/">Communiques</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/wjzcs/">Foreign Policies</a></dd>
+                        
+                    </dl>
+                    
+                </div>
+		  </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/">Press and Media Service</a>
+		  <div class="subNav" style="width:330px;">
+                    <dl style="width:320px">
+                        <dt style="width:320px"><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/">Spokesperson's Remarks</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/">Regular Press Conference</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2535_665405/">Spokesperson's Remarks </a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/hcy_665411/">CV of Foreign Ministry Spokesperson Hua Chunying</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/fyrgsjl/">CV of Foreign Ministry Spokesperson Geng Shuang</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/zlj/">CV of Foreign Ministry Spokesperson Zhao Lijian</a></dd>
+                        
+                    </dl>
+                    <dl style="margin-top:10px; width:320px;">
+                        <dt style="width:320px"><a href="http://ipc.fmprc.gov.cn/eng/">International Press Center</a></dt>
+                    </dl>
+                </div>
+		  </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/">Countries and Regions</a>
+		  <div class="subNav subNav2">
+                    <dl>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/2675_665437/">Asia</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/2797_665439/">Western Asia and North Africa</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/2913_665441/">Africa</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3124_665443/">the European and Central Asian Region</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3265_665445/">the European Region</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3376_665447/">North America and Oceania</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3447_665449/">Latin America</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/dqzzywt_665451/">Regional Organizations and Issues</a></dd>
+                        
+                    </dl>
+                    
+                </div>
+		  </li>
+          <li><a href="http://english.gov.cn/archive/chinaabc/" target="_blank">About China</a>
+		  </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/">Resources</a>
+		  <div class="subNav subNav6" style="width:800px;">
+                	                    <dl style="width:200px;">
+                        <dt style="width:200px"><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/3602_665543/">Diplomatic History</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/3602_665543/3603_665545/">New China's Diplomacy Over the Past 50 Years</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/3602_665543/3604_665547/">Events and Issues</a></dd>
+                        
+                    </dl>
+                    <dl style="width:200px;">
+                        <dt style="width:200px"><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/">Diplomatic Figures</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/3606_665551/">Former Ministers</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/lrfbzjbzzl_665553/">Former Vice Ministers and Assistant Ministers</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/3607_665555/">Ambassadors</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/lrls_665575/">Consuls General</a></dd>
+                        
+                    </dl>
+                    <dl style="width:200px;">
+                        <dt style="width:200px"><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/lbzs_665591/">Protocol ABC</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/lbzs_665591/temp_665593/">Regulations about Foreign Missions in China</a></dd>
+                        
+                    </dl>
+                   <dl style="width:150px;">
+                        <dt style="width:150px"><a href="http://www.bds-cn.com/en/home/">Diplomatic Service</a></dt>
+                                           </dl>
+
+                </div>
+		  </li>
+      </ul>
+    </div>
+    <div class="container clearfix">
+    	<div class="main fl">
+        	<div class="urhere">
+            	<a href="./../../../">Home</a>&nbsp;&gt;&nbsp;<a href="./../../">Press and Media Service</a>&nbsp;&gt;&nbsp;<a href="./../">Spokesperson's Remarks</a>&nbsp;&gt;&nbsp;<a href="./">Regular Press Conference</a>
+            </div>
+        	
+            <div class="newsLst_mod">
+            	<ul>
+					
+                	<li><a href="./t1607153.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on October 25, 2018</a></li>
+                    
+                	<li><a href="./t1606828.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on October 24, 2018</a></li>
+                    
+                	<li><a href="./t1606490.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on October 23, 2018</a></li>
+                    
+                	<li><a href="./t1606198.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on October 22, 2018</a></li>
+                    
+                	<li><a href="./t1605600.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 19, 2018</a></li>
+                    
+                	<li><a href="./t1605226.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 18, 2018</a></li>
+                    
+                	<li><a href="./t1604874.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 17, 2018</a></li>
+                    
+                	<li><a href="./t1604508.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 16, 2018</a></li>
+                    
+                	<li><a href="./t1604154.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 15, 2018</a></li>
+                    
+                	<li><a href="./t1603722.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 12, 2018</a></li>
+                    
+                	<li><a href="./t1603452.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 11, 2018</a></li>
+                    
+                	<li><a href="./t1603186.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 10, 2018</a></li>
+                    
+                	<li><a href="./t1602877.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 9, 2018</a></li>
+                    
+                	<li><a href="./t1602635.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on October 8, 2018</a></li>
+                    
+                	<li><a href="./t1600384.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 28</a></li>
+                    
+                	<li><a href="./t1599752.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 27</a></li>
+                    
+                	<li><a href="./t1599177.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 26</a></li>
+                    
+                	<li><a href="./t1598615.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 25</a></li>
+                    
+                	<li><a href="./t1597725.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 21</a></li>
+                    
+                	<li><a href="./t1597236.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 20</a></li>
+                    
+                	<li><a href="./t1596795.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 19</a></li>
+                    
+                	<li><a href="./t1596340.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 18</a></li>
+                    
+                	<li><a href="./t1595908.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 17</a></li>
+                    
+                	<li><a href="./t1595274.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 14</a></li>
+                    
+                	<li><a href="./t1594900.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 13</a></li>
+                    
+                	<li><a href="./t1594517.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 12</a></li>
+                    
+                	<li><a href="./t1594148.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 11</a></li>
+                    
+                	<li><a href="./t1593756.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 10</a></li>
+                    
+                	<li><a href="./t1593246.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on September 7, 2018</a></li>
+                    
+                	<li><a href="./t1592800.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on September 6, 2018</a></li>
+                    
+                	<li><a href="./t1592240.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on September 5, 2018</a></li>
+                    
+                	<li><a href="./t1591256.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on September 3, 2018</a></li>
+                    
+                	<li><a href="./t1590266.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on August 31, 2018</a></li>
+                    
+                	<li><a href="./t1589844.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on August 30, 2018</a></li>
+                    
+                	<li><a href="./t1589364.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on August 29, 2018</a></li>
+                    
+                	<li><a href="./t1589014.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on August 28, 2018</a></li>
+                    
+                	<li><a href="./t1588564.shtml" target="_blank">Foreign Ministry Spokesperson Hua Chunying's Regular Press Conference on August 27, 2018</a></li>
+                    
+                	<li><a href="./t1588050.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on August 24, 2018</a></li>
+                    
+                	<li><a href="./t1587703.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on August 23, 2018</a></li>
+                    
+                	<li><a href="./t1587407.shtml" target="_blank">Foreign Ministry Spokesperson Lu Kang's Regular Press Conference on August 22, 2018</a></li>
+                    
+                </ul>
+            </div>
+			<div id="pages" style="display:none;">
+			<script type="text/javascript">
+var currentPage = 10;//所在页从0开始
+var prevPage = currentPage-1//上一页
+var nextPage = currentPage+1//下一页
+var countPage = 13//共多少页
+document.write(countPage+"Page(s) &nbsp;&nbsp;");
+//设置上一页代码
+if(countPage>1&&currentPage!=0&&currentPage!=1)
+	document.write("<a href=\"default.shtml\" class='fy'>First</a>&nbsp;<a href=\"default"+"_" + prevPage + "."+"shtml\" class='fy'>Prev</a>&nbsp;");
+else if(countPage>1&&currentPage!=0&&currentPage==1)
+	document.write("<a href=\"default.shtml\" class='fy'>First</a>&nbsp;<a href=\"default.shtml\" class='fy'>Prev</a>&nbsp;");
+else
+	document.write("First&nbsp;Prev&nbsp;");
+//循环
+var num = 5;
+for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++){
+	if(currentPage==i)
+		document.write("<span style=\"color:#FF0000;\">"+(i+1)+"</span>&nbsp;");
+	else if(i==0)
+		document.write("<a href=\"default.shtml\" class='fy'>"+(i+1)+"</a>&nbsp;");
+	else
+		document.write("<a href=\"default"+"_" + i + "."+"shtml\" class='fy'>"+(i+1)+"</a>&nbsp;");
+}
+
+//设置下一页代码 
+if(countPage>1&&currentPage!=(countPage-1))
+	document.write("<a href=\"default"+"_" + nextPage + "."+"shtml\" class='fy'>Next</a>&nbsp;<a href=\"default_" + (countPage-1) + ".shtml\" class='fy'>Final</a>&nbsp;");
+else
+	document.write("Next&nbsp;Final&nbsp;");
+	
+//跳转页面
+document.write("<font class='9ptb'>Go to Page<input type='text' id='num' value="+(currentPage+1)+" style='width:30px;font-size:12px;'/>"+
+		             "&nbsp;<input style='font-size:12px' type='submit' value='Submit' onclick='javacript:toPage()'/></font>");
+	             
+function toPage(){
+	var _num = document.getElementById("num").value;
+	if(isNaN(_num)){
+		alert("Please enter a number");
+		return false;
+	}
+	var str = "default"+"_"+(_num-1)+"."+"shtml";
+	var url = location.href.substring(0,location.href.lastIndexOf("/")+1);
+	if(_num<=1||_num==null)
+		location.href = url+"default"+"."+"shtml";
+	else if(_num>countPage)
+		alert("Please enter numbers only "+countPage);
+	else
+		location.href = url+str;
+}
+</script>
+			</div>
+        </div>
+        <div class="right_sidebar fr">
+        	<div class="about_mod">
+				
+            	<h2 class="mod_hd2" style="margin-bottom:30px;"><a href="../">Spokesperson's Remarks</a></h2>
+                <ul>
+                	
+					<li><a href="../hcy_665411/">CV of Foreign Ministry Spokesperson Hua Chunying</a></li>
+                    
+					<li><a href="../fyrgsjl/">CV of Foreign Ministry Spokesperson Geng Shuang</a></li>
+                    
+					<li><a href="../zlj/">CV of Foreign Ministry Spokesperson Zhao Lijian</a></li>
+                    
+                </ul>
+				
+            </div>
+        </div>
+    </div>
+    
+    <style type="text/css">
+.footer{ width:1015px; margin:25px auto 0; background:none;border-top:2px solid #666666; padding-top:10px; height:80px}
+.copyright{ color:#999999;line-height:24px; text-align:center;border:none; padding:0;}
+</style>
+<div class="footer">
+        <div class="copyright">Copyright©1998-2014, Ministry of Foreign Affairs, the People's Republic of China<br />Contact us Address: No. 2, Chaoyangmen Nandajie, Chaoyang District, Beijing, 100701 Tel: 86-10-65961114</div> 
+<div style="text-align:center; padding:5px 0; ">
+		<a href="http://bszs.conac.cn/sitename?method=show&id=07287F0D6EDF0310E053022819AC647D" target="_blank"><img src="https://www.fmprc.gov.cn/mfa_eng/images/P020180901587211901157.png"/></a>
+		</div> 
+    </div>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=469" async="async" defer="defer"></script>
+	<script type="text/javascript">
+var count = 2713;
+	if(count>40)
+				document.getElementById("pages").style.display="block";
+	</script>
+    
+</body>
+</html>

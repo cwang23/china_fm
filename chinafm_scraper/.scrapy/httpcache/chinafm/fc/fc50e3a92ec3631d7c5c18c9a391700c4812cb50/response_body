@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 21</title>
+<link type="text/css" href="../../../images/style.css" rel="stylesheet"/>
+<script type="text/javascript" src="../../../images/main.js"></script>
+</head>
+
+<body>
+	<style type="text/css">
+.content em{font-style:italic !important;}
+.content{padding-top:20px;}
+.key{ *height:29px; *line-height:29px;} 
+.submit{ *width:75px;}
+.header{ width:1015px; height:159px; background:url(https://www.fmprc.gov.cn/mfa_eng/images/header.jpg) scroll 0 0 no-repeat; margin:0 auto; padding-top:13px; he\ight:146px}
+.header .lang a{ color:#fff; font-size:12px; float:right; margin-left:20px;}
+.lang{ color:#fff; padding-bottom:34px;}
+.nav{width:1015px; margin:0 auto;padding:0 9px; padding-bottom:0;width:997px; line-height:39px; height:39px;border-bottom:2px solid #dee5f8}
+.urhere{line-height:21px; padding-bottom:7px; padding-top:7px; height:auto;}
+.mod_hd2{height:auto;}
+.newsLst_mod li{ background:url(https://www.fmprc.gov.cn/mfa_eng/images/arrow.gif) no-repeat 0px 10px;}
+.nav .subNav{background-color:#fff; border:1px solid #7587b5; padding:0 0 0 9px; position:absolute; top:38px; left:0; z-index:1000; display:none;
+filter:alpha(opacity=95);  /*支持 IE 浏览器*/
+-moz-opacity:0.95; /*支持 FireFox 浏览器*/
+opacity:0.95;  /*支持 Chrome, Opera, Safari 等浏览器*/
+padding-bottom:10px;
+}
+.nav ul{ width:1020px} 
+.nav li{ float:left;line-height:20px; position:relative;margin-right:0;}
+.nav li a{ color:#31457e; font-size:17px; font-weight:bold; padding:0 8px; line-height:38px;display:inline-block}
+.nav li a:hover{background-color:#254286; color:#fff; text-decoration:none}
+.nav li.cur a{ background-color:#254286; color:#fff}
+
+
+.nav a:hover,.nav a.cur{ text-decoration:underline}
+.nav .subNav dt{ width:128px; background-color:#7587b5; height:30px; line-height:30px}
+.nav .subNav dt a,.nav .subNav dt a:hover{color:#fff; font-size:12px;  font-weight:bold; text-align:center;background:none; height:30px; line-height:30px}
+.nav .subNav a:hover{text-decoration:underline;}
+.nav .subNav dl{ width:128px; float:left; margin-right:9px; display:inline;}
+.nav .subNav dd{ border-bottom:1px solid #7587b5;line-height:28px;}
+.nav .subNav dd a,.nav .subNav dd a:hover{ line-height:28px;background:#fff url(https://www.fmprc.gov.cn/mfa_eng/images/arrow2.png) scroll 0 11px no-repeat; color:#555555; font-weight:lighter; font-size:13px;}
+.nav .subNav1{ 
+width:760px;
+}
+.nav .subNav2{ 
+width:250px;
+
+}
+.nav .subNav2 dl{width:232px; padding-right:1px;}
+
+.nav .subNav3{ 
+width:630px;
+}
+.nav .subNav4{ 
+width:280px;
+
+}
+.nav .subNav4 dl{width:262px; padding-right:1px;}
+.nav .subNav5{ 
+width:200px;
+
+}
+.nav .subNav5 dl{width:182px; padding-right:1px;}
+.nav .subNav6{ 
+width:770px;
+left:auto; right:-32px;
+}
+</style>
+<script type="text/javascript" src="https://www.fmprc.gov.cn/mfa_eng/images/jq.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".nav ul li").hover(function(){
+			$(this).find("div").css("display","block");
+			$(this).children("a").css("backgroundColor","#254286");
+			$(this).children("a").css("color","#fff");
+			
+		},function(){
+		$(this).find("div").css("display","none");
+		$(this).children("a").css("backgroundColor","#fff");
+		$(this).children("a").css("color","#31457e");
+		});
+	});
+</script>
+<script type="text/javascript">
+function search_checkeng() {
+var sword =document.getElementById("sw").value.replace(/^\s+|\s+$/g,"");
+	
+if (sword=='Please enter keywords' || sword=="") {
+	alert('Please enter keywords!');
+	return false;
+} else {	
+	return true;
+	}
+}
+</script>
+<div class="header">
+<div class="lang" style="padding-right:35px;">
+
+
+<a href="//www.fmprc.gov.cn/ara/" target="_blank" style="font-size:14px;">&#1593;&#1585;&#1576;&#1610;</a>
+<a href="//www.fmprc.gov.cn/esp/" target="_blank">Español</a>
+<a href="//www.fmprc.gov.cn/rus/" target="_blank">Русский</a>
+<a href="//www.fmprc.gov.cn/fra/" target="_blank">Français</a>
+<a href="//www.fmprc.gov.cn/mfa_chn/" target="_blank">简体中文</a>
+</div>
+    	<div class="search clearfix">
+        	<form action="https://www.fmprc.gov.cn/wjb/eng_search.jsp" method="post" onsubmit="return search_checkeng()" class="searchFrm">
+		<input type="hidden" name="siteid" value="5201"/>
+		<input type="hidden" name="sitename" value="www_eng"/>
+        <input type="text" name="sw" id="sw" class="key fl" value=""/> <select name="select" id="select" style="display:none;">
+                     <option selected="selected" value="1">This site</option>
+					 <option value="0">All sites</option>
+                    </select><input type="submit" value="search" class="submit fr"/>
+        </form>
+        </div>
+    </div>
+
+    <div class="nav" style=" position:relative;z-index:99999;">
+     <ul class="clearfix">
+            <li><a href="http://www.fmprc.gov.cn/mfa_eng">Home</a></li>
+            <li><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/">The Ministry</a>
+            	<div class="subNav subNav1">
+                	<dl>
+                        <dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zyzz_663306/">Main Functions</a></dt>
+						<dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zzjg_663340/">Departments</a></dt>
+						<dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zgags_665381/">Related Agencies</a></dt>
+						<dt style="border-bottom:#fff 1px solid;"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/cgwjb_665383/">Tour the Ministry</a></dt>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/wjbz_663308/">The Minister</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/wjbz_663308/2461_663310/">Speeches</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/wjbz_663308/activities_663312/">Activities</a></dd>
+                        
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zygy_663314/">Principal Officials</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zygy_663314/gyjl_663316/">Biographies</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zygy_663314/gyhd_663338/">Activities</a></dd>
+                        
+                    </dl>
+                    <dl style="width:335px">
+                        <dt style="width:335px"><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/">Missions Overseas</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/2490_665344/">Chinese Embassies</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/2498_665360/">Chinese Consulates General</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/2506_665376/">Chinese Missions to International Organizations and Representative Offices Abroad</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjb_663304/zwjg_665342/zwbd_665378/">News From Mission Overseas</a></dd>
+                        
+                    </dl>
+                    
+                </div>
+          </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/">Policies and Activities</a>
+		  <div class="subNav subNav2">
+                    <dl>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/wshd_665389/">Activities</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/wsrc_665395/">Diplomatic Agenda</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/dsrm_665397/">New Ambassadors</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/zyjh_665391/">Speeches</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/2649_665393/">Communiques</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/wjdt_665385/wjzcs/">Foreign Policies</a></dd>
+                        
+                    </dl>
+                    
+                </div>
+		  </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/">Press and Media Service</a>
+		  <div class="subNav" style="width:330px;">
+                    <dl style="width:320px">
+                        <dt style="width:320px"><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/">Spokesperson's Remarks</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/">Regular Press Conference</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2535_665405/">Spokesperson's Remarks </a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/hcy_665411/">CV of Foreign Ministry Spokesperson Hua Chunying</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/fyrgsjl/">CV of Foreign Ministry Spokesperson Geng Shuang</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/zlj/">CV of Foreign Ministry Spokesperson Zhao Lijian</a></dd>
+                        
+                    </dl>
+                    <dl style="margin-top:10px; width:320px;">
+                        <dt style="width:320px"><a href="http://ipc.fmprc.gov.cn/eng/">International Press Center</a></dt>
+                    </dl>
+                </div>
+		  </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/">Countries and Regions</a>
+		  <div class="subNav subNav2">
+                    <dl>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/2675_665437/">Asia</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/2797_665439/">Western Asia and North Africa</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/2913_665441/">Africa</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3124_665443/">the European and Central Asian Region</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3265_665445/">the European Region</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3376_665447/">North America and Oceania</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/3447_665449/">Latin America</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/dqzzywt_665451/">Regional Organizations and Issues</a></dd>
+                        
+                    </dl>
+                    
+                </div>
+		  </li>
+          <li><a href="http://english.gov.cn/archive/chinaabc/" target="_blank">About China</a>
+		  </li>
+          <li><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/">Resources</a>
+		  <div class="subNav subNav6" style="width:800px;">
+                	                    <dl style="width:200px;">
+                        <dt style="width:200px"><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/3602_665543/">Diplomatic History</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/3602_665543/3603_665545/">New China's Diplomacy Over the Past 50 Years</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/3602_665543/3604_665547/">Events and Issues</a></dd>
+                        
+                    </dl>
+                    <dl style="width:200px;">
+                        <dt style="width:200px"><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/">Diplomatic Figures</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/3606_665551/">Former Ministers</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/lrfbzjbzzl_665553/">Former Vice Ministers and Assistant Ministers</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/3607_665555/">Ambassadors</a></dd>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/wjrw_665549/lrls_665575/">Consuls General</a></dd>
+                        
+                    </dl>
+                    <dl style="width:200px;">
+                        <dt style="width:200px"><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/lbzs_665591/">Protocol ABC</a></dt>
+                        
+						<dd><a href="http://www.fmprc.gov.cn/mfa_eng/ziliao_665539/lbzs_665591/temp_665593/">Regulations about Foreign Missions in China</a></dd>
+                        
+                    </dl>
+                   <dl style="width:150px;">
+                        <dt style="width:150px"><a href="http://www.bds-cn.com/en/home/">Diplomatic Service</a></dt>
+                                           </dl>
+
+                </div>
+		  </li>
+      </ul>
+    </div>
+<style type="text/css">
+.content p{color:#333; line-height:24px; font-size:14px;}
+.content p a{ color:#0000CC; text-decoration:none;}
+.content p a:hover{ color:#FF0000; text-decoration:none;}
+.content {color:#333; line-height:24px; font-size:14px;text-align:justify;text-justify:inter-ideograph;}
+.content a{ color:#0000CC; text-decoration:none;}
+.content a:hover{ color:#FF0000; text-decoration:none;}
+.newsLst_mod li{ background:url(http://www.fmprc.gov.cn/mfa_eng/images/arrow.gif) scroll 10px 10px no-repeat; padding-left:22px; line-height:22px}
+</style>
+
+    <div class="container clearfix">
+    	<div style="width:100%">
+        	<div class="urhere">
+            	<a href="./../../../">Home</a>&nbsp;>&nbsp;<a href="./../../">Press and Media Service</a>&nbsp;>&nbsp;<a href="./../">Spokesperson's Remarks</a>&nbsp;>&nbsp;<a href="./">Regular Press Conference</a>
+            </div>
+            <div class="content_mod">
+            	<h2 class="title">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 21</h2>
+				<h2 style="text-align:center; font-size:16px; font-weight:bold; margin-bottom:10px;" id="News_Body_subitle"></h2>
+				<h2 style="text-align:center; font-size:14px; margin-bottom:10px;" id="News_Body_source"></h2>
+                <div class="date" id="News_Body_Time"></div>
+				<script type="text/javascript">
+					var subtitle = document.getElementById("News_Body_subitle");
+					var docsource = document.getElementById("News_Body_source");
+					var docreltime = document.getElementById("News_Body_Time");
+					if(subtitle.innerHTML=="")
+						subtitle.style.display="none";
+					if(docsource.innerHTML=="")
+						docsource.style.display="none";
+					if(docreltime.innerHTML=="")
+						docreltime.style.display="none";
+				</script>
+                <div class="content">
+                <P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=center _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020180922012069850508.jpg" _fckxhtmljob="1" OLDSRC="W020180922012069850508.jpg" _fcksavedurl="/webpic/W0201809/W020180922/W020180922012069850508.jpg"/></SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: According to reports, the US Department of State announced on September 20 that it would im</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">pose sanctions on the Equipment Development Department (EDD) of the Central Military Commission and its director for violating the Countering America</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s Adversaries Through Sanctions Act (CAATSA). What</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s your comment? </SPAN></B></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: The Chinese expresses strong indignation at this above-mentioned unreasonable action by the US and has lodged solemn representations. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">The relevant US action has seriously violated the basic norms governing international relations and seriously damaged the relations between the two countries and the two militaries. We strongly urge the US side to immediately correct their mistake and withdraw their so-called sanctions, otherwise the US will have to bear the consequences. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: The US State Department also said that it will continue to pursue sanctions and urge countries to end relations with Russian defense and intelligence sectors. I wonder if China will still continue to cooperate with Russia in the relevant area? </SPAN></B></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: China and Russia are comprehensive strategic partners of coordination. Our two sides maintain normal exchanges and cooperation in defense and other areas with the principle of equality, mutual trust and mutual benefit. The relevant cooperation aims to safeguard the legitimate rights and interests of our two countries and uphold regional peace and stability. It does not violate international law </SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">or t</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">arget any third party. We will join hands with Russia to continue to implement the important consensus reached by the leaders of our two countries and elevate our strategic coordination to a higher level.&nbsp;</SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: Should we presume that the defense cooperation between China and Russia would continue as it is without any disruptions, despite the US sanctions?</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: I think the response I have given just now is clear-cut enough. </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: Do you have any details on the visit of the Vatican delegation? When are they coming? Who will they meet?</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: As to this question, I have responded to it many times. </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">I have no information to offer to you at this point. China and the Vatican maintain effective contact and communication. </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: According to the report of the Vietnam News Agency on September 21, </SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Vietnamese President Tran Dai Quang</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">passed away today at age 61. What</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s your comment?</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: Comrade Tran Dai Quang&nbsp;is an outstanding Party and state leader of Vietnam, who has made important contributions to Vietnam's cause of national development and reform and opening up as well as the deepening of China-Vietnam comprehensive strategic cooperative partnership. We express deep grief and condolence to his passing. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: The US defense department published its first cybersecurity strategy report on September 18, saying it will focus on states that can put strategic </SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">"</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">threats</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">"</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">&nbsp;to the US prosperity, including China and Russia. What is your comment? </SPAN></B></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: The Chinese side has been a staunch defender of cyber security and has always firmly opposed and combated any form of cyber attacks and theft.The Chinese side calls on the United States to abandon the cold-war and zero-sum mentality and jointly address cyber security threats through dialogue and cooperation with China and Russia on the basis of mutual respect, equality and mutual benefit. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: Has China decided to accept the US invitation for another round of trade talks? If so, when will it take place and who will lead the Chinese delegation?</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: I already responded to this question several times recently. The spokesman for the Ministry of Commerce also made clear China's stance at a regular press conference yesterday. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">We have kept stressing that dialogue and consultation on the basis of equality, good faith and mutual respect make the only viable way to solve the China-US trade disputes. However, everything the US does has not given any impression of sincerity and goodwill. We hope that the US side will take measures to correct its mistakes. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: State Councilor and Foreign Minister Yi Wang&nbsp;has already arrived in the Dominican Republic. Do you have any details on his visit?</SPAN></B> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: I haven't got the latest updates yet. According to what I had at hand before State Councilor and Foreign Minister&nbsp;Wang Yi left for the visit, he will meet with leaders of the Dominican Republic, hold talks with Foreign Minister Miguel Vargas Maldonado, and inaugurate the Chinese Embassy in the Dominican Republic. The updates on this visit will come out soon, please stay tuned to it. </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Q: </SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">T</SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">he 12th World Economic Forum's Annual Meeting of the New</SPAN></B> <B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Champions </SPAN></B><B _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">was concluded in Tianjin yesterday. Premier Li Keqiang attended the forum and delivered a special address. What message did Premier Li Keqiang send out at this forum? </SPAN></B></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">A: This year</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s Summer Davos Forum is the largest one so far with the participation of over 2,500 representatives from various sectors of more than 100 countries and regions. In his special address at the opening ceremony, Premier Li Keqiang reaffirmed the major propositions put forth by President Xi Jinping at last year</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s World Economic Forum annual meeting, put forward the important proposal of boosting the new drivers of global growth in the new industrial revolution and expounded China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s economic development and future policy directions. The </SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">key </SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">message sent out by Premier Li Keqiang in his speech can be summed up as follows: </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Firstly, China firmly upholds economic globalization. The Chinese side always believes that the rules-based multilateral trading system is the bedrock of economic globalization and free trade and that its authority and efficacy should be respected and protected. Taking a unilateralist approach will not solve any problems. The attendees echoed what he said by stating their support for multilateralism and free trade. </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Secondly, the Chinese economy maintains a sound momentum of steady progress. Premier Li Keqiang pointed out that the Chinese economy has stayed on the track of steady progress, with growing new drivers and sound fundamentals. The express train of China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s economy will not lose speed but stay on a steady course. The representatives are also optimistic about the prospects of China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s economy and believe that Premier Li Keqiang</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s speech will help the world get a better understanding of China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s policies on development, reform and innovation. </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">Thirdly, China will press ahead with reform and opening up. This year marks the 40th anniversary of reform and opening up. Since the beginning of this year, we have introduced a host of major steps to deepen reform, expand opening up and advance innovation. Going forward, China will work even harder to advance reform and opening up, restructure and stimulate innovation. China will further widen market access and continue to lower its overall tariff level so as to create a market environment in which companies of all ownerships, be they Chinese or foreign-owned, are treated as equals and compete on a level playing field. China will introduce a more rigorous system for intellectual property rights protection to make infringers pay unaffordable price. The representatives all expressed their willingness to continue to take an active part in China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s reform and opening up and share the opportunities presented by China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s reform and development in a bid to achieve mutual benefit and win-win outcomes with China. &nbsp;</SPAN> </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" align=justify _fckxhtmljob="1"><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">At last, I would like to stress that like Premier Li Keqiang pointed out, China</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s economic </SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">growth</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">&nbsp;now accounts for about 30 percent of the world</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">'</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">s total. The Chinese market is simply</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">&nbsp;too big f</SPAN><SPAN style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">or any far-sighted business leaders to ignore. China is willing to work with all parties to ensure the new industrial revolution will promote the sustainable and inclusive growth of the world economy and make greater contribution to the recovery and steady growth of the world economy. </SPAN></P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1">According to this year's holiday arrangement during the Mid-autumn Day, there will be no regular press conference on September 24 (Monday). The press conference will be resumed on September 25 (Tuesday). During the recess, the Spokesperson's Office of the Foreign Ministry will take your questions via telephone and fax.&nbsp;Happy Mid-autumn Festival! </P>
+<P style="FONT-SIZE: 14px; FONT-FAMILY: arial" _fckxhtmljob="1"><IMG style="BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px" src="./W020180922012069877513.jpg" _fckxhtmljob="1" OLDSRC="W020180922012069877513.jpg" _fcksavedurl="/webpic/W0201809/W020180922/W020180922012069877513.jpg"/></P>
+                </div>
+				<div class="tool" style="margin-top:15px; display:none;" id="Appendix_article">
+				<div style="font-size:14px; font-weight:bold; height:26px; line-height:26px; padding-left:10px;">Appendix:</div>
+				<div class="newsLst_mod">
+            	<ul id="id_AppendixList_article_list">
+                	
+                </ul>
+            </div>
+			<script type="text/javascript" language="javascript">
+				var liname = document.getElementById("id_AppendixList_article_list");
+				var appendix_list = document.getElementById("Appendix_article");
+      	 		if(liname.innerHTML.indexOf("<")>=0 ){
+         			appendix_list.style.display = "block";
+         		}
+        	</script>
+				</div>
+               
+			   <div class="tool" style="margin-top:15px;">
+                	<table cellpadding="0" cellspacing="0" width="100%">
+                    	<tr>
+<td width="2"></td>
+                        	<td valign="middle" width="150" align="left"><img src="//www.fmprc.gov.cn/mfa_eng/images/ico_email.gif" width="20" height="20"/>Suggest to a friend</td>
+							<form name="Form2000" method="post" action="" enctype="text/plain" onsubmit="return validate_form()">
+                            <td valign="middle" width="168"><input type='text' name='FriendEmail' size='22' value="Please enter E-mail" onfocus="javascript:if(this.value='Please enter E-mail')this.value='';" style="height:13px;"/></td>
+							<td valign="middle" align="left" width="200"><input type='image' name='Subject' id="Subject" src="//www.fmprc.gov.cn/mfa_eng/images/btn_submit.gif" style="margin-left:5px;"/></td>
+							</form>
+                            <td valign="middle" width="180" align="left"><a href="javascript:window.print();"><img src="//www.fmprc.gov.cn/mfa_eng/images/ico_print.gif" width="20" height="20"/>Print</a></td>
+							<form action="https://www.fmprc.gov.cn/wjb/eng_search.jsp" method="post" onsubmit="return search_checkeng()" class="searchFrm">
+                            <td valign="middle" width="150"><input type="hidden" name="siteid" value="5201"/>
+		<input type="hidden" name="sitename" value="www_eng"/>
+        <input type="text" name="sw" id="sw" style="height:13px;" value="Please enter keywords"/></td><td valign="middle" align="left"><input type="image" value="" src="//www.fmprc.gov.cn/mfa_eng/images/btn_go.gif" style="margin-left:5px;"/></td>
+							</form>
+							</tr>
+                    </table>
+                </div>
+				
+				<div class="tool" style="margin-top:15px;display:none;" id="id_RelNewsList">
+				<div style="font-size:14px; font-weight:bold; height:26px; line-height:26px; padding-left:10px;">Related News:</div>
+				<div class="newsLst_mod">
+            	<ul id="id_RelNewsList_li">
+                 
+					<li><a href="./t1597236.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 20</a></li>
+                
+					<li><a href="./t1596795.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 19</a></li>
+                
+					<li><a href="./t1596340.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 18</a></li>
+                
+					<li><a href="./t1595908.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 17</a></li>
+                
+					<li><a href="./t1595274.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 14</a></li>
+                
+					<li><a href="./t1594900.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 13</a></li>
+                
+					<li><a href="./t1594517.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 12</a></li>
+                
+					<li><a href="./t1594148.shtml" target="_blank">Foreign Ministry Spokesperson Geng Shuang's Regular Press Conference on September 11</a></li>
+                
+                </ul>
+            </div>
+			
+			<script type="text/javascript" language="javascript">
+				var relList = document.getElementById("id_RelNewsList_li");
+				var relNews = document.getElementById("id_RelNewsList");
+                if( relList.innerHTML.indexOf("<")>=0 ){
+                    relNews.style.display = "block";
+                    }
+            </script>
+				</div>
+				
+            </div>
+        </div>
+        
+    </div>
+    
+    <style type="text/css">
+.footer{ width:1015px; margin:25px auto 0; background:none;border-top:2px solid #666666; padding-top:10px; height:80px}
+.copyright{ color:#999999;line-height:24px; text-align:center;border:none; padding:0;}
+</style>
+<div class="footer">
+        <div class="copyright">Copyright©1998-2014, Ministry of Foreign Affairs, the People's Republic of China<br />Contact us Address: No. 2, Chaoyangmen Nandajie, Chaoyang District, Beijing, 100701 Tel: 86-10-65961114</div> 
+<div style="text-align:center; padding:5px 0; ">
+		<a href="http://bszs.conac.cn/sitename?method=show&id=07287F0D6EDF0310E053022819AC647D" target="_blank"><img src="https://www.fmprc.gov.cn/mfa_eng/images/P020180901587211901157.png"/></a>
+		</div> 
+    </div>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=469" async="async" defer="defer"></script>
+
+    
+</body>
+</html>
