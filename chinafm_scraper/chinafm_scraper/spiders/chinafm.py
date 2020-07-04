@@ -5,15 +5,18 @@ from datetime import datetime
 from ..items import ChinaFmScraperItem
 
 
+# make list of URLs to scrape for English statements
 en_root = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403"
 en_urls = [en_root + "/default.shtml"]
 en_urls.extend([en_root + "/default_{:d}".format(x) + ".shtml" for x in range(1, 13)])
 
+# make list of URLs to scrape for Chinese statements
 ch_root = "https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889"
 ch_urls = [ch_root + "/default.shtml"]
 ch_urls.extend([ch_root + "/default_{:d}".format(x) + ".shtml" for x in range(1, 67)])
 
 
+# China Foreign Ministry scraper
 class ChinaFmSpider(scrapy.Spider):
     name = 'chinafm'
 
@@ -25,32 +28,48 @@ class ChinaFmSpider(scrapy.Spider):
         self.logger.info('Parse function called on %s', response.url)
         self.logger.info('URL identified as Chinese: %s', str(is_ch_url))
 
+        # depending on whether it's in Chinese, different XPath selector required
         ch_xp = '//*[contains(concat( " ", @class, " " ), concat( " ", "rebox_news", " " ))]//a/@href'
         en_xp = '//*[contains(concat( " ", @class, " " ), concat( " ", "fl", " " ))]//a/@href'
 
+        # grab urls
         urls = response.xpath(ch_xp).extract() if is_ch_url else response.xpath(en_xp).extract()
         rooturl = ch_root if is_ch_url else en_root
 
+        # initialize empty list to store URLs to parse
         parseurls = []
+
+        # loop through list of sub URLs grabbed from page and format
         for u in urls:
             if "shtml" in u:
                 out = rooturl + u.replace(".", "", 1)
                 parseurls.append(out)
-        return(Request(suburl, callback=self.parse_mf_press, meta={'is_ch_url': is_ch_url}) for suburl in parseurls)
+
+        # call parsing function to grab data from statements
+        return(
+            Request(
+                suburl,
+                callback=self.parse_mf_press,
+                meta={'is_ch_url': is_ch_url}
+            ) for suburl in parseurls
+        )
+
 
     def parse_mf_press(self, response):
         is_ch_url = response.meta['is_ch_url']
 
+        # if it's a Chinese URL, need to use different XPath selectors
         if is_ch_url:
             title = response.xpath('//*[(@id = "News_Body_Title")]').getall()
             date = response.xpath('//*[(@id = "News_Body_Time")]').getall()
             text = response.xpath('//p').getall()
+        # XPath selectors for English statements
         else:
             title = response.xpath('//title/text()').getall()
-            date = "None"
+            date = "None"  # English pages don't have date
             text = response.xpath('//p').getall()
 
-
+        # initialize items to store info
         items = ChinaFmScraperItem()
 
         items['title'] = title
@@ -60,4 +79,5 @@ class ChinaFmSpider(scrapy.Spider):
         items['lang'] = 'Chinese' if is_ch_url else 'English'
         items['scrape_date'] = datetime.today().strftime("%Y%m%d")
 
+        # output info
         yield items
