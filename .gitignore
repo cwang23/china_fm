@@ -8,3 +8,4 @@
 
 # subdirectories to ignore
 **/httpcache
+**/__pycache__
