@@ -9,3 +9,5 @@
 # subdirectories to ignore
 **/httpcache
 **/__pycache__
+**logs
+**rsconnect
