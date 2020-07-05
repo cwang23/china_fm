@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from datetime import datetime
 
 # Scrapy settings for chinafm_scraper project
 #
@@ -90,4 +91,4 @@ HTTPCACHE_ENABLED = True
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # Store logs
-LOG_FILE = "chinafm_log.log"
+LOG_FILE = "logs/chinafm_log_" + datetime.today().strftime("%Y%m%d") + ".log"

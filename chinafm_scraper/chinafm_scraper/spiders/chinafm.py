@@ -3,6 +3,7 @@ import scrapy
 from scrapy import Request
 from datetime import datetime
 from ..items import ChinaFmScraperItem
+import re
 
 
 # make list of URLs to scrape for English statements
@@ -62,12 +63,27 @@ class ChinaFmSpider(scrapy.Spider):
         if is_ch_url:
             title = response.xpath('//*[(@id = "News_Body_Title")]/text()').getall()
             date = response.xpath('//*[(@id = "News_Body_Time")]/text()').getall()
-            text = response.xpath('//p').getall()
+            initial_text = response.xpath('//p').getall()
+            text = []
+            for t in initial_text:
+                split_text = t.replace("<BR><BR>", "<br><br>")
+                split_text = re.sub("^<br><br>", "", split_text)
+                split_text = re.sub("<br><br>$", "", split_text)
+                split_text = split_text.split("<br><br>")
+                text.extend(split_text)
         # XPath selectors for English statements
         else:
             title = response.xpath('//title/text()').getall()
             date = [None]  # English pages don't have date
-            text = response.xpath('//p').getall()
+            initial_text = response.xpath('//p').getall()
+            text = []
+            for t in initial_text:
+                split_text = t.replace("<BR><BR>", "<br><br>")
+                split_text = re.sub("^<br><br>", "", split_text)
+                split_text = re.sub("<br><br>$", "", split_text)
+                split_text = split_text.split("<br><br>")
+                text.extend(split_text)
+
 
         # initialize items to store info
         items = ChinaFmScraperItem()

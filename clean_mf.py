@@ -2,82 +2,54 @@ import json
 import pandas as pd
 import re
 import csv
+from dateutil import parser
 from datetime import datetime
-import utils_clean
+from utils_clean import *
 
 
-# read in scraped data
+## READ IN SCRAPED FILE --------------------------------------------------------
 fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_" + datetime.today().strftime("%Y%m%d") + ".json"
-#fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_" + "20200703" + ".json"
+fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_20200704.json"
 
 with open(fname, 'rt', encoding='utf-8') as f:
     data = json.load(f, encoding="utf-8")
 
 len(data)
 
-data[1499]
-data[1499]['title'][0]
-data[1499]['date']
 
-
-
+## PARSE SCRAPED DATA ----------------------------------------------------------
 # initialize empty lists to store clean output
 clean_output_ch = list()
 clean_output_en = list()
 
-for i in range(0, len(data)):
-    # grab information from dict
-    # print(i)
-    entry = data[i]
-    title = entry['title'][0]
-    date = entry['date'][0]
+for entry in data:
     text = entry['text']
-    lang = entry['lang']
-    scrape_date = datetime.strptime(entry['scrape_date'], "%Y%m%d")
+    clean_lang = entry['lang']
+    clean_scrape_date = datetime.strptime(entry['scrape_date'], "%Y%m%d").strftime("%Y-%m-%d")
     clean_url = entry['url']
 
     # flag for whether it's in Chinese
-    is_ch = lang == "Chinese"
+    is_ch = clean_lang == "Chinese"
 
-    # clean title information
-    clean_spox = get_clean_spox(title, is_ch)
-    topicdate = re.findall("(?<= on )(.*)(?=)", title)
+    # clean title and date information
+    orig_spox, clean_spox = get_clean_spox(entry, is_ch)
+    clean_date = get_clean_date(entry, is_ch)
+    clean_remarkstype = get_clean_type(entry, is_ch)
 
-    clean_date = "No Date"
-    clean_topic = "No Topic"
-    if len(topicdate) > 0:
-        if "20" in topicdate[0]:
-            clean_date = topicdate[0]
-        else:
-            clean_topic = topicdate[0]
-
-    if "Regular Press Conference" in title:
-        clean_type = "Regular Press Conference"
-    elif "Remarks" in title:
-        clean_type = "Remarks"
-    else:
-        clean_type = "No Type"
-
-    # clean the remarks
+    # initialize empty lists to store cleaned lines information
     clean_remarks = []
     clean_order = []
     clean_contenttype = []
     clean_string = ''
-
     order_start = 1
-    for x in line:
-        clean, question_flag = clean_html_tags(x)
-        # print(clean)
 
-        # check if there's a Q: or CNN: at the beginning of line
-        q_or_a = bool(re.match("^[A-Za-z ]{1,30}:", clean)) or question_flag
-        # print(f'q_or_a: {q_or_a}')
-        answer_a = bool(re.match("^A:", clean))
-        # print(f'answer_a: {answer_a}')
-        answer_name = clean_spox in clean
+    # iterate through each line and parse
+    for line in text:
+        stripped_text, question_flag = get_clean_remarks(line)
 
-        answer_flag = answer_a or answer_name
-        # print(f'answer_block: {answer_block}')
+        # check if it's a question or answer block
+        q_or_a = check_qa(stripped_text, is_ch) or question_flag
+        answer_flag = check_answer(stripped_text, orig_spox, is_ch)
 
         if answer_flag:
             blocktype = "A"
@@ -88,61 +60,85 @@ for i in range(0, len(data)):
 
         # if just beginning, set cleaned string as start
         if clean_string == '':
-            clean_string = clean
+            clean_string = stripped_text
             clean_type = blocktype
+
         # if it's a question or answer, set the start of new clean string
         # to this beginning question or answer
         elif q_or_a:
-            # add the cleaned info to list
+            # add the current info to list
             clean_remarks.append(clean_string)
             clean_order.append(order_start)
             clean_contenttype.append(clean_type)
 
-            # reset values
+            # reset values to signal start of answer or question
             order_start += 1
-            clean_string = clean
+            clean_string = stripped_text
             clean_type = blocktype
+
         # if it's not the beginning of a section, add it to the string
         else:
-            clean_string = clean_string + '<br><br>' + clean
+            clean_string = clean_string + '<br><br>' + stripped_text
 
-    # add the last paragraph to the string
+    # add the last paragraph to the lists
     clean_remarks.append(clean_string)
     clean_order.append(order_start)
     clean_contenttype.append(clean_type)
 
     # make dictionary to store cleaned info
     out = {
-        "title": title,
+        "title": entry['title'][0],
         "spox": clean_spox,
         "date": clean_date,
-        "topic": clean_topic,
-        "type": clean_type,
+        "type": clean_remarkstype,
         "content": clean_remarks,
         "content_order": clean_order,
         "content_type": clean_contenttype,
-        'url': clean_url
+        'url': clean_url,
+        'lang': clean_lang,
+        'scrape_date': clean_scrape_date
     }
-    clean_output.append(out)
 
+    if is_ch:
+        clean_output_ch.append(out)
+    else:
+        clean_output_en.append(out)
+
+
+## STACK AND WRITE DATA --------------------------------------------------------
 # make it a data frame
-full_clean = pd.DataFrame(clean_output)
+full_clean_en = pd.DataFrame(clean_output_en)
+full_clean_en.shape
+full_clean_ch = pd.DataFrame(clean_output_ch)
+full_clean_ch.shape
 
+
+# identify index columns
+index_cols = ['title', 'date', 'spox', 'type', 'url', 'lang', 'scrape_date']
 # explode into rows
-expanded_full_clean = full_clean.set_index(['title', 'date', 'spox', 'topic', 'type', 'url']).apply(pd.Series.explode).reset_index()
-expanded_full_clean.shape
+expanded_full_clean_en = full_clean_en.set_index(index_cols).apply(pd.Series.explode).reset_index()
+expanded_full_clean_en.shape
+expanded_full_clean_ch = full_clean_ch.set_index(index_cols).apply(pd.Series.explode).reset_index()
+expanded_full_clean_ch.shape
 
-# read in original file
-original = pd.read_csv('C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf.csv', encoding='utf-8', index_col=0)
-original.shape
+# read in original files
+original_en = pd.read_csv('C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_en.csv', encoding='utf-8', index_col=0)
+original_en.shape
+original_ch = pd.read_csv('C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_ch.csv', encoding='utf-8', index_col=0)
+original_ch.shape
 
 # stack dataframes
-stacked = pd.concat([original, expanded_full_clean])
-stacked.shape
+stacked_en = pd.concat([original_en, expanded_full_clean_en])
+stacked_en.shape
+stacked_ch = pd.concat([original_ch, expanded_full_clean_ch])
+stacked_ch.shape
 
 # remove duplicates
-stacked.drop_duplicates(subset=list(stacked), keep='first', inplace=True)
-stacked.shape
+stacked_en.drop_duplicates(subset=list(stacked_en), keep='first', inplace=True)
+stacked_en.shape
+stacked_ch.drop_duplicates(subset=list(stacked_ch), keep='first', inplace=True)
+stacked_ch.shape
 
 # write to csv
-stacked.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf.csv")
+stacked_en.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_en.csv")
+stacked_ch.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_ch.csv")
