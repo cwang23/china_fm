@@ -54,46 +54,46 @@ clean_mfen <- clean_mfen %>%
 
 ## CLEAN ENGLISH DATA FOR APP --------------------------------------------------
 
-# clean the displayed table data
-display_en_df <- clean_mfen %>%
+clean_mfen_new <- clean_mfen %>%
   transmute(
-    "Date" = date,
-    "Spokesperson" = spox,
-    "Type of Remarks" = type,
+    date, spox, type,
+    "tokenprep" = content,
     "Content" = case_when(
       content_type == "Q" ~ str_glue("<strong>{content}</strong>"),
       TRUE ~ content),
-    "Source" = str_glue("<a href='{url}'>URL</a>"),
-    "grouping" = case_when(content_type == "Q" ~ content_order,
-                           content_type == "A" ~ content_order - 1,
-                           TRUE ~ content_order)) %>%
-  arrange(Date, grouping) %>%
-  group_by(Date, Spokesperson, `Type of Remarks`, Source, grouping) %>%
-  summarise(Content = paste0(Content, collapse = "<br>"), .groups = "drop") %>%
-  arrange(Date, grouping) %>%
-  mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
-  select(-grouping)
-
-
-# clean the text data
-text_en_df <- clean_mfen %>%
-  transmute(
-    date, spox, type, content, url,
+    url,
     "grouping" = case_when(content_type == "Q" ~ content_order,
                            content_type == "A" ~ content_order - 1,
                            TRUE ~ content_order)) %>%
   arrange(date, grouping) %>%
   group_by(date, spox, type, url, grouping) %>%
-  summarise(content = paste0(content, collapse = " "), .groups = "drop") %>%
-  mutate(content = gsub("A:", "", content),
-         content = gsub("Q:", "", content),
-         content = gsub("<br>", "", content),
-         content = gsub(". [A-Z0-9]", " ", content)) %>%
-  filter(content != "") %>%
+  summarise(tokenprep = paste0(tokenprep, collapse = " "),
+            Content = paste0(Content, collapse = "<br>"),
+            .groups = "drop") %>%
+  mutate(tokenprep = gsub("A:", "", tokenprep),
+         tokenprep = gsub("Q:", "", tokenprep),
+         tokenprep = gsub("<br>", " ", tokenprep),
+         tokenprep = str_trim(tokenprep)) %>%
+  filter(tokenprep != "") %>%
   arrange(date, grouping) %>%
-  mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
-  select(-grouping) %>%
-  unnest_tokens(word, content) %>%
+  mutate(response_id = paste0("responseid_", 1:nrow(.)))
+
+
+# clean the displayed table data
+display_en_df <- clean_mfen_new %>%
+  transmute(
+    response_id,
+    "Date" = date,
+    "Spokesperson" = spox,
+    "Type of Remarks" = type,
+    Content,
+    "Source" = str_glue("<a href='{url}'>URL</a>"))
+
+
+# clean the text data
+text_en_df <- clean_mfen_new %>%
+  transmute(response_id, date, spox, type, tokenprep, url) %>%
+  unnest_tokens(word, tokenprep) %>%
   # remove stop words and numbers
   anti_join(stop_words) %>%
   filter(!grepl("[0-9]", word)) %>%
@@ -136,14 +136,13 @@ initial_text_ch_df <- clean_mfch %>%
   arrange(date, grouping) %>%
   group_by(date, spox, type, url, grouping) %>%
   summarise(content = paste0(content, collapse = " "), .groups = "drop") %>%
-  mutate(content = gsub("答：|答：", "", content),
-         content = gsub("问：|问：", "", content),
-         content = gsub("<br>", "", content)) %>%
+  mutate(content = gsub("<br>", "", content)) %>%
   filter(content != "") %>%
   arrange(date, grouping) %>%
   mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
   select(-grouping)
 
+# tokenize Chinese text
 ch_tokens <- purrr::map(
   initial_text_ch_df$content, function(x) {segment(x, cutter)}) %>%
   setNames(initial_text_ch_df$response_id) %>%
@@ -154,7 +153,9 @@ ch_tokens <- purrr::map(
 text_ch_df <- initial_text_ch_df %>%
   left_join(ch_tokens) %>%
   select(-content) %>%
+  # remove stop words, question and answer text
   filter(!word %in% c(STOPWORDS$word, "问", "答")) %>%
+  # remove numbers
   filter(!grepl("[0-9]", word)) %>%
   group_by(date, spox, type, url, response_id, word) %>%
   summarise(freq = n(), .groups = "drop")

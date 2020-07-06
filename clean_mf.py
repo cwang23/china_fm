@@ -46,41 +46,42 @@ for entry in data:
     # iterate through each line and parse
     for line in text:
         stripped_text, question_flag = get_clean_remarks(line)
-        if stripped_text.strip() == "":
-            pass
 
-        # check if it's a question or answer block
-        q_or_a = check_qa(stripped_text, is_ch) or question_flag
-        answer_flag = check_answer(stripped_text, orig_spox, is_ch)
+        # only parse the line if it's not empty
+        if stripped_text.strip() != "":
 
-        if answer_flag:
-            blocktype = "A"
-        elif question_flag:
-            blocktype = "Q"
-        else:
-            blocktype = "None"
+            # check if it's a question or answer block
+            q_or_a = check_qa(stripped_text, is_ch) or question_flag
+            answer_flag = check_answer(stripped_text, orig_spox, is_ch)
 
-        # if just beginning, set cleaned string as start
-        if clean_string == '':
-            clean_string = stripped_text
-            clean_type = blocktype
+            if answer_flag:
+                blocktype = "A"
+            elif question_flag:
+                blocktype = "Q"
+            else:
+                blocktype = "None"
 
-        # if it's a question or answer, set the start of new clean string
-        # to this beginning question or answer
-        elif q_or_a:
-            # add the current info to list
-            clean_remarks.append(clean_string)
-            clean_order.append(order_start)
-            clean_contenttype.append(clean_type)
+            # if just beginning, set cleaned string as start
+            if clean_string == '':
+                clean_string = stripped_text
+                clean_type = blocktype
 
-            # reset values to signal start of answer or question
-            order_start += 1
-            clean_string = stripped_text
-            clean_type = blocktype
+            # if it's a question or answer, set the start of new clean string
+            # to this beginning question or answer
+            elif q_or_a:
+                # add the current info to list
+                clean_remarks.append(clean_string)
+                clean_order.append(order_start)
+                clean_contenttype.append(clean_type)
 
-        # if it's not the beginning of a section, add it to the string
-        else:
-            clean_string = clean_string + '<br><br>' + stripped_text
+                # reset values to signal start of answer or question
+                order_start += 1
+                clean_string = stripped_text
+                clean_type = blocktype
+
+            # if it's not the beginning of a section, add it to the string
+            else:
+                clean_string = clean_string + '<br><br>' + stripped_text
 
     # add the last paragraph to the lists
     clean_remarks.append(clean_string)
