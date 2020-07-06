@@ -18,6 +18,7 @@ library(tidytext)
 library(tmcn)
 library(jiebaR)
 
+rm(list = ls())
 # load scraped data
 clean_mfch <- read_csv("clean_mf_ch.csv")
 clean_mfen <- read_csv("clean_mf_en.csv")
@@ -51,7 +52,6 @@ clean_mfen <- clean_mfen %>%
   select(-tempdate)
 
 
-
 ## CLEAN ENGLISH DATA FOR APP --------------------------------------------------
 
 # clean the displayed table data
@@ -70,6 +70,7 @@ display_en_df <- clean_mfen %>%
   arrange(Date, grouping) %>%
   group_by(Date, Spokesperson, `Type of Remarks`, Source, grouping) %>%
   summarise(Content = paste0(Content, collapse = "<br>"), .groups = "drop") %>%
+  arrange(Date, grouping) %>%
   mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
   select(-grouping)
 
@@ -81,11 +82,13 @@ text_en_df <- clean_mfen %>%
     "grouping" = case_when(content_type == "Q" ~ content_order,
                            content_type == "A" ~ content_order - 1,
                            TRUE ~ content_order)) %>%
+  arrange(date, grouping) %>%
   group_by(date, spox, type, url, grouping) %>%
   summarise(content = paste0(content, collapse = " "), .groups = "drop") %>%
   mutate(content = gsub("A:", "", content),
          content = gsub("Q:", "", content),
-         content = gsub("<br>", "", content)) %>%
+         content = gsub("<br>", "", content),
+         content = gsub(". [A-Z0-9]", " ", content)) %>%
   filter(content != "") %>%
   arrange(date, grouping) %>%
   mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
@@ -117,6 +120,7 @@ display_ch_df <- clean_mfch %>%
   arrange(Date, grouping) %>%
   group_by(Date, Spokesperson, `Type of Remarks`, Source, grouping) %>%
   summarise(Content = paste0(Content, collapse = "<br>"), .groups = "drop") %>%
+  arrange(Date, grouping) %>%
   mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
   select(-grouping)
 
@@ -129,6 +133,7 @@ initial_text_ch_df <- clean_mfch %>%
       content_type == "Q" ~ content_order,
       content_type == "A" ~ content_order - 1,
       TRUE ~ content_order)) %>%
+  arrange(date, grouping) %>%
   group_by(date, spox, type, url, grouping) %>%
   summarise(content = paste0(content, collapse = " "), .groups = "drop") %>%
   mutate(content = gsub("答：|答：", "", content),
