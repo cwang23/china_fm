@@ -6,85 +6,26 @@
 
 ## SET UP ----------------------------------------------------------------------
 
-setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
+# setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
 
 library(readr)
 library(tidyverse)
 library(lubridate)
-library(tidytext)
-library(tmcn)
 library(wordcloud)
 library(DT)
 library(shiny)
 library(shinythemes)
 library(shinyWidgets)
+library(data.table)
 
+rm(list = ls())
+load("chinafm_clean.RData")
 
-clean_mfen %>%
-  filter(!grepl("20\\d\\d$", title) & grepl("September", title)) %>%
-  View()
-
-# load scraped data
-# clean_mf <- read_csv("clean_mf.csv")
-clean_mfch <- read_csv("clean_mf_ch.csv")
-clean_mfen <- read_csv("clean_mf_en.csv")
-
-# load stop words
-data(stop_words)  # English stop words
-data(STOPWORDS)   # simplified Chinese stop words
-
-# clean the displayed table data
-display_df <- clean_mfen %>%
-  transmute(
-    "Date" = date,
-    "Spokesperson" = spox,
-    "Type of Remarks" = type,
-    "Content" = case_when(content_type == "Q" ~ str_glue("<strong>{content}</strong>"),
-                          TRUE ~ content),
-    "Source" = str_glue("<a href='{url}'>URL</a>"),
-    "grouping" = case_when(content_type == "Q" ~ content_order,
-                           content_type == "A" ~ content_order - 1,
-                           TRUE ~ content_order)
-  ) %>%
-  arrange(Date, grouping) %>%
-  group_by(Date, Spokesperson, `Type of Remarks`, Source, grouping) %>%
-  summarise(Content = paste0(Content, collapse = "<br>"), .groups = "drop") %>%
-#  arrange(Date, grouping) %>%
-  mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
-  select(-grouping)
-
-
-# clean the text data
-text_df <- clean_mfen %>%
-  transmute(
-    date,
-    spox,
-    type,
-    content,
-    url,
-    "grouping" = case_when(content_type == "Q" ~ content_order,
-                           content_type == "A" ~ content_order - 1,
-                           TRUE ~ content_order)
-  ) %>%
-  group_by(date, spox, type, url, grouping) %>%
-  summarise(content = paste0(content, collapse = " "), .groups = "drop") %>%
-  mutate(content = gsub("A:", "", content),
-         content = gsub("Q:", "", content)) %>%
-  arrange(date, grouping) %>%
-  mutate(response_id = paste0("responseid_", 1:nrow(.))) %>%
-  select(-grouping) %>%
-  unnest_tokens(word, content) %>%
-  # remove stop words and numbers
-  anti_join(stop_words) %>%
-  filter(!grepl("[0-9]", word)) %>%
-  # get frequency of tokens
-  group_by(date, spox, type, url, response_id, word) %>%
-  summarise(freq = n(), .groups = "drop")
-
-
-allwords <- sort(unique(text_df$word))
-mindate <- format(min(display_df$Date, na.rm = TRUE), "%B %d, %Y")
-maxdate <- format(max(display_df$Date, na.rm = TRUE), "%B %d, %Y")
+allwords <- data.table(
+  "Select one or more words below:" = sort(unique(text_en_df$word)))
+allspoxes <- sort(unique(text_en_df$spox))
+mindate <- min(display_en_df$Date, na.rm = TRUE)
+maxdate <- max(display_en_df$Date, na.rm = TRUE)
 
 
 ## UI --------------------------------------------------------------------------
@@ -97,21 +38,25 @@ ui <- fluidPage(
     tags$a(href = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/",
            "here"), "!"),
   p("Made by Clara Wang in July 2020."),
-  p(str_glue("Includes statements from {mindate} to {maxdate}.")),
+  p(str_glue("Includes statements from {format(mindate, '%B %d, %Y')} to {format(maxdate, '%B %d, %Y')}.")),
 
   wellPanel(
     h3("Filter Remarks"),
     p("Use the filters below to filter the remarks show in the table and wordcloud."),
     dateRangeInput("i_daterange",
                    label = "Filter Dates (yyyy-mm-dd)",
-                   start = max(display_df$Date, na.rm = TRUE),
-                   end = max(display_df$Date, na.rm = TRUE),
-                   min = min(display_df$Date, na.rm = TRUE),
-                   max = max(display_df$Date, na.rm = TRUE)),
-    uiOutput("i_spox"),
+                   start = mindate,
+                   end = maxdate,
+                   min = mindate,
+                   max = maxdate),
+    selectizeInput("i_spox",
+                   "Filter to selected spokespeople:",
+                   choices = allspoxes,
+                   multiple = TRUE,
+                   selected = allspoxes),
     selectizeInput("i_filter",
                    label = "Filter to remarks that include these words:",
-                   choices = c("All words selected" = "", allwords),
+                   choices = NULL,
                    multiple = TRUE,
                    selected = NULL)
   ),
@@ -145,52 +90,34 @@ ui <- fluidPage(
 
         ),
         mainPanel(
-          plotOutput("wordcloud", width = "100%", height = "700px")
+          plotOutput("wordcloud", width = "100%", height = "650px")
         )
       )
     )
   )
-
 )
+
 
 ## SERVER ----------------------------------------------------------------------
 
-server <- function(input, output) {
-
-  ## ---------------------------< reactive UI > --------------------------------
-  output$i_spox <- renderUI({
-    spoxchoices <- display_df %>%
-      filter(Date >= input$i_daterange[1]) %>%
-      filter(Date <= input$i_daterange[2]) %>%
-      pull(Spokesperson) %>%
-      unique() %>%
-      sort()
-
-    selectizeInput("i_spox",
-                   "Spokesperson",
-                   choices = spoxchoices,
-                   multiple = TRUE,
-                   selected = spoxchoices)
-  })
-
+server <- function(input, output, session) {
 
   ## --------------------------< reactive data > -------------------------------
   want_responses <- reactive({
     if (!is.null(input$i_filter)) {
-      text_df %>%
+      text_en_df %>%
         filter(word %in% input$i_filter) %>%
         pull(response_id) %>%
         unique()
     } else {
-      text_df %>%
+      text_en_df %>%
         pull(response_id) %>%
         unique()
     }
-
-
   })
+
   filtered_tab <- reactive({
-    out <- display_df %>%
+    out <- display_en_df %>%
       filter(Date >= input$i_daterange[1]) %>%
       filter(Date <= input$i_daterange[2])
 
@@ -206,7 +133,7 @@ server <- function(input, output) {
   })
 
   word_tab <- eventReactive(input$update_cloud, {
-    out <- text_df %>%
+    out <- text_en_df %>%
       filter(date >= input$i_daterange[1]) %>%
       filter(date <= input$i_daterange[2])
 
@@ -237,11 +164,20 @@ server <- function(input, output) {
   })
 
 
+  ## ---------------------------< reactive UI > --------------------------------
+  updateSelectizeInput(
+    session,
+    "i_filter",
+    choices = c(allwords),
+    server = TRUE)
+
+
   ## -----------------------------< outputs > ----------------------------------
 
   output$tbl <- renderDT(
     datatable(filtered_tab(), escape = FALSE)
   )
+
 
   # make wordcloud repeatable in session
   wordcloud_rep <- repeatable(wordcloud)
@@ -255,6 +191,7 @@ server <- function(input, output) {
   })
 }
 
+
 ## RUN APP ---------------------------------------------------------------------
 
 shinyApp(
@@ -262,12 +199,3 @@ shinyApp(
   server = server
 )
 
-# rsconnect::deployApp()
-#
-# text_df %>%
-#   filter(spox == "Geng Shuang") %>%
-#   group_by(spox, word) %>%
-#   summarise(freq = sum(freq, na.rm = TRUE), .groups = "drop") %>%
-#   with(wordcloud(word, freq, max.words = 50, random.order = FALSE,
-#                  colors = brewer.pal(8, "Dark2"),
-#                  width = 8, height = 8, units = "in"))

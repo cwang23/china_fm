@@ -46,6 +46,8 @@ for entry in data:
     # iterate through each line and parse
     for line in text:
         stripped_text, question_flag = get_clean_remarks(line)
+        if stripped_text.strip() == "":
+            pass
 
         # check if it's a question or answer block
         q_or_a = check_qa(stripped_text, is_ch) or question_flag
