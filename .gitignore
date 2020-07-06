@@ -5,6 +5,7 @@
 *.log
 *.cfg
 *.scrapy
+*.RData
 
 # subdirectories to ignore
 **/httpcache
