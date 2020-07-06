@@ -6,28 +6,37 @@
 
 ## SET UP ----------------------------------------------------------------------
 
-# setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
+setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
 
 library(readr)
 library(tidyverse)
 library(lubridate)
 library(tidytext)
+library(tmcn)
 library(wordcloud)
 library(DT)
 library(shiny)
 library(shinythemes)
 library(shinyWidgets)
 
+
+clean_mfen %>%
+  filter(!grepl("20\\d\\d$", title) & grepl("September", title)) %>%
+  View()
+
 # load scraped data
-clean_mf <- read_csv("clean_mf.csv")
+# clean_mf <- read_csv("clean_mf.csv")
+clean_mfch <- read_csv("clean_mf_ch.csv")
+clean_mfen <- read_csv("clean_mf_en.csv")
 
 # load stop words
-data(stop_words)
+data(stop_words)  # English stop words
+data(STOPWORDS)   # simplified Chinese stop words
 
 # clean the displayed table data
-display_df <- clean_mf %>%
+display_df <- clean_mfen %>%
   transmute(
-    "Date" = as_date(date, format = "%B %d, %Y"),
+    "Date" = date,
     "Spokesperson" = spox,
     "Type of Remarks" = type,
     "Content" = case_when(content_type == "Q" ~ str_glue("<strong>{content}</strong>"),
@@ -46,13 +55,13 @@ display_df <- clean_mf %>%
 
 
 # clean the text data
-text_df <- clean_mf %>%
+text_df <- clean_mfen %>%
   transmute(
-    "date" = as_date(date, format = "%B %d, %Y"),
-    `spox`,
-    `type`,
-    `content`,
-    `url`,
+    date,
+    spox,
+    type,
+    content,
+    url,
     "grouping" = case_when(content_type == "Q" ~ content_order,
                            content_type == "A" ~ content_order - 1,
                            TRUE ~ content_order)
@@ -95,7 +104,7 @@ ui <- fluidPage(
     p("Use the filters below to filter the remarks show in the table and wordcloud."),
     dateRangeInput("i_daterange",
                    label = "Filter Dates (yyyy-mm-dd)",
-                   start = min(display_df$Date, na.rm = TRUE),
+                   start = max(display_df$Date, na.rm = TRUE),
                    end = max(display_df$Date, na.rm = TRUE),
                    min = min(display_df$Date, na.rm = TRUE),
                    max = max(display_df$Date, na.rm = TRUE)),
