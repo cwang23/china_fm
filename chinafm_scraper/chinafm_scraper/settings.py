@@ -92,3 +92,4 @@ ITEM_PIPELINES = {
 
 # Store logs
 LOG_FILE = "logs/chinafm_log_" + datetime.today().strftime("%Y%m%d") + ".log"
+LOG_LEVEL = "INFO"

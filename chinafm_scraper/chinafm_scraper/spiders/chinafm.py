@@ -79,6 +79,9 @@ class ChinaFmSpider(scrapy.Spider):
             split_text = split_text.split("<br><br>")
             text.extend(split_text)
 
+        # log the title
+        self.logger.info('Finished parsing %s', title[0])
+
 
         # initialize items to store info
         items = ChinaFmScraperItem()

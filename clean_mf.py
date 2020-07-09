@@ -146,7 +146,6 @@ stacked_en.shape
 stacked_ch.drop_duplicates(subset=list(stacked_ch), keep='first', inplace=True)
 stacked_ch.shape
 
-stacked_ch.date
 # write to csv
 stacked_en.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_en.csv")
 stacked_ch.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_ch.csv")
