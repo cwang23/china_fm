@@ -5,7 +5,6 @@ from datetime import datetime
 from ..items import ChinaFmScraperItem
 import re
 
-
 # make list of URLs to scrape for English statements
 en_root = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403"
 en_urls = [en_root + "/default.shtml"]
@@ -64,7 +63,7 @@ class ChinaFmSpider(scrapy.Spider):
             title = response.xpath('//*[(@id = "News_Body_Title")]/text()').getall()
             date = response.xpath('//*[(@id = "News_Body_Time")]/text()').getall()
             initial_text = response.xpath('//p').getall()
-            
+
         # XPath selectors for English statements
         else:
             title = response.xpath('//title/text()').getall()

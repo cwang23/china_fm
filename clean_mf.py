@@ -9,7 +9,8 @@ from utils_clean import *
 
 ## READ IN SCRAPED FILE --------------------------------------------------------
 fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_" + datetime.today().strftime("%Y%m%d") + ".json"
-fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_20200704.json"
+fname
+#fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_20200704.json"
 
 with open(fname, 'rt', encoding='utf-8') as f:
     data = json.load(f, encoding="utf-8")
@@ -136,12 +137,16 @@ stacked_en.shape
 stacked_ch = pd.concat([original_ch, expanded_full_clean_ch])
 stacked_ch.shape
 
+stacked_en = stacked_en.drop(columns=['scrape_date'])
+stacked_ch = stacked_ch.drop(columns=['scrape_date'])
+
 # remove duplicates
 stacked_en.drop_duplicates(subset=list(stacked_en), keep='first', inplace=True)
 stacked_en.shape
 stacked_ch.drop_duplicates(subset=list(stacked_ch), keep='first', inplace=True)
 stacked_ch.shape
 
+stacked_ch.date
 # write to csv
 stacked_en.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_en.csv")
 stacked_ch.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_ch.csv")
