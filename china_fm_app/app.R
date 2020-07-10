@@ -21,44 +21,72 @@ library(data.table)
 rm(list = ls())
 load("chinafm_clean.RData")
 
-allwords <- data.table(
+allwords_en <- data.table(
   "Select one or more words below:" = sort(unique(text_en_df$word)))
+allwords_ch <- data.table(
+  "Select one or more characters below:" = sort(unique(text_ch_df$word)))
 allspoxes <- sort(unique(text_en_df$spox))
-mindate <- min(display_en_df$Date, na.rm = TRUE)
-maxdate <- max(display_en_df$Date, na.rm = TRUE)
+mindate <- list("en" = min(display_en_df$Date, na.rm = TRUE),
+                "ch" = min(display_ch_df$Date, na.rm = TRUE),
+                "all" = min(display_df$Date, na.rm = TRUE))
+maxdate <- list("en" = max(display_en_df$Date, na.rm = TRUE),
+                "ch" = max(display_ch_df$Date, na.rm = TRUE),
+                "all" = max(display_df$Date, na.rm = TRUE))
 
 
 ## UI --------------------------------------------------------------------------
 
 ui <- fluidPage(
-  theme = shinytheme("journal"),
+  theme = shinytheme("simplex"),
 
-  titlePanel("China Foreign Ministry Spokesperson Remarks (English Translations)"),
-  p("The source of these remarks can be found ",
+  titlePanel("China Foreign Ministry Spokesperson Statements"),
+  p("The source of these statements can be found ",
     tags$a(href = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/",
-           "here"), "!"),
+           "here in English"), " and ",
+    tags$a(href = "https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889",
+           "here in Chinese"), "!"),
   p("Made by Clara Wang in July 2020."),
-  p(str_glue("Includes statements from {format(mindate, '%B %d, %Y')} to {format(maxdate, '%B %d, %Y')}.")),
 
   wellPanel(
-    h3("Filter Remarks"),
-    p("Use the filters below to filter the remarks show in the table and wordcloud."),
+    h3("Filter Statements"),
+    p(tags$strong("Use the filters below to filter the statements shown in the table and wordcloud.")),
+    p(str_glue("Includes statements from ",
+               "{format(mindate$en, '%B %d, %Y')}",
+               " to ",
+               "{format(maxdate$en, '%B %d, %Y')} in English, and ",
+               "from {format(mindate$ch, '%B %d, %Y')}",
+               " to ",
+               "{format(maxdate$ch, '%B %d, %Y')} in Chinese.")),
     dateRangeInput("i_daterange",
                    label = "Filter Dates (yyyy-mm-dd)",
-                   start = mindate,
-                   end = maxdate,
-                   min = mindate,
-                   max = maxdate),
+                   start = mindate$all,
+                   end = maxdate$all,
+                   min = mindate$all,
+                   max = maxdate$all),
     selectizeInput("i_spox",
                    "Filter to selected spokespeople:",
                    choices = allspoxes,
                    multiple = TRUE,
                    selected = allspoxes),
-    selectizeInput("i_filter",
-                   label = "Filter to remarks that include these words:",
-                   choices = NULL,
-                   multiple = TRUE,
-                   selected = NULL)
+    checkboxGroupInput("i_language",
+                       label = "Show statements in the selected language(s):",
+                       choices = c("English", "Chinese"),
+                       selected = "English",
+                       inline = TRUE),
+    conditionalPanel(
+      condition = "input.i_language.includes('English')",
+      selectizeInput("i_filter_en",
+                     label = "Filter to remarks that include these English words:",
+                     choices = NULL,
+                     multiple = TRUE,
+                     selected = NULL)),
+    conditionalPanel(
+      condition = "input.i_language.includes('Chinese')",
+      selectizeInput("i_filter_ch",
+                     label = "Filter to remarks that include these Chinese characters:",
+                     choices = NULL,
+                     multiple = TRUE,
+                     selected = NULL))
   ),
   tabsetPanel(
     type = "tabs",
@@ -81,12 +109,27 @@ ui <- fluidPage(
           sliderInput("i_max",
                       "Show maximum this many words in the word cloud:",
                       min = 1,  max = 300,  value = 50),
-          selectizeInput("i_remove",
-                         label = "Words to remove from the cloud:",
-                         choices = allwords,
-                         multiple = TRUE),
+          # language selection
+          radioGroupButtons(inputId = "i_language_wc",
+                            label = "Select language for wordcloud:",
+                            choices = c("English", "Chinese"),
+                            status = "primary"),
+          conditionalPanel(
+            condition = "input.i_language_wc == 'English'",
+            selectizeInput("i_remove_en",
+                           label = "Remove these words from the cloud:",
+                           choices = c(allwords_en),
+                           multiple = TRUE,
+                           selected = NULL)),
+          conditionalPanel(
+            condition = "input.i_language_wc == 'Chinese'",
+            selectizeInput("i_remove_ch",
+                           label = "Remove these words from the cloud:",
+                           choices = c(allwords_ch),
+                           multiple = TRUE,
+                           selected = NULL)),
           # update button
-          actionButton("update_cloud", "Plot Wordcloud")
+          actionButton("update_cloud", "Update Wordcloud")
 
         ),
         mainPanel(
@@ -103,21 +146,35 @@ ui <- fluidPage(
 server <- function(input, output, session) {
 
   ## --------------------------< reactive data > -------------------------------
-  want_responses <- reactive({
-    if (!is.null(input$i_filter)) {
+  want_responses_en <- reactive({
+    if (!is.null(input$i_filter_en)) {
       text_en_df %>%
-        filter(word %in% input$i_filter) %>%
-        pull(response_id) %>%
+        filter(word %in% input$i_filter_en) %>%
+        pull(response_id_en) %>%
         unique()
     } else {
       text_en_df %>%
-        pull(response_id) %>%
+        pull(response_id_en) %>%
         unique()
     }
   })
 
+  want_responses_ch <- reactive({
+    if (!is.null(input$i_filter_ch)) {
+      text_en_df %>%
+        filter(word %in% input$i_filter_ch) %>%
+        pull(response_id_ch) %>%
+        unique()
+    } else {
+      text_en_df %>%
+        pull(response_id_ch) %>%
+        unique()
+    }
+  })
+
+
   filtered_tab <- reactive({
-    out <- display_en_df %>%
+    out <- display_df %>%
       filter(Date >= input$i_daterange[1]) %>%
       filter(Date <= input$i_daterange[2])
 
@@ -125,29 +182,65 @@ server <- function(input, output, session) {
       out <- out %>%
         filter(Spokesperson %in% input$i_spox)
     }
-    if (!is.null(input$i_filter)) {
+    if (!is.null(input$i_filter_en)) {
       out <- out %>%
-        filter(response_id %in% want_responses())
+        filter(response_id_en %in% want_responses_en())
     }
-    return(out %>% select(-response_id))
+    if (!is.null(input$i_filter_ch)) {
+      out <- out %>%
+        filter(response_id_ch %in% want_responses_ch())
+    }
+
+    # selected columns to show
+    selectcols <- c("Date", "Spokesperson")
+    if ("English" %in% input$i_language) {
+      selectcols <- c(selectcols, "Title_en", "Source_en", "Content_en")
+    }
+    if ("Chinese" %in% input$i_language) {
+      selectcols <- c(selectcols, "Title_ch", "Source_ch", "Content_ch")
+    }
+    return(out %>%
+             select(all_of(selectcols)) %>%
+             rename_with(~ gsub("_en", " (EN)", gsub("_ch", " (CH)", .x)))
+    )
   })
 
+
   word_tab <- eventReactive(input$update_cloud, {
-    out <- text_en_df %>%
+    if (input$i_language_wc == "English") {
+      out <- text_en_df
+    } else if (input$i_language_wc == "Chinese") {
+      out <- text_ch_df
+    }
+
+    if (input$i_language_wc == "English") {
+      toremove <- input$i_remove_en
+    } else if (input$i_language_wc == "Chinese") {
+      toremove <- input$i_remove_ch
+    }
+
+    out <- out %>%
       filter(date >= input$i_daterange[1]) %>%
       filter(date <= input$i_daterange[2])
 
+    # filter out words to remove from wordcloud
+    if (!is.null(input$i_remove_en) | !is.null(input$i_remove_ch)) {
+      out <- out %>%
+        filter(!word %in% toremove)
+    }
+    # filter to selected spox statements
     if (!is.null(input$i_spox)) {
       out <- out %>%
         filter(spox %in% input$i_spox)
     }
-    if (!is.null(input$i_remove)) {
+    # filter to statements only with selected words
+    if (!is.null(input$i_filter_en)) {
       out <- out %>%
-        filter(!word %in% input$i_remove)
+        filter(response_id_en %in% want_responses_en())
     }
-    if (!is.null(input$i_filter)) {
+    if (!is.null(input$i_filter_ch)) {
       out <- out %>%
-        filter(response_id %in% want_responses())
+        filter(response_id_ch %in% want_responses_ch())
     }
     out <- out %>%
       group_by(word) %>%
@@ -167,10 +260,15 @@ server <- function(input, output, session) {
   ## ---------------------------< reactive UI > --------------------------------
   updateSelectizeInput(
     session,
-    "i_filter",
-    choices = c(allwords),
+    "i_filter_en",
+    choices = c(allwords_en),
     server = TRUE)
 
+  updateSelectizeInput(
+    session,
+    "i_filter_ch",
+    choices = c(allwords_ch),
+    server = TRUE)
 
   ## -----------------------------< outputs > ----------------------------------
 

@@ -90,7 +90,7 @@ display_en_df <- clean_mfen_new %>%
     "Spokesperson" = spox,
     "Title" = title,
     "Type of Remarks" = type,
-    "Source" = str_glue("<a href='{url}'>URL</a>"),
+    "Source" = str_glue("<a href='{url}'>English Source</a>"),
     Content,
     response_id)
 
@@ -140,7 +140,7 @@ display_ch_df <- clean_mfch_new %>%
     "Spokesperson" = spox,
     "Title" = title,
     "Type of Remarks" = type,
-    "Source" = str_glue("<a href='{url}'>URL</a>"),
+    "Source" = str_glue("<a href='{url}'>Chinese Source</a>"),
     Content,
     response_id)
 
@@ -176,7 +176,8 @@ display_df <- display_ch_df %>%
               group_by(Date, Spokesperson, Title, `Type of Remarks`, Source) %>%
               # create order for each Q/A in doc for joining
               mutate(order = 1:n()) %>%
-              rename_with(~ paste0(., "_en"), Title:response_id))
+              rename_with(~ paste0(., "_en"), Title:response_id)) %>%
+  ungroup()
 
 
 ## WRITE DATA FOR APP ----------------------------------------------------------
