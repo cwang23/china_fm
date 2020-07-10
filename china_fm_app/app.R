@@ -7,6 +7,7 @@
 ## SET UP ----------------------------------------------------------------------
 
 # setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
+rm(list = ls())
 
 library(readr)
 library(tidyverse)
@@ -18,7 +19,7 @@ library(shinythemes)
 library(shinyWidgets)
 library(data.table)
 
-rm(list = ls())
+options(encoding = "UTF-8")
 load("chinafm_clean.RData")
 
 allwords_en <- data.table(
@@ -59,7 +60,7 @@ ui <- fluidPage(
                "{format(maxdate$ch, '%B %d, %Y')} in Chinese.")),
     dateRangeInput("i_daterange",
                    label = "Filter Dates (yyyy-mm-dd)",
-                   start = mindate$all,
+                   start = maxdate$all,
                    end = maxdate$all,
                    min = mindate$all,
                    max = maxdate$all),
@@ -124,7 +125,7 @@ ui <- fluidPage(
           conditionalPanel(
             condition = "input.i_language_wc == 'Chinese'",
             selectizeInput("i_remove_ch",
-                           label = "Remove these words from the cloud:",
+                           label = "Remove these characters from the cloud:",
                            choices = c(allwords_ch),
                            multiple = TRUE,
                            selected = NULL)),
@@ -244,7 +245,8 @@ server <- function(input, output, session) {
     }
     out <- out %>%
       group_by(word) %>%
-      summarise(freq = sum(freq, na.rm = TRUE), .groups = "drop")
+      summarise(freq = sum(freq, na.rm = TRUE), .groups = "drop") %>%
+      mutate(word = enc2utf8(word))
     return(out)
   })
 
@@ -297,3 +299,7 @@ shinyApp(
   server = server
 )
 
+# tmp.enc <- options()$encoding
+# options(encoding = "UTF-8")
+# rsconnect::deployApp()
+# options(encoding = tmp.enc)
