@@ -61,7 +61,7 @@ ui <- fluidPage(
         tags$li(str_glue("{format(mindate$ch, '%B %d, %Y')} to ",
                          "{format(maxdate$ch, '%B %d, %Y')} in Chinese")))),
     dateRangeInput("i_daterange",
-                   label = tags$strong("Filter Dates (yyyy-mm-dd)"),
+                   label = tags$strong("Filter to statements made within this time period (yyyy-mm-dd):"),
                    start = maxdate$all,
                    end = maxdate$all,
                    min = mindate$all,
@@ -79,14 +79,14 @@ ui <- fluidPage(
     conditionalPanel(
       condition = "input.i_language.includes('English')",
       selectizeInput("i_filter_en",
-                     tags$strong("Filter to remarks that include these English words:"),
+                     tags$strong("Filter to statements that include these English words:"),
                      choices = NULL,
                      multiple = TRUE,
                      selected = NULL)),
     conditionalPanel(
       condition = "input.i_language.includes('Chinese')",
       selectizeInput("i_filter_ch",
-                     tags$strong("Filter to remarks that include these Chinese characters:"),
+                     tags$strong("Filter to statements that include these Chinese characters:"),
                      choices = NULL,
                      multiple = TRUE,
                      selected = NULL))
