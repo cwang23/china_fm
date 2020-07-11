@@ -106,6 +106,15 @@ ui <- fluidPage(
       sidebarLayout(
         sidebarPanel(
           h3("Word Cloud Settings"),
+          p("Words shown in the wordcloud are limited to the statements ",
+            "selected based on the filtering above. Note that if you filter ",
+            "the statements based on words/characters, the wordcloud will ",
+            "show words from statements filtered based on the corresponding ",
+            "language."),
+          p("So, if you filter statements based on English words ",
+            "and plot the wordcloud in Chinese, the word filters will not apply. ",
+            "For this example, the English word filters will only apply if ",
+            "you plot the wordcloud in English."),
           sliderInput("i_freq",
                       tags$strong("Only show words that have a frequency of at least:"),
                       min = 1,  max = 50, value = 3),
@@ -154,24 +163,24 @@ server <- function(input, output, session) {
     if (!is.null(input$i_filter_en)) {
       text_en_df %>%
         filter(word %in% input$i_filter_en) %>%
-        pull(response_id_en) %>%
+        pull(response_id) %>%
         unique()
     } else {
       text_en_df %>%
-        pull(response_id_en) %>%
+        pull(response_id) %>%
         unique()
     }
   })
 
   want_responses_ch <- reactive({
     if (!is.null(input$i_filter_ch)) {
-      text_en_df %>%
+      text_ch_df %>%
         filter(word %in% input$i_filter_ch) %>%
-        pull(response_id_ch) %>%
+        pull(response_id) %>%
         unique()
     } else {
-      text_en_df %>%
-        pull(response_id_ch) %>%
+      text_ch_df %>%
+        pull(response_id) %>%
         unique()
     }
   })
@@ -221,16 +230,17 @@ server <- function(input, output, session) {
 
 
   word_tab <- eventReactive(input$update_cloud, {
+    # select the correct information based on language selection
     if (input$i_language_wc == "English") {
       out <- text_en_df
+      toremove <- input$i_remove_en
+      filtercriteria <- input$i_filter_en
+      want_responseids <- want_responses_en()
     } else if (input$i_language_wc == "Chinese") {
       out <- text_ch_df
-    }
-
-    if (input$i_language_wc == "English") {
-      toremove <- input$i_remove_en
-    } else if (input$i_language_wc == "Chinese") {
       toremove <- input$i_remove_ch
+      filtercriteria <- input$i_filter_ch
+      want_responseids <- want_responses_ch()
     }
 
     out <- out %>%
@@ -248,13 +258,9 @@ server <- function(input, output, session) {
         filter(spox %in% input$i_spox)
     }
     # filter to statements only with selected words
-    if (!is.null(input$i_filter_en)) {
+    if (!is.null(filtercriteria)) {
       out <- out %>%
-        filter(response_id_en %in% want_responses_en())
-    }
-    if (!is.null(input$i_filter_ch)) {
-      out <- out %>%
-        filter(response_id_ch %in% want_responses_ch())
+        filter(response_id %in% want_responseids)
     }
     out <- out %>%
       group_by(word) %>%
