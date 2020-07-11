@@ -9,7 +9,7 @@ from datetime import datetime
 # http://scrapingauthority.com/2016/09/19/scrapy-exporting-json-and-csv/
 class JsonPipeline(object):
     def __init__(self):
-        filename = "chinamf_press_" + datetime.today().strftime("%Y%m%d") + ".json"
+        filename = "rawdata/chinamf_press_" + datetime.today().strftime("%Y%m%d") + ".json"
         self.file = open(filename, 'wb')
         self.exporter = JsonItemExporter(self.file, encoding='utf-8', ensure_ascii=False)
         self.exporter.start_exporting()
