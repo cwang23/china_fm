@@ -1,5 +1,5 @@
 # China's Foreign Ministry
-Repo for code to understand what China's Foreign Ministry is saying.
+Repo for code to understand what China's Foreign Ministry is saying 📣.
 
 ## Scripts
 - 📁[**`china_fm_app`**](china_fm_app): subrepo for Shiny App to analyze statements made by China's Foreign Ministry Spox
