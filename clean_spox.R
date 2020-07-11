@@ -9,7 +9,7 @@
 
 ## SET UP ----------------------------------------------------------------------
 
-setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
+setwd("C:/Users/clara/Documents/china_fm")
 
 library(readr)
 library(tidyverse)
@@ -20,8 +20,8 @@ library(jiebaR)
 
 rm(list = ls())
 # load scraped data
-clean_mfch <- read_csv("clean_mf_ch.csv")
-clean_mfen <- read_csv("clean_mf_en.csv")
+clean_mfch <- read_csv("china_fm_app/clean_mf_ch.csv")
+clean_mfen <- read_csv("china_fm_app/clean_mf_en.csv")
 
 # load stop words
 data(stop_words)  # English stop words
@@ -187,5 +187,5 @@ save(display_df,
      display_en_df,
      text_ch_df,
      text_en_df,
-     file = "chinafm_clean.RData")
+     file = "china_fm_app/chinafm_clean.RData")
 

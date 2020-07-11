@@ -7,19 +7,20 @@
 ## SET UP ----------------------------------------------------------------------
 
 # setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
-rm(list = ls())
+# rm(list = ls())
 
 library(readr)
 library(tidyverse)
 library(lubridate)
-library(wordcloud)
+library(wordcloud2)
 library(DT)
 library(shiny)
 library(shinythemes)
 library(shinyWidgets)
 library(data.table)
 
-options(encoding = "UTF-8")
+#options(encoding = "UTF-8")
+Sys.setlocale("LC_CTYPE", "chs") # if you use Chinese character
 load("chinafm_clean.RData")
 
 allwords_en <- data.table(
@@ -40,51 +41,52 @@ maxdate <- list("en" = max(display_en_df$Date, na.rm = TRUE),
 ui <- fluidPage(
   theme = shinytheme("simplex"),
 
-  titlePanel("China Foreign Ministry Spokesperson Statements"),
+  titlePanel("China Foreign Ministry Spokesperson Statements |
+              中华人民共和国外交部发言人的表态"),
   p("The source of these statements can be found ",
     tags$a(href = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/",
            "here in English"), " and ",
     tags$a(href = "https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889",
-           "here in Chinese"), "!"),
-  p("Made by Clara Wang in July 2020."),
+           "here in Chinese"), "."),
+  p("Made by ",
+    tags$a(href = "https://www.linkedin.com/in/clarawang/",
+           "Clara Wang"), " in July 2020."),
 
   wellPanel(
-    h3("Filter Statements"),
-    p(tags$strong("Use the filters below to filter the statements shown in the table and wordcloud.")),
-    p(str_glue("Includes statements from ",
-               "{format(mindate$en, '%B %d, %Y')}",
-               " to ",
-               "{format(maxdate$en, '%B %d, %Y')} in English, and ",
-               "from {format(mindate$ch, '%B %d, %Y')}",
-               " to ",
-               "{format(maxdate$ch, '%B %d, %Y')} in Chinese.")),
+    h3("Filter Statements shown in the Table and Wordcloud:"),
+    p(tags$strong("Includes statements from:"),
+      tags$ul(
+        tags$li(str_glue("{format(mindate$en, '%B %d, %Y')} to ",
+                         "{format(maxdate$en, '%B %d, %Y')} in English")),
+        tags$li(str_glue("{format(mindate$ch, '%B %d, %Y')} to ",
+                         "{format(maxdate$ch, '%B %d, %Y')} in Chinese")))),
     dateRangeInput("i_daterange",
-                   label = "Filter Dates (yyyy-mm-dd)",
+                   label = tags$strong("Filter Dates (yyyy-mm-dd)"),
                    start = maxdate$all,
                    end = maxdate$all,
                    min = mindate$all,
                    max = maxdate$all),
     selectizeInput("i_spox",
-                   "Filter to selected spokespeople:",
+                   tags$strong("Filter to selected spokespeople:"),
                    choices = allspoxes,
                    multiple = TRUE,
                    selected = allspoxes),
     checkboxGroupInput("i_language",
-                       label = "Show statements in the selected language(s):",
+                       tags$strong("Show statements in the selected language(s):"),
                        choices = c("English", "Chinese"),
                        selected = "English",
                        inline = TRUE),
     conditionalPanel(
       condition = "input.i_language.includes('English')",
       selectizeInput("i_filter_en",
-                     label = "Filter to remarks that include these English words:",
+                     tags$strong("Filter to remarks that include these English words:"),
                      choices = NULL,
                      multiple = TRUE,
                      selected = NULL)),
     conditionalPanel(
       condition = "input.i_language.includes('Chinese')",
       selectizeInput("i_filter_ch",
-                     label = "Filter to remarks that include these Chinese characters:",
+                     tags$strong("Filter to remarks that include these Chinese characters:"),
                      choices = NULL,
                      multiple = TRUE,
                      selected = NULL))
@@ -92,7 +94,7 @@ ui <- fluidPage(
   tabsetPanel(
     type = "tabs",
     tabPanel(
-      h4("Database of Remarks"),
+      h4("Database of Statements"),
       wellPanel(
         h3("Remarks"),
         DTOutput("tbl")
@@ -100,32 +102,32 @@ ui <- fluidPage(
     ),
 
     tabPanel(
-      h4("Text Analysis of Remarks"),
+      h4("Wordcloud of Statements"),
       sidebarLayout(
         sidebarPanel(
           h3("Word Cloud Settings"),
           sliderInput("i_freq",
-                      "Only show words that have a frequency of at least:",
+                      tags$strong("Only show words that have a frequency of at least:"),
                       min = 1,  max = 50, value = 3),
           sliderInput("i_max",
-                      "Show maximum this many words in the word cloud:",
+                      tags$strong("Show maximum this many words in the word cloud:"),
                       min = 1,  max = 300,  value = 50),
           # language selection
           radioGroupButtons(inputId = "i_language_wc",
-                            label = "Select language for wordcloud:",
+                            label = tags$strong("Select language for wordcloud:"),
                             choices = c("English", "Chinese"),
                             status = "primary"),
           conditionalPanel(
             condition = "input.i_language_wc == 'English'",
             selectizeInput("i_remove_en",
-                           label = "Remove these words from the cloud:",
+                           label = tags$strong("Remove these words from the wordcloud:"),
                            choices = c(allwords_en),
                            multiple = TRUE,
                            selected = NULL)),
           conditionalPanel(
             condition = "input.i_language_wc == 'Chinese'",
             selectizeInput("i_remove_ch",
-                           label = "Remove these characters from the cloud:",
+                           label = tags$strong("Remove these characters from the wordcloud:"),
                            choices = c(allwords_ch),
                            multiple = TRUE,
                            selected = NULL)),
@@ -134,12 +136,13 @@ ui <- fluidPage(
 
         ),
         mainPanel(
-          plotOutput("wordcloud", width = "100%", height = "650px")
+          wordcloud2Output("wordcloud", width = "100%", height = "650px")
         )
       )
     )
   )
 )
+
 
 
 ## SERVER ----------------------------------------------------------------------
@@ -207,6 +210,16 @@ server <- function(input, output, session) {
   })
 
 
+  wordcloud_maxwords <- eventReactive(input$update_cloud, {
+    input$i_max
+  })
+
+  wordcloud_minfreq <- eventReactive(input$update_cloud, {
+    input$i_freq
+  })
+
+
+
   word_tab <- eventReactive(input$update_cloud, {
     if (input$i_language_wc == "English") {
       out <- text_en_df
@@ -246,17 +259,12 @@ server <- function(input, output, session) {
     out <- out %>%
       group_by(word) %>%
       summarise(freq = sum(freq, na.rm = TRUE), .groups = "drop") %>%
-      mutate(word = enc2utf8(word))
-    return(out)
+      mutate(word = enc2utf8(word)) %>%
+      filter(freq >= wordcloud_minfreq()) %>%
+      arrange(desc(freq))
+    return(out[1:wordcloud_maxwords(), ])
   })
 
-  wordcloud_maxwords <- eventReactive(input$update_cloud, {
-    input$i_max
-  })
-
-  wordcloud_minfreq <- eventReactive(input$update_cloud, {
-    input$i_freq
-  })
 
 
   ## ---------------------------< reactive UI > --------------------------------
@@ -279,16 +287,20 @@ server <- function(input, output, session) {
   )
 
 
-  # make wordcloud repeatable in session
-  wordcloud_rep <- repeatable(wordcloud)
-
-  output$wordcloud <- renderPlot({
-    wordcloud_rep(word_tab()$word, word_tab()$freq,
-                  min.freq = wordcloud_minfreq(),
-                  max.words = wordcloud_maxwords(),
-                  random.order = FALSE,
-                  colors = brewer.pal(8, "Dark2"))
+  output$wordcloud <- renderWordcloud2({
+    wordcloud2(select(word_tab(), "word", "freq"))
   })
+
+  # make wordcloud repeatable in session
+  # wordcloud_rep <- repeatable(wordcloud)
+  #
+  # output$wordcloud <- renderPlot({
+  #   wordcloud_rep(word_tab()$word, word_tab()$freq,
+  #                 min.freq = wordcloud_minfreq(),
+  #                 max.words = wordcloud_maxwords(),
+  #                 random.order = FALSE,
+  #                 colors = brewer.pal(8, "Dark2"))
+  # })
 }
 
 
@@ -299,7 +311,3 @@ shinyApp(
   server = server
 )
 
-# tmp.enc <- options()$encoding
-# options(encoding = "UTF-8")
-# rsconnect::deployApp()
-# options(encoding = tmp.enc)
