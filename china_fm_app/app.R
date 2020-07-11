@@ -7,7 +7,7 @@
 ## SET UP ----------------------------------------------------------------------
 
 # setwd("C:/Users/clara/Documents/china_fm/china_fm_app")
-# rm(list = ls())
+rm(list = ls())
 
 library(readr)
 library(tidyverse)
