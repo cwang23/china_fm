@@ -8,9 +8,9 @@ from utils_clean import *
 
 
 ## READ IN SCRAPED FILE --------------------------------------------------------
-fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_" + datetime.today().strftime("%Y%m%d") + ".json"
+fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/rawdata/chinafm_press_" + datetime.today().strftime("%Y%m%d") + ".json"
 fname
-#fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/chinamf_press_20200704.json"
+#fname = "C:/Users/clara/Documents/china_fm/chinafm_scraper/rawdata/chinafm_press_20200704.json"
 
 with open(fname, 'rt', encoding='utf-8') as f:
     data = json.load(f, encoding="utf-8")
@@ -126,9 +126,9 @@ expanded_full_clean_ch = full_clean_ch.set_index(index_cols).apply(pd.Series.exp
 expanded_full_clean_ch.shape
 
 # read in original files
-original_en = pd.read_csv('C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_en.csv', encoding='utf-8', index_col=0)
+original_en = pd.read_csv('C:/Users/clara/Documents/china_fm/chinafm_app/clean_fm_en.csv', encoding='utf-8', index_col=0)
 original_en.shape
-original_ch = pd.read_csv('C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_ch.csv', encoding='utf-8', index_col=0)
+original_ch = pd.read_csv('C:/Users/clara/Documents/china_fm/chinafm_app/clean_fm_ch.csv', encoding='utf-8', index_col=0)
 original_ch.shape
 
 # stack dataframes
@@ -147,5 +147,5 @@ stacked_ch.drop_duplicates(subset=list(stacked_ch), keep='first', inplace=True)
 stacked_ch.shape
 
 # write to csv
-stacked_en.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_en.csv")
-stacked_ch.to_csv("C:/Users/clara/Documents/china_fm/china_fm_app/clean_mf_ch.csv")
+stacked_en.to_csv("C:/Users/clara/Documents/china_fm/chinafm_app/clean_fm_en.csv")
+stacked_ch.to_csv("C:/Users/clara/Documents/china_fm/chinafm_app/clean_fm_ch.csv")
