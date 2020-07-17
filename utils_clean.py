@@ -81,7 +81,8 @@ def get_clean_spox(scraped_entry, ch=True):
         ('Zhao Lijian', '赵立坚'): 'ZHAO Lijian (赵立坚)',
         ('Lu Kang', '陆慷'): 'LU Kang (陆慷)',
         ('Hua Chunying', '华春莹'): 'HUA Chunying (华春莹)',
-        ('Geng Shuang', '耿爽'): 'GENG Shuang (耿爽)'
+        ('Geng Shuang', '耿爽'): 'GENG Shuang (耿爽)',
+        ('Wang Wenbin', '汪文斌'): 'WANG Wenbin (汪文斌)'
     }
 
     index = 1 if ch else 0
