@@ -43,20 +43,22 @@ ui <- fluidPage(
 
   titlePanel("China Foreign Ministry Spokesperson Statements |
               中华人民共和国外交部发言人的表态"),
-  p("The source of these statements can be found ",
-    tags$a(href = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/",
-           "here in English"), " and ",
-    tags$a(href = "https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889",
-           "here in Chinese"), "."),
   p("Made by ",
     tags$a(href = "https://www.linkedin.com/in/clarawang/",
            "Clara Wang"), " in July 2020."),
-  p("This is a database of statements made by the Chinese Foreign Ministry spokespeople, ",
-    "with both the Chinese version and official English translation on the website. Below, ",
-    "there is also a tab to look at a wordcloud of the statements to see what words or ",
-    "phrases the spokespeople use, both in English and Chinese."),
-
   wellPanel(
+    h3("About this Shiny App"),
+    p("I scraped both the English and Chinese versions of the statements made by ",
+      "the Chinese Foreign Ministry spokespeople. ",
+      "Below, there are two tabs. One is a database of the ",
+      "statements. The other tab is ",
+      "an interactive wordcloud of the statements you can use to analyze the words or ",
+      "phrases the spokespeople use."),
+    p("The source of these statements can be found ",
+      tags$a(href = "https://www.fmprc.gov.cn/mfa_eng/xwfw_665399/s2510_665401/2511_665403/",
+             "here in English"), " and ",
+      tags$a(href = "https://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889",
+             "here in Chinese"), "."),
     h3("Filter Statements shown in the Table and Wordcloud:"),
     p(tags$strong("Includes statements from:"),
       tags$ul(
